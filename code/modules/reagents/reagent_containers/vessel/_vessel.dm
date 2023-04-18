@@ -299,7 +299,7 @@
 		var/mob/M = loc
 		M.drop(src, force = TRUE)
 
-	var/obj/item/holed_can/B = new /obj/item/holed_can(newloc) //Оно типо создает новый обьект с теми же свойствами
+	var/obj/item/reagent_containers/vessel/holed_can/B = new /obj/item/reagent_containers/vessel/holed_can(newloc) //Оно типо создает новый обьект с теми же свойствами
 	B.SetName("Leaky [base_name]")
 	B.icon_state = icon_state
 	B.w_class = w_class
