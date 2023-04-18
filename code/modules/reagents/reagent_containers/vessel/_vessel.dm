@@ -309,7 +309,7 @@
 	B.mod_handy = mod_handy
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.holed_can, ICON_OVERLAY, rand(5), 1)
+	I.Blend(B.holed_outline, ICON_OVERLAY, rand(5), 1)
 	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
 	B.icon = I
 
@@ -453,4 +453,4 @@
 	sharp = 1
 	edge = 0
 	unacidable = 1
-	var/icon/broken_outline = icon('icons/obj/reagent_containers/vessels.dmi', "hole")
+	var/icon/holed_outline = icon('icons/obj/reagent_containers/vessels.dmi', "hole")
