@@ -312,9 +312,10 @@
 	B.lid = lid
 	B.override_lid_state = override_lid_state
 	B.override_lid_icon = override_lid_icon
+	B.holes_number +=1
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.holed_outline, ICON_OVERLAY, rand(8), 2)
+	I.Blend(B.holed_outline, ICON_OVERLAY, rand(8), 8)
 	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
 	B.icon = I
 
@@ -323,7 +324,6 @@
 		visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
 		reagents.splash(loc, reagents.total_volume)
 	transfer_fingerprints_to(B)
-	holes_number +=1
 
 	qdel(src)
 	return B
@@ -446,7 +446,7 @@
 
 /obj/item/reagent_containers/vessel/holed_can
 	name = "Leaky can"
-	desc = "It used to be an ordinary tin can. Now it's full of holes"
+	desc = "It used to be full of something. Now it's full of holes"
 	icon = 'icons/obj/reagent_containers/bottles.dmi'
 	icon_state = "holed_can"
 	force = 8.5
