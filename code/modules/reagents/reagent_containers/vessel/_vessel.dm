@@ -299,7 +299,7 @@
 		var/mob/M = loc
 		M.drop(src, force = TRUE)
 
-	var/obj/item/broken_bottle/B = new /obj/item/broken_bottle(newloc) //Оно типо создает новый обьект с теми же свойствами
+	var/obj/item/holed_can/B = new /obj/item/holed_can(newloc) //Оно типо создает новый обьект с теми же свойствами
 	B.SetName("broken [base_name]")
 	B.icon_state = icon_state
 	B.w_class = w_class
@@ -309,7 +309,7 @@
 	B.mod_handy = mod_handy
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.hole_outline, ICON_OVERLAY, rand(5), 1)
+	I.Blend(B.holed_can, ICON_OVERLAY, rand(5), 1)
 	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
 	B.icon = I
 
@@ -434,3 +434,23 @@
 	edge = 0
 	unacidable = 1
 	var/icon/broken_outline = icon('icons/obj/reagent_containers/vessels.dmi', "broken")
+
+/obj/item/holed_can
+	name = "Leaky can"
+	desc = "It used to be an ordinary tin can. Now it's full of holes"
+	icon = 'icons/obj/reagent_containers/bottles.dmi'
+	icon_state = "holed_can"
+	force = 8.5
+	mod_weight = 0.5
+	mod_reach = 0.4
+	mod_handy = 0.75
+	throwforce = 5
+	throw_range = 5
+	item_state = "beer"
+	w_class = ITEM_SIZE_SMALL
+	attack_verb = list("stabbed", "slashed", "attacked")
+	hitsound = 'sound/weapons/bladeslice.ogg'
+	sharp = 1
+	edge = 0
+	unacidable = 1
+	var/icon/broken_outline = icon('icons/obj/reagent_containers/vessels.dmi', "hole")
