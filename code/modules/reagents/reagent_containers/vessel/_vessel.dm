@@ -283,7 +283,7 @@
 	B.mod_handy = mod_handy
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.broken_outline, ICON_OVERLAY, rand(5), 1)
+	I.Blend(B.broken_outline, ICON_OVERLAY, rand(5), rand(3))
 	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
 	B.icon = I
 
@@ -450,7 +450,6 @@
 	icon = 'icons/obj/reagent_containers/bottles.dmi'
 	icon_state = "holed_can"
 	force = 8.5
-	holes_number = 0
 	volume = 0
 	mod_weight = 0.5
 	mod_reach = 0.4
