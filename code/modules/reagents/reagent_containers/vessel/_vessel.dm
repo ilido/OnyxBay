@@ -292,6 +292,34 @@
 	qdel(src)
 	return B
 
+	//Начало моих изменений
+
+	/obj/item/reagent_containers/vessel/proc/make_hole(newloc, atom/against = null)
+	if(ismob(loc))
+		var/mob/M = loc
+		M.drop(src, force = TRUE)
+
+	var/obj/item/broken_bottle/B = new /obj/item/broken_bottle(newloc) //Оно типо создает новый обьект с теми же свойствами
+	B.SetName("broken [base_name]")
+	B.icon_state = icon_state
+	B.w_class = w_class
+	B.force = force
+	B.mod_weight = mod_weight
+	B.mod_reach = mod_reach
+	B.mod_handy = mod_handy
+
+	var/icon/I = new(src.icon, src.icon_state)
+	I.Blend(B.hole_outline, ICON_OVERLAY, rand(5), 1)
+	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
+	B.icon = I
+
+	playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
+	transfer_fingerprints_to(B)
+
+	qdel(src)
+	return B
+
+	//Конец моих изменений
 /obj/item/reagent_containers/vessel/apply_hit_effect(mob/living/target, mob/living/user, hit_zone)
 	var/blocked = ..()
 
@@ -382,6 +410,7 @@
 		else
 			visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
 			throw_at(get_step(src, pick(GLOB.alldirs)), rand(2, 3), 1)
+			make_hole(loc)
 		return
 	return PROJECTILE_CONTINUE
 
