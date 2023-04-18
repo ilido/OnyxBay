@@ -300,7 +300,7 @@
 		M.drop(src, force = TRUE)
 
 	var/obj/item/holed_can/B = new /obj/item/holed_can(newloc) //Оно типо создает новый обьект с теми же свойствами
-	B.SetName("broken [base_name]")
+	B.SetName("Leaky [base_name]")
 	B.icon_state = icon_state
 	B.w_class = w_class
 	B.force = force
@@ -314,6 +314,8 @@
 	B.icon = I
 
 	playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
+	visible_message(SPAN("danger"), "The contents of the [src] sprays on the floor")
+	reagents.splash(loc, reagents.total_volume)
 	transfer_fingerprints_to(B)
 
 	qdel(src)
@@ -435,13 +437,14 @@
 	unacidable = 1
 	var/icon/broken_outline = icon('icons/obj/reagent_containers/vessels.dmi', "broken")
 
-/obj/item/holed_can
+/obj/item/reagent_containers/vessel/holed_can
 	name = "Leaky can"
 	desc = "It used to be an ordinary tin can. Now it's full of holes"
 	icon = 'icons/obj/reagent_containers/bottles.dmi'
 	icon_state = "holed_can"
 	force = 8.5
 	mod_weight = 0.5
+	britty = 0
 	mod_reach = 0.4
 	mod_handy = 0.75
 	throwforce = 5
