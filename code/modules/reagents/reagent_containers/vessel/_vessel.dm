@@ -315,7 +315,7 @@
 	B.holes_number +=1
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.holed_outline, ICON_OVERLAY, rand(7), rand(8))
+	I.Blend(B.holed_outline, ICON_OVERLAY, rand(9), rand(8))
 	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
 	B.icon = I
 
