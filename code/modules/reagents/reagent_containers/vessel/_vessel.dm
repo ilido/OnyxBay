@@ -444,7 +444,7 @@
 	icon_state = "holed_can"
 	force = 8.5
 	mod_weight = 0.5
-	britty = 0
+	brittle = 0
 	mod_reach = 0.4
 	mod_handy = 0.75
 	throwforce = 5
