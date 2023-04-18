@@ -307,16 +307,22 @@
 	B.mod_weight = mod_weight
 	B.mod_reach = mod_reach
 	B.mod_handy = mod_handy
+	B.lid_type = lid_type
+	B.lid = lid
+	B.override_lid_state = override_lid_state
+	B.override_lid_icon = override_lid_icon
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.holed_outline, ICON_OVERLAY, rand(5), 1)
+	I.Blend(B.holed_outline, ICON_OVERLAY, rand(5), d1)
 	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
 	B.icon = I
 
 	playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
-	visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
-	reagents.splash(loc, reagents.total_volume)
+	if(holes_number <= 0)
+		visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
+		reagents.splash(loc, reagents.total_volume)
 	transfer_fingerprints_to(B)
+	holes_number +=1
 
 	qdel(src)
 	return B
@@ -443,8 +449,10 @@
 	icon = 'icons/obj/reagent_containers/bottles.dmi'
 	icon_state = "holed_can"
 	force = 8.5
+	holes_number = 0
+	volume = 0
 	mod_weight = 0.5
-	brittle = 0
+	var/brittle = FALSE
 	mod_reach = 0.4
 	mod_handy = 0.75
 	throwforce = 5
