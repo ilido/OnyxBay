@@ -314,7 +314,7 @@
 	B.icon = I
 
 	playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
-	visible_message(SPAN("danger"), "The contents of the [src] sprays on the floor")
+	visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
 	reagents.splash(loc, reagents.total_volume)
 	transfer_fingerprints_to(B)
 
