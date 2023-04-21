@@ -421,7 +421,7 @@
 		else
 			visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
 			throw_at(get_step(src, pick(GLOB.alldirs)), rand(2, 3), 1)
-			make_hole(loc, , atom/against, Proj)
+			make_hole(loc, Proj)
 		return
 	return PROJECTILE_CONTINUE
 
