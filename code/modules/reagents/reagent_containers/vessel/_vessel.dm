@@ -306,10 +306,11 @@
 	B.mod_weight = mod_weight
 	B.mod_reach = mod_reach
 	B.mod_handy = mod_handy
+	B.throwforce = throwforce
+	B.throw_range = throw_range
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.holed_outline, ICON_OVERLAY, rand(9), rand(8))
-	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
+	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(8), rand(7))
 	B.icon = I
 
 	playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
@@ -439,8 +440,9 @@
 	name = "Leaky can"
 	desc = "It used to be full of something. Now it's full of holes"
 	icon = 'icons/obj/reagent_containers/bottles.dmi'
-	icon_state = "holed_can"
+	icon_state = "leaky_can"
 	force = 8.5
+	hp = 500
 	mod_weight = 0.5
 	mod_reach = 0.4
 	mod_handy = 0.75
@@ -453,4 +455,4 @@
 	sharp = 1
 	edge = 0
 	unacidable = 1
-	var/icon/holed_outline = icon('icons/obj/reagent_containers/vessels.dmi', "hole")
+	var/icon/bmark_outline = icon("icons/effects/effects.dmi", "scorch")
