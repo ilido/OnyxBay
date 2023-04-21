@@ -314,7 +314,7 @@
 	B.icon = I
 
 	if(istype(Proj, /obj/effect/projectile/laser))
-		if(reagents.total_volume != 0)
+		if(reagents.total_volume / volume != 0)
 			var/datum/effect/effect/system/smoke_spread/bad/smoke = new /datum/effect/effect/system/smoke_spread/bad()
 			smoke.attach(src)
 			smoke.set_up(2, 0, loc)
