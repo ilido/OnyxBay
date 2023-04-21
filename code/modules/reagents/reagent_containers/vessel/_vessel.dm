@@ -314,7 +314,7 @@
 	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(5), rand(3))
 	B.icon = I
 
-	if(istype(/obj/item/projectile/laser))
+	if(istype(bullet_act, /obj/item/projectile/laser))
 		if(reagents)
 			var/datum/effect/effect/system/smoke_spread/bad/smoke = new /datum/effect/effect/system/smoke_spread/bad()
 			smoke.attach(src)
@@ -322,7 +322,7 @@
 			smoke.start()
 		playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
 
-	if(istype(/obj/item/projectile/bullet))
+	if(istype(bullet_act, /obj/item/projectile/bullet))
 		visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
 		reagents.splash(loc, reagents.total_volume)
 		playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
