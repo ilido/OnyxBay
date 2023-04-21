@@ -17,7 +17,6 @@
 	pickup_sound = 'sound/effects/using/bottles/pickup3.ogg'
 	can_be_splashed = TRUE
 
-	var/holes_number = 0
 	var/brittle = FALSE
 	var/smash_weaken = 0 // Decides how much weakening it may inflict (if any) when smashing someone's head
 
@@ -307,10 +306,6 @@
 	B.mod_weight = mod_weight
 	B.mod_reach = mod_reach
 	B.mod_handy = mod_handy
-	B.lid_type = lid_type
-	B.lid = lid
-	B.override_lid_state = override_lid_state
-	B.override_lid_icon = override_lid_icon
 
 	var/icon/I = new(src.icon, src.icon_state)
 	I.Blend(B.holed_outline, ICON_OVERLAY, rand(9), rand(8))
@@ -446,7 +441,6 @@
 	icon = 'icons/obj/reagent_containers/bottles.dmi'
 	icon_state = "holed_can"
 	force = 8.5
-	volume = 0
 	mod_weight = 0.5
 	mod_reach = 0.4
 	mod_handy = 0.75
