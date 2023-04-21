@@ -293,7 +293,7 @@
 	return B
 
 
-/obj/item/reagent_containers/vessel/proc/make_hole(newloc, atom/against = null, Proj)
+/obj/item/reagent_containers/vessel/proc/make_hole(newloc, Proj, atom/against = null,)
 	if(ismob(loc))
 		var/mob/M = loc
 		M.drop(src, force = TRUE)
