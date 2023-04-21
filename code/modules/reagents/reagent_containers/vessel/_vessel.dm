@@ -308,14 +308,25 @@
 	B.mod_handy = mod_handy
 	B.throwforce = throwforce
 	B.throw_range = throw_range
+	B.heal = 500
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(8), rand(7))
+	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(5), rand(3))
 	B.icon = I
 
-	playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
-	visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
-	reagents.splash(loc, reagents.total_volume)
+	if(istype(/obj/item/projectile/laser))
+		if(reagents)
+			var/datum/effect/effect/system/smoke_spread/bad/smoke = new /datum/effect/effect/system/smoke_spread/bad()
+			smoke.attach(src)
+			smoke.set_up(2, 0, loc)
+			smoke.start()
+		playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
+
+	if(istype(/obj/item/projectile/bullet))
+		visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
+		reagents.splash(loc, reagents.total_volume)
+		playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
+
 	transfer_fingerprints_to(B)
 
 	qdel(src)
