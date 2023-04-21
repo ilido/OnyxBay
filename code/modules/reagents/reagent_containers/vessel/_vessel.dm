@@ -293,7 +293,7 @@
 	return B
 
 
-/obj/item/reagent_containers/vessel/proc/make_hole(newloc, atom/against = null)
+/obj/item/reagent_containers/vessel/proc/make_hole(newloc, atom/against = null, Proj)
 	if(ismob(loc))
 		var/mob/M = loc
 		M.drop(src, force = TRUE)
@@ -313,7 +313,7 @@
 	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(5), rand(3))
 	B.icon = I
 
-	if(istype(Proj, /obj/item/projectile/laser))
+	if(istype(Proj, /obj/effect/projectile/laser))
 		if(reagents)
 			var/datum/effect/effect/system/smoke_spread/bad/smoke = new /datum/effect/effect/system/smoke_spread/bad()
 			smoke.attach(src)
@@ -421,7 +421,7 @@
 		else
 			visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
 			throw_at(get_step(src, pick(GLOB.alldirs)), rand(2, 3), 1)
-			make_hole(loc)
+			make_hole(loc, , atom/against, Proj)
 		return
 	return PROJECTILE_CONTINUE
 
