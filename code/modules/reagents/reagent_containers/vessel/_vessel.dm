@@ -314,13 +314,14 @@
 	B.icon = I
 
 	if(istype(Proj, /obj/effect/projectile/laser))
-		var/datum/effect/effect/system/smoke_spread/bad/smoke = new /datum/effect/effect/system/smoke_spread/bad()
-		smoke.attach(src)
-		smoke.set_up(2, 0, loc)
-		smoke.start()
-		playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
-		//else:
-			//playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
+		if(reagents.total_volume / volume != 0)
+			var/datum/effect/effect/system/smoke_spread/bad/smoke = new /datum/effect/effect/system/smoke_spread/bad()
+			smoke.attach(src)
+			smoke.set_up(2, 0, loc)
+			smoke.start()
+			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
+		else:
+			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
 
 	if(istype(Proj, /obj/item/projectile/bullet))
 		visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
