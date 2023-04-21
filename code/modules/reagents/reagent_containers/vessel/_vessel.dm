@@ -293,14 +293,13 @@
 	qdel(src)
 	return B
 
-	//Начало моих изменений
 
 /obj/item/reagent_containers/vessel/proc/make_hole(newloc, atom/against = null)
 	if(ismob(loc))
 		var/mob/M = loc
 		M.drop(src, force = TRUE)
 
-	var/obj/item/reagent_containers/vessel/holed_can/B = new /obj/item/reagent_containers/vessel/holed_can(newloc) //Оно типо создает новый обьект с теми же свойствами
+	var/obj/item/target/Leaky_can/B = new /obj/item/target/Leaky_can(newloc) //Оно типо создает новый обьект с теми же свойствами
 	B.SetName("Leaky [base_name]")
 	B.icon_state = icon_state
 	B.w_class = w_class
@@ -312,7 +311,6 @@
 	B.lid = lid
 	B.override_lid_state = override_lid_state
 	B.override_lid_icon = override_lid_icon
-	B.holes_number +=1
 
 	var/icon/I = new(src.icon, src.icon_state)
 	I.Blend(B.holed_outline, ICON_OVERLAY, rand(9), rand(8))
@@ -320,15 +318,13 @@
 	B.icon = I
 
 	playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
-	if(holes_number <= 0)
-		visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
-		reagents.splash(loc, reagents.total_volume)
+	visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
+	reagents.splash(loc, reagents.total_volume)
 	transfer_fingerprints_to(B)
 
 	qdel(src)
 	return B
 
-	//Конец моих изменений
 /obj/item/reagent_containers/vessel/apply_hit_effect(mob/living/target, mob/living/user, hit_zone)
 	var/blocked = ..()
 
@@ -444,7 +440,7 @@
 	unacidable = 1
 	var/icon/broken_outline = icon('icons/obj/reagent_containers/vessels.dmi', "broken")
 
-/obj/item/reagent_containers/vessel/holed_can
+/obj/item/target/Leaky_can
 	name = "Leaky can"
 	desc = "It used to be full of something. Now it's full of holes"
 	icon = 'icons/obj/reagent_containers/bottles.dmi'
