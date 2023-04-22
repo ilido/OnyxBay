@@ -313,7 +313,7 @@
 	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(5), rand(3))
 	B.icon = I
 
-	if(istype(Proj, /obj/item/projectile/energy/) || !istype (Proj, /obj/item/projectile/energy/stun))
+	if(istype(Proj, /obj/item/projectile/energy/) || !istype (Proj, /obj/item/projectile/energy/electrode))
 		if(reagents.total_volume / volume != 0)
 			var/datum/effect/effect/system/smoke_spread/chem/smoke = new /datum/effect/effect/system/smoke_spread/chem()
 			smoke.attach(src)
