@@ -315,13 +315,17 @@
 
 	if(istype(Proj, /obj/effect/projectile/laser))
 		if(reagents.total_volume / volume != 0)
+			visible_message(SPAN("danger", 'Иф на реагентс тотал вольюм успешно пройден, по идее должен появиться дым'))
 			var/datum/effect/effect/system/smoke_spread/bad/smoke = new /datum/effect/effect/system/smoke_spread/bad()
 			smoke.attach(src)
 			smoke.set_up(10, 1, loc)
 			smoke.start()
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
 		else:
+			visible_message(SPAN("danger", "Елсе сработал, пока только первый"))
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
+	else: 
+		visible_message(SPAN("danger", "Второй елсе сработал, значит это не /obj/effect/projectile/laser"))
 
 	if(istype(Proj, /obj/item/projectile/bullet))
 		visible_message(SPAN("danger", "The contents of the [src] are sprayed onto the [loc]"))
