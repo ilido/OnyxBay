@@ -317,7 +317,7 @@
 		if(reagents.total_volume / volume != 0)
 			var/datum/effect/effect/system/smoke_spread/chem/smoke = new /datum/effect/effect/system/smoke_spread/chem()
 			smoke.attach(src)
-			smoke.set_up(reagents.reagent_list[1], reagents.total_volume, 0, loc)
+			smoke.set_up(/datum/reagent/drink/sodawater, reagents.total_volume, 0, loc)
 			smoke.start()
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
 		else:
