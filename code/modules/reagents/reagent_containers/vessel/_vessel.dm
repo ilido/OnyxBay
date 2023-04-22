@@ -313,11 +313,11 @@
 	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(5), rand(3))
 	B.icon = I
 
-	if(istype(Proj, /obj/item/projectile/energy/ || !istype (/obj/item/projectile/energy/stun))
+	if(istype(Proj, /obj/item/projectile/energy/) || !istype (Proj, /obj/item/projectile/energy/stun))
 		if(reagents.total_volume / volume != 0)
-			var/datum/effect/effect/system/smoke_spread/bad/smoke = new /datum/effect/effect/system/smoke_spread/bad()
+			var/datum/effect/effect/system/smoke_spread/chem/smoke = new /datum/effect/effect/system/smoke_spread/chem()
 			smoke.attach(src)
-			smoke.set_up(1, 0, loc)
+			smoke.set_up(reagents.reagent_list, reagents.total_volume, 0, src)
 			smoke.start()
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
 		else:
