@@ -1,0 +1,66 @@
+"a" = (/turf/unsimulated/wall,/area/shuttle/syndicate_elite/station)
+"b" = (/obj/item/target,/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"d" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"e" = (/turf/simulated/wall/r_wall,/area/shuttle/syndicate_elite/station)
+"g" = (/obj/map_ent/trigger_mob{ev_tag = "ent_tp_wv"; pixel_x = -7; tag = "ent_tp_trigger"},/obj/map_ent/func_write_var{ev_activate_writer = 1; ev_read_tag = "ent_tp_trigger"; ev_table = list("ev_tag" = "ev_triggered"); ev_write_tag = "ent_tp_src"; pixel_y = 9; tag = "ent_tp_wv"},/obj/map_ent/func_teleport{ev_dest_tag = "ent_showcase_tp_dest"; pixel_x = 14; tag = "ent_tp_src"},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"n" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/map_ent/trigger_mob{ev_tag = "ent_tp_home"; tag = "mob_trigger"},/obj/map_ent/func_write_var{ev_activate_reader = 1; ev_read_tag = "mob_trigger"; ev_table = list("ev_tag"="ev_triggered"); ev_write_tag = "tp_to_home_src"; tag = "ent_tp_home"},/obj/map_ent/func_teleport{ev_dest_tag = "return_to_spawn"; tag = "tp_to_home_src"},/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"o" = (/obj/effect/landmark/joinlate,/obj/effect/landmark/start,/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"p" = (/obj/map_ent{tag = "ent_showcase_tp_dest"},/obj/effect/floor_decal/industrial/hatch/yellow,/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"E" = (/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"I" = (/obj/map_ent/info_maptext{ev_text = "Spawn there, hello, user"},/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"J" = (/obj/map_ent{tag = "return_to_spawn"},/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"M" = (/obj/structure/window_frame/reinforced/hull,/obj/structure/window_frame/reinforced/hull,/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+"Q" = (/obj/structure/window_frame/reinforced/hull,/turf/simulated/floor/tiled,/area/shuttle/syndicate_elite/station)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aEEEEEEEEEEEEEEEEEEEEEaaEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEeEEEEEEEEEEEEEEEEa
+aEeEEEEEEEaaaaaEEEEEEEaaaaaaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaaaaaEEEEEEEaaaaaaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEeEEEEEEEEEEEEEEEa
+aEEEEEEEEEaaaaaEEEEEEEaaaaaaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aadddddddaaEEEQEEEEEEEMEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaaaaaEEEEEEEaaaaaaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEaEEEQEEEEEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+abbbbbbbbbaEEEQEEEpEEEQEEEEaEEEEEEEEEEEEEEEEEEEEEa
+aaaaaaaaaaaaaaaaaaaaEaaaaaaaEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEaEEEganaaEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEaEEEIaaaaEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEaEEEoEJEaEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEaaaaaaaaaEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
