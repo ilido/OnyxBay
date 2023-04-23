@@ -97,6 +97,10 @@
 			for(var/mob/O in oviewers())
 				if ((O.client && !( O.blinded )))
 					to_chat(O, "<span class='warning'>\The [src] breaks into tiny pieces and collapses!</span>")
+			if(istype(src, /obj/item/target/Leaky_can))
+				var/obj/item/stack/material/steel/M = new /obj/item/stack/material/steel
+				M.amount = 1
+				M.loc = loc
 			qdel(src)
 
 		// Create a temporary object to represent the damage

@@ -282,7 +282,7 @@
 	B.mod_handy = mod_handy
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.broken_outline, ICON_OVERLAY, rand(5), rand(3))
+	I.Blend(B.broken_outline, ICON_OVERLAY, rand(2), rand(8))
 	I.SwapColor(rgb(255, 0, 220, 255), rgb(0, 0, 0, 0))
 	B.icon = I
 
@@ -312,14 +312,15 @@
 	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(5), rand(3))
 	B.icon = I
 
-	if(istype(Proj, /obj/item/projectile/energy/) || !istype (Proj, /obj/item/projectile/energy/electrode))
+	if(istype(Proj, /obj/item/projectile/energy/) && !istype (Proj, /obj/item/projectile/energy/electrode))
 		if(reagents.total_volume / volume != 0)
 			var/datum/effect/effect/system/smoke_spread/chem/S = new /datum/effect/effect/system/smoke_spread/chem
 			S.attach(loc)
-			S.set_up(reagents, reagents.total_volume, 0, loc)
+			S.set_up(reagents, reagents.total_volume * 0.3, 0, loc)
 			playsound(loc, 'sound/effects/smoke.ogg', 50, 1, -3)
 			visible_message(SPAN("danger", "The liquid inside [src] evaporates from exccessive heating"))
 			spawn(0)
+				S.start()
 			reagents.clear_reagents()
 		else:
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
