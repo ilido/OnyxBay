@@ -315,7 +315,13 @@
 
 	if(istype(Proj, /obj/item/projectile/energy/) || !istype (Proj, /obj/item/projectile/energy/electrode))
 		if(reagents.total_volume / volume != 0)
-			/datum/chemical_reaction/chemsmoke/on_reaction(/datum/reagent/water, reagents.total_volume)
+			var/datum/effect/effect/system/smoke_spread/chem/S = new /datum/effect/effect/system/smoke_spread/chem
+			S.attach(loc)
+			S.set_up(/datum/reagent/water, 3, 0, loc)
+			playsound(loc, 'sound/effects/smoke.ogg', 50, 1, -3)
+			spawn(0)
+				S.start()
+			reagents.clear_reagents()
 		else:
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
 
