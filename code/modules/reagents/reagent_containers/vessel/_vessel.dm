@@ -315,7 +315,7 @@
 
 	if(istype(Proj, /obj/item/projectile/energy/) || !istype (Proj, /obj/item/projectile/energy/electrode))
 		if(reagents.total_volume / volume != 0)
-			/datum/chemical_reaction/chemsmoke/on_reaction(datum/reagents/holder, reagents.total_volume)
+			/datum/chemical_reaction/chemsmoke/on_reaction(get_top_holder_obj(src), reagents.total_volume)
 		else:
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
 
