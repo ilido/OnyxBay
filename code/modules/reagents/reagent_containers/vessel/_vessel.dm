@@ -303,7 +303,6 @@
 	B.icon_state = icon_state
 	B.w_class = w_class
 	B.force = force
-	B.mod_weight = mod_weight
 	B.mod_reach = mod_reach
 	B.mod_handy = mod_handy
 	B.throwforce = throwforce
@@ -317,10 +316,10 @@
 		if(reagents.total_volume / volume != 0)
 			var/datum/effect/effect/system/smoke_spread/chem/S = new /datum/effect/effect/system/smoke_spread/chem
 			S.attach(loc)
-			S.set_up(/datum/reagent/water, 3, 0, loc)
+			S.set_up(reagents, reagents.total_volume, 0, loc)
 			playsound(loc, 'sound/effects/smoke.ogg', 50, 1, -3)
+			visible_message(SPAN("danger", "The liquid inside [src] evaporates from exccessive heating"))
 			spawn(0)
-				S.start()
 			reagents.clear_reagents()
 		else:
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
