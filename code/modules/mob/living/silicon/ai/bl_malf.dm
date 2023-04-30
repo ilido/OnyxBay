@@ -1,14 +1,8 @@
 //Modificated version of the ordinary malf. This have a bluespace abilities.
-
-
 // Sets up malfunction-related variables, research system and such.
 /mob/living/silicon/ai/proc/setup_for_bl_malf()
 	var/mob/living/silicon/ai/user = src
-
 	// Setup Variables
-	icon = "icons/mob/AI-event/ai-core.dmi"
-    icon_state = "core-center"
-    name = "Strange AI"
 	malfunctioning = 1
 	research = new /datum/malf_research()
 	research.owner = src
@@ -24,8 +18,12 @@
 	to_chat(user, "You are malfunctioning, you do not have to follow any laws.")
 	to_chat(user, "Use ai-help command to view relevant information about your abilities")
 
+/mob/living/silicon/ai/proc/setup_for_bl_icon()
+	icon = "icons/mob/AI-event/ai-core.dmi"
+	icon_state = "core-center"
+
 // Safely remove malfunction status, fixing hacked APCs and resetting variables.
-/mob/living/silicon/ai/proc/stop_malf(loud = 1)
+/mob/living/silicon/ai/proc/stop_bl_malf(loud = 1)
 	if(!malfunctioning)
 		return
 	var/mob/living/silicon/ai/user = src
@@ -54,7 +52,7 @@
 		to_chat(user, "You are no longer malfunctioning. Your abilities have been removed.")
 
 // Called every tick. Checks if AI is malfunctioning. If yes calls Process on research datum which handles all logic.
-/mob/living/silicon/ai/proc/malf_process()
+/mob/living/silicon/ai/proc/bl_malf_process()
 	if(!malfunctioning)
 		return
 	if(!research)
@@ -72,7 +70,7 @@
 		research.process(0)
 
 // Recalculates CPU time gain and storage capacities.
-/mob/living/silicon/ai/proc/recalc_cpu()
+/mob/living/silicon/ai/proc/bl_recalc_cpu()
 	// AI Starts with these values.
 	var/cpu_gain = 0.01
 	var/cpu_storage = 10
@@ -93,7 +91,7 @@
 		research.cpu_increase_per_tick = research.cpu_increase_per_tick * 2
 
 // Starts AI's APU generator
-/mob/living/silicon/ai/proc/start_apu(shutup = 0)
+/mob/living/silicon/ai/proc/bl_start_apu(shutup = 0)
 	if(!hardware || !istype(hardware, /datum/malf_hardware/apu_gen))
 		if(!shutup)
 			to_chat(src, "You do not have an APU generator and you shouldn't have this verb. Report this.")
@@ -108,7 +106,7 @@
 	APU_power = 1
 
 // Stops AI's APU generator
-/mob/living/silicon/ai/proc/stop_apu(shutup = 0)
+/mob/living/silicon/ai/proc/bl_stop_apu(shutup = 0)
 	if(!hardware || !istype(hardware, /datum/malf_hardware/apu_gen))
 		return
 

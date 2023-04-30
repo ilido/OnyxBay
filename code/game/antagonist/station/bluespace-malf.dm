@@ -1,10 +1,10 @@
-GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace-malf, new)
+GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace_malf, new)
 
-/datum/antagonist/bluespace-malf
+/datum/antagonist/bluespace_malf
 	id = MODE_BL_MALFUNCTION
 	role_text = "Bluespace AI"
 	role_text_plural = "Bluespace AIs"
-	mob_path = /mob/living/silicon/ai/bl_malf
+	mob_path = /mob/living/silicon/ai
 	landmark_id = "AI"
 	welcome_text = "You are malfunctioning! You do not have to follow any laws."
 	victory_text = "The AI has taken control of all systems."
@@ -16,18 +16,18 @@ GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace-malf, new)
 	initial_spawn_target = 1
 	antaghud_indicator = "hudmalai"
 
-/datum/antagonist/bluespace-malf/Initialize()
+/datum/antagonist/bluespace_malf/Initialize()
 	. = ..()
 	if(config.game.malf_min_age)
 		min_player_age = config.game.malf_min_age
 
-/datum/antagonist/bluespace-malf/can_become_antag(datum/mind/player, ignore_role, max_stat)
+/datum/antagonist/bluespace_malf/can_become_antag(datum/mind/player, ignore_role, max_stat)
 	. = ..()
 	if(jobban_isbanned(player.current, "AI"))
 		return FALSE
 	return .
 
-/datum/antagonist/bluespace-malf/build_candidate_list()
+/datum/antagonist/bluespace_malf/build_candidate_list()
 	..()
 	for(var/datum/mind/player in candidates)
 		if(player.assigned_role && player.assigned_role != "AI")
@@ -36,7 +36,7 @@ GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace-malf, new)
 
 
 // Ensures proper reset of all malfunction related things.
-/datum/antagonist/bluespace-malf/remove_antagonist(datum/mind/player, show_message, implanted)
+/datum/antagonist/bluespace_malf/remove_antagonist(datum/mind/player, show_message, implanted)
 	if(..(player,show_message,implanted))
 		var/mob/living/silicon/ai/p = player.current
 		if(istype(p))
@@ -45,7 +45,7 @@ GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace-malf, new)
 	return 0
 
 // Malf setup things have to be here, since game tends to break when it's moved somewhere else. Don't blame me, i didn't design this system.
-/datum/antagonist/bluespace-malf/greet(datum/mind/player)
+/datum/antagonist/bluespace_malf/greet(datum/mind/player)
 
 	// Initializes the AI's malfunction stuff.
 	spawn(0)
@@ -84,7 +84,7 @@ GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace-malf, new)
 		to_chat(bl_malf, "Good luck!")
 
 
-/datum/antagonist/bluespace-malf/update_antag_mob(datum/mind/player, preserve_appearance)
+/datum/antagonist/bluespace_malf/update_antag_mob(datum/mind/player, preserve_appearance)
 
 	// Get the mob.
 	if((flags & ANTAG_OVERRIDE_MOB) && (!player.current || (mob_path && !istype(player.current, mob_path))))
@@ -95,9 +95,9 @@ GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace-malf, new)
 	player.original_mob = weakref(player.current)
 	return player.current
 
-/datum/antagonist/bluespace-malf/set_antag_name(mob/living/silicon/player)
+/datum/antagonist/bluespace_malf/set_antag_name(mob/living/silicon/player)
 	if(!istype(player))
-		testing("bluespace-malf set_antag_name called on non-silicon mob [player]!")
+		testing("bluespace_malf set_antag_name called on non-silicon mob [player]!")
 		return
 	// Choose a name, if any.
 	var/newname = sanitize(input(player, "You are a [role_text]. Would you like to change your name to something else?", "Name change") as null|text, MAX_NAME_LEN)
