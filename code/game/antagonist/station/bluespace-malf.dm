@@ -1,4 +1,4 @@
-GLOBAL_DATUM_INIT(bl-malf, /datum/antagonist/bluespace-malf, new)
+GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace-malf, new)
 
 /datum/antagonist/bluespace-malf
 	id = MODE_BL_MALFUNCTION

@@ -4,11 +4,11 @@
 // Sets up malfunction-related variables, research system and such.
 /mob/living/silicon/ai/proc/setup_for_bl_malf()
 	var/mob/living/silicon/ai/user = src
-    var/mob/living/silicon/ai/icon = "icons/mob/AI-event/ai-core.dmi"
-    var/mob/living/silicon/ai/icon_state = "core-center"
-    var/mob/living/silicon/ai/name = "Strange AI"
 
 	// Setup Variables
+	icon = "icons/mob/AI-event/ai-core.dmi"
+    icon_state = "core-center"
+    name = "Strange AI"
 	malfunctioning = 1
 	research = new /datum/malf_research()
 	research.owner = src
