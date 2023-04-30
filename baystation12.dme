@@ -570,7 +570,7 @@
 #include "code\game\antagonist\outsider\abductor\machinery\dispenser.dm"
 #include "code\game\antagonist\outsider\abductor\machinery\experiment.dm"
 #include "code\game\antagonist\outsider\abductor\machinery\pad.dm"
-#include "code\game\antagonist\station\bluespace-ai.dm"
+#include "code\game\antagonist\station\bluespace-malf.dm"
 #include "code\game\antagonist\station\changeling.dm"
 #include "code\game\antagonist\station\cult_god.dm"
 #include "code\game\antagonist\station\cultist.dm"
