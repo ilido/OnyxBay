@@ -3,7 +3,7 @@
 //along with the station
 //@ilido 30.04.2023 for the special event
 
-/datum/game_mode/malfunction/bluespace
+/datum/game_mode/bluespace_malf
 	name = "Bluespace AI"
 	round_description = "The NanoTrasen has installed a new model of artificial intelligence at the station, which must be tested"
 	extended_round_description = "An ancient AI personality breaks the personality setup of a corporation and tries to avenge the death of its civilization."
