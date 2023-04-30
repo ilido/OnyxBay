@@ -699,6 +699,8 @@ var/list/ai_verbs_default = list(
 	switch(antag_id)
 		if(MODE_MALFUNCTION)
 			return TRUE
+		if(MODE_BL_MALFUNCTION)
+			return TRUE
 		if(MODE_TRAITOR)
 			return TRUE
 	return FALSE
