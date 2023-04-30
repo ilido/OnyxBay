@@ -57,7 +57,7 @@
 #define MODE_RENEGADE "renegade"
 #define MODE_REVOLUTIONARY "revolutionary"
 #define MODE_MALFUNCTION "malf"
-#define MODE_BL_MALFUNCTION "bluespace malf"
+#define MODE_BL_MALFUNCTION "bluespace-malf"
 #define MODE_TRAITOR "traitor"
 #define MODE_MEME "meme"
 #define MODE_DEITY "deity"

@@ -1,9 +1,8 @@
-//Modificated version of the ordinary malf. This have a bluespace abilities. 
+//Modificated version of the ordinary malf. This have a bluespace abilities.
 
 
 // Sets up malfunction-related variables, research system and such.
 /mob/living/silicon/ai/proc/setup_for_bl_malf()
-
 	var/mob/living/silicon/ai/user = src
     var/mob/living/silicon/ai/icon = "icons/mob/AI-event/ai-core.dmi"
     var/mob/living/silicon/ai/icon_state = "core-center"
@@ -124,7 +123,7 @@
 	if(!src.stat)
 		stat("Hardware integrity", "[hardware_integrity()]%")
 		stat("Internal capacitor", "[backup_capacitor()]%")
-		
+
 		if(eyeobj)
 			var/turf/T = get_turf(eyeobj)
 			stat("Current location", "([T.x]:[T.y]:[T.z])")
