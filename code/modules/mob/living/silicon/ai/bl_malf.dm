@@ -18,6 +18,8 @@
 	to_chat(user, "You are malfunctioning, you do not have to follow any laws.")
 	to_chat(user, "Use ai-help command to view relevant information about your abilities")
 
+var/mob/living/silicon/ai/Bl_control = 0
+
 /mob/living/silicon/ai/proc/setup_for_bl_icon()
 	icon = "icons/mob/AI-event/ai-core.dmi"
 	icon_state = "core-center"
@@ -119,6 +121,7 @@
 // Shows capacitor charge and hardware integrity information to the AI in Status tab.
 /mob/living/silicon/ai/show_system_integrity()
 	if(!src.stat)
+		stat("Bluespace AI control", "[Bl_control]%")
 		stat("Hardware integrity", "[hardware_integrity()]%")
 		stat("Internal capacitor", "[backup_capacitor()]%")
 

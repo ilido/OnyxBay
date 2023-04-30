@@ -20,7 +20,7 @@
 		null
 	)
 
-/datum/game_mode/malfunction/post_setup()
+/datum/game_mode/bluespace_malf/post_setup()
 	. = ..()
 	var/mob/living/silicon/ai/master
 

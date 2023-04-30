@@ -60,6 +60,7 @@ GLOBAL_DATUM_INIT(bl_malf, /datum/antagonist/bluespace_malf, new)
 			return
 
 		A.setup_for_bl_malf()
+		A.setup_for_bl_icon()
 		A.laws = new /datum/ai_laws/nanotrasen/malfunction
 
 
