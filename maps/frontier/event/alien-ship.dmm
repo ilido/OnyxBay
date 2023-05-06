@@ -1,0 +1,102 @@
+"aa" = (/obj/machinery/door/blast/regular{id = "ReactorVent"; name = "Reactor Vent"},/turf/space,/area/space)
+"am" = (/obj/item/wirecutters/old,/turf/simulated/floor,/area/space)
+"bh" = (/obj/effect/decal/cleanable/blood/gibs/down,/turf/simulated/floor,/area/space)
+"bk" = (/obj/item/clothing/suit/justice,/turf/unsimulated/floor/bluespace,/area/space)
+"bp" = (/obj/item/weldingtool/abductor,/turf/simulated/floor,/area/space)
+"bZ" = (/turf/simulated/shuttle/wall/merchant{icon_state = "merchwall_straight"},/area/space)
+"cm" = (/turf/simulated/shuttle/wall/corner/merchant/ne,/area/space)
+"dw" = (/turf/unsimulated/wall{icon = 'icons/turf/wall_masks.dmi'; icon_state = "rgeneric"},/area/space)
+"dI" = (/turf/simulated/shuttle/wall/merchant{dir = 5; icon_state = "merchwall"},/area/space)
+"dZ" = (/turf/space,/area/space)
+"eR" = (/obj/item/welding_cover/demon,/turf/simulated/floor,/area/space)
+"fe" = (/obj/item/remains/robot,/turf/simulated/floor/reinforced,/area/space)
+"hN" = (/obj/structure/window_frame/indestructible/hull,/turf/simulated/floor{icon_state = "dmg2"},/area/space)
+"iC" = (/turf/simulated/shuttle/wall/merchant{dir = 6; icon_state = "merchwall"},/area/space)
+"iF" = (/obj/item/combotool,/turf/simulated/floor,/area/space)
+"iQ" = (/turf/simulated/shuttle/wall/corner/merchant/se,/area/space)
+"jC" = (/obj/machinery/door/airlock/glass_external/bolted_open,/turf/simulated/floor/reinforced,/area/space)
+"kT" = (/obj/structure/closet/toolcloset,/obj/item/storage/toolbox/syndicate,/turf/simulated/floor,/area/space)
+"mn" = (/obj/structure/bed/chair/office/dark{dir = 4},/turf/simulated/floor,/area/space)
+"mp" = (/obj/machinery/door/blast/regular{id = "ReactorVent"; name = "Reactor Vent"},/turf/simulated/floor,/area/space)
+"ns" = (/obj/item/wrench/red,/turf/simulated/floor,/area/space)
+"oj" = (/obj/item/modular_computer/console/preset/sysadmin,/turf/simulated/floor,/area/space)
+"tF" = (/obj/map_ent/trigger_mob,/turf/simulated/floor{icon_state = "dmg2"},/area/space)
+"uj" = (/obj/item/clothing/suit/armor/vox_scrap,/turf/simulated/floor,/area/space)
+"uW" = (/turf/simulated/floor/grid/greengrid,/area/space)
+"vP" = (/obj/item/clothing/suit/space/syndicate/black/engie,/turf/simulated/floor/reinforced,/area/space)
+"wb" = (/obj/item/combotool/advtool,/turf/simulated/floor,/area/space)
+"xh" = (/turf/simulated/floor,/area/space)
+"xu" = (/obj/effect/gibspawner/human,/turf/simulated/floor{icon_state = "dmg2"},/area/space)
+"zi" = (/turf/simulated/shuttle/wall/merchant{dir = 9; icon_state = "merchwall"},/area/space)
+"zr" = (/obj/machinery/vending/tool,/turf/simulated/floor,/area/space)
+"zt" = (/obj/item/remains/human,/turf/simulated/floor/reinforced,/area/space)
+"zR" = (/obj/structure/shuttle/engine/propulsion/burst{dir = 8},/turf/unsimulated/floor/bluespace,/area/space)
+"Ao" = (/obj/machinery/door/airlock/highsecurity/bolted,/turf/simulated/floor,/area/space)
+"AU" = (/obj/machinery/door/airlock/highsecurity/bolted,/turf/simulated/floor/reinforced,/area/space)
+"Bl" = (/turf/simulated/shuttle/wall/merchant{dir = 1; icon_state = "merchwall_t"},/area/space)
+"CN" = (/obj/item/remains/human,/turf/simulated/floor,/area/space)
+"DX" = (/obj/structure/window_frame/indestructible/hull,/turf/simulated/floor,/area/space)
+"FF" = (/obj/map_ent/trigger_mob,/turf/simulated/floor/reinforced,/area/space)
+"GK" = (/obj/effect/decal/cleanable/blood/gibs/down,/turf/simulated/floor{icon_state = "dmg2"},/area/space)
+"Hy" = (/obj/structure/AIcore/deactivated,/turf/simulated/floor/grid,/area/space)
+"KX" = (/turf/unsimulated/floor/bluespace,/area/space)
+"LZ" = (/turf/simulated/shuttle/wall/merchant{icon_state = "merchwall"},/area/space)
+"Ma" = (/obj/structure/shuttle/engine/propulsion/burst{dir = 8},/turf/space,/area/space)
+"ME" = (/obj/item/remains/robot,/turf/simulated/floor,/area/space)
+"Nb" = (/obj/item/clothing/suit/armor/vest/ert/medical,/turf/simulated/floor/reinforced,/area/space)
+"Nq" = (/obj/structure/window_frame/indestructible/hull,/obj/effect/gibspawner/human,/turf/simulated/floor,/area/space)
+"OY" = (/obj/map_ent,/turf/simulated/floor/grid/greengrid,/area/space)
+"Pf" = (/obj/effect/gibspawner/human,/turf/simulated/floor,/area/space)
+"PL" = (/turf/simulated/shuttle/wall/merchant{dir = 8; icon_state = "merchwall_straight"},/area/space)
+"Qh" = (/obj/item/wirecutters,/turf/simulated/floor,/area/space)
+"Qk" = (/turf/simulated/floor/reinforced,/area/space)
+"QN" = (/obj/machinery/door/airlock/highsecurity/bolted,/turf/simulated/floor{icon_state = "dmg2"},/area/space)
+"Rj" = (/obj/item/wrench,/turf/simulated/floor,/area/space)
+"Rk" = (/obj/map_ent,/turf/simulated/floor,/area/space)
+"RG" = (/obj/map_ent,/turf/simulated/floor/reinforced,/area/space)
+"Sj" = (/turf/simulated/floor/grid/bluegrid,/area/space)
+"SF" = (/obj/effect/gibspawner/human,/turf/simulated/floor/reinforced,/area/space)
+"TV" = (/turf/simulated/shuttle/wall/merchant{dir = 10; icon_state = "merchwall"},/area/space)
+"Ug" = (/turf/simulated/shuttle/wall/corner/merchant/nw,/area/space)
+"VC" = (/obj/item/weldingtool/experimental,/turf/simulated/floor/reinforced,/area/space)
+"Wa" = (/obj/structure/bed/chair/office/dark{dir = 4},/turf/simulated/floor{icon_state = "dmg2"},/area/space)
+"We" = (/turf/simulated/shuttle/wall/corner/merchant/sw,/area/space)
+"WS" = (/turf/simulated/floor{icon_state = "dmg2"},/area/space)
+"Xb" = (/turf/simulated/shuttle/wall/merchant{icon_state = "merchwall_t"},/area/space)
+"XU" = (/turf/simulated/shuttle/wall/merchant{dir = 1; icon_state = "merchwall"},/area/space)
+"YB" = (/turf/simulated/floor/grid,/area/space)
+"Zd" = (/obj/effect/decal/cleanable/blood/gibs/limb,/turf/simulated/floor,/area/space)
+"Zp" = (/obj/map_ent,/turf/simulated/floor{icon_state = "dmg2"},/area/space)
+
+(1,1,1) = {"
+dZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZ
+dZdZdZdZdZKXKXdZdZKXKXdZdZKXKXdZKXdZdZdZdZdZdZdZKXdZdZdZdZdZ
+dZdZdZdZdZdZUgiCPLPLcmdZdZdZdZdZdZdZUgPLPLPLcmdZdZKXKXdZdZdZ
+dZdZKXdZdZMaiCxhKXxhPLcmdZdZdZKXdZMaiCQkKXxhPLcmdZKXKXdZdZdZ
+dZdZKXdZdZMabZxhQkxhxhbZdZKXKXKXdZMabZxhfeQkxhbZdZdZKXdZdZdZ
+KXKXdZdZdZMabZSFRGSFxhbZdZdZKXKXdZMabZSFQkQkSFbZdZdZKXdZdZdZ
+dZdZdZdZdZMabZxhMEKXxhbZdZdZdZdZdZMabZxhKXRkxhbZdZdZdZKXKXdZ
+dZdZdZdZdZUgXbPLPLAUPLXbPLPLdZdZdZPLXbPLAoPLPLXbTVdZdZKXKXKX
+dZdZdZdZdZbZxhxhdwQktFxhdwDXDXDXDXDXdwxhxhKXxhdwbZdZdZdZdZKX
+dZdZKXdZUgzifeSFAoxhQkxhRkMEtFtFRkxhQkRkxuKXxhdwbZKXPLcmdZdZ
+dZdZKXdZbZxhSFxhdwtFSFQkxhQkxhQkxhxhxhQkQkxhxhdwQkKXxhPLcmdZ
+dZdZdZUgziQkRGPfdwQkRGxhdwdwdwdwdwdwdwxhxhQkxhdwKXxhxhPfPLcm
+dZKXdZbZxhKXNbfedwVCQkGKDXuWuWSjKXuWDXxhtFKXxhdwxhQkQkWaojDX
+dZKXUgXUdwdwdwdwdwfeQkKXDXSjKXYBuWSjDXbhKXxhxhKXQkPfKXKXojDX
+dZdZdZjCxhQkKXFFAoZpQkRjDXSjYBHyYBSjDXfexhQkQkQNxhQkKXKXojDX
+dZdZdZjCxhWSxhFFAoztxhZdNqKXuWYBuWSjDXRkRkxhxhdwMExhxhmnKXDX
+dZKXWeLZdwdwdwdwdwQkSFQhDXuWuWSjOYKXDXKXtFKXRkdwxhSFtFmnojDX
+dZKXdZbZxhujQkxhdwRkQkRGdwdwdwaadwdwdwxhQkxhtFdwRktFxhKXojDX
+dZdZdZWeTVQkKXxhdwQkxheRQkRGSFxhfeRkQkxhQkQktFdwxhMEQkxhPLiQ
+dZKXdZdZbZKXQkxhdwQkKXtFMExhQknstFPfamRGxhPfxhdwxhKXPfPLiQdZ
+dZdZdZdZWeTVRGxhAUxhRkxhxhQkRGbpxhKXQkxhtFxhQkdwBlPLPLiQdZdZ
+bkKXdZdZdZbZxhKXdwxhQkRkdwhNDXxhDXDXdwxhRkKXKXdwbZdZdZdZdZdZ
+dZdZdZKXdZWeBlPLPLAUPLBlPLPLDXmpDXPLBlPLAoPLPLBlzidZdZKXKXKX
+KXKXdZdZdZMabZQkxhxhzrbZdZdZdZdZdZMabZQkxhxhxhbZdZdZKXdZdZdZ
+KXdZdZdZdZMabZvPwbQkkTbZdZKXKXKXKXMabZRkfeSFQkbZdZdZKXdZKXdZ
+KXdZdZKXdZzRbZxhSFRGkTbZdZdZdZKXdZMabZxhCNQkxhbZdZdZdZdZKXdZ
+dZKXdZdZdZzRdIQkiFxhPLiQdZdZdZKXdZMadIQkxhxhPLiQdZdZdZdZdZdZ
+dZKXdZKXKXdZWePLPLziiQdZKXKXKXKXdZdZWePLPLPLiQdZdZdZKXKXdZdZ
+dZKXdZdZKXKXKXdZdZdZdZdZKXKXKXKXdZdZdZdZdZdZdZdZdZdZKXKXdZdZ
+dZdZdZdZdZdZdZdZKXKXKXdZKXdZdZdZdZKXKXKXdZKXKXKXKXdZdZdZdZdZ
+"}

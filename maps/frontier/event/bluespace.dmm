@@ -1,0 +1,203 @@
+"ba" = (/obj/structure/flora/junglevines,/turf/simulated/floor/natural,/area/space)
+"bg" = (/turf/simulated/floor/trim/wood/broken4,/area/space)
+"bB" = (/obj/item/gun/projectile/heavysniper/ant,/obj/effect/decal/cleanable/blood/gibs/core,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"bU" = (/obj/item/trash/cans/dr_gibb,/turf/unsimulated/floor/bluespace,/area/space)
+"cb" = (/turf/simulated/shuttle/wall{dir = 4; icon_state = "swall_straight"},/area/space)
+"cd" = (/obj/structure/flora/tree/green/small/tree4,/turf/simulated/floor/natural,/area/space)
+"cm" = (/turf/simulated/shuttle/wall/corner/syndi/ne,/area/space)
+"cM" = (/obj/machinery/optable/abductor,/turf/simulated/floor/tiled/freezer,/area/space)
+"cW" = (/obj/structure/gravemarker/random,/turf/simulated/floor/natural,/area/space)
+"cY" = (/obj/structure/flora/tree/green/tree6,/turf/simulated/floor/natural,/area/space)
+"dK" = (/turf/simulated/wall/r_wall,/area/space)
+"eo" = (/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"gq" = (/obj/structure/flora/jungleplants/glowshroom,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"gu" = (/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/natural,/area/space)
+"gI" = (/obj/structure/flora/log,/turf/simulated/floor/natural,/area/space)
+"iu" = (/obj/item/pizzabox/vegetable,/obj/item/pizzabox/vegetable,/obj/item/pizzabox/vegetable,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"iH" = (/turf/simulated/shuttle/wall/merchant{dir = 4; icon_state = "merchwall_straight"},/area/space)
+"iN" = (/obj/item/remains/human,/obj/item/clothing/suit/space/void/syndi/prepared,/turf/simulated/floor/shuttle/darkred,/area/space)
+"jh" = (/turf/simulated/floor/shuttle/pod,/area/space)
+"ji" = (/obj/machinery/computer/shuttle_control/multi/syndicate,/turf/simulated/floor/shuttle/darkred,/area/space)
+"jO" = (/obj/structure/closet/secure_closet/engineering_electrical,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"kz" = (/obj/item/storage/firstaid/combat,/obj/item/storage/firstaid/combat,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"kY" = (/obj/structure/barrel,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"lw" = (/obj/mecha/combat/phazon,/turf/unsimulated/floor/bluespace,/area/space)
+"lD" = (/obj/item/modular_computer/console/preset/command,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"ms" = (/obj/effect/decal/cleanable/blood/gibs/limb,/turf/simulated/floor/shuttle/darkred,/area/space)
+"na" = (/obj/item/rig_module/mounted/egun,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"ne" = (/obj/structure/cryofeed{dir = 4},/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"nj" = (/turf/simulated/floor/grid,/area/space)
+"nk" = (/obj/effect/decal/cleanable/blood/gibs/core,/turf/simulated/floor/grid,/area/space)
+"nO" = (/mob/living/carbon/alien/diona,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"nZ" = (/obj/item/gun/energy/xray/pistol,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"on" = (/obj/structure/flora/tree/green/tree10,/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/natural,/area/space)
+"oq" = (/obj/item/gun/energy/sniperrifle,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"os" = (/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"pL" = (/obj/machinery/holosign/surgery{icon_state = "surgery"},/turf/simulated/wall/r_wall,/area/space)
+"qb" = (/turf/simulated/floor/trim/wood/broken5,/area/space)
+"qk" = (/turf/space,/area/space)
+"qv" = (/obj/structure/closet/crate/handmade,/obj/item/ammo_casing/rocket,/obj/item/ammo_casing/rocket,/obj/item/ammo_casing/rocket,/obj/item/ammo_casing/rocket,/obj/item/ammo_casing/rocket,/obj/item/ammo_casing/rocket,/obj/item/ammo_casing/rocket,/obj/item/ammo_casing/rocket,/obj/item/ammo_casing/rocket,/obj/item/ammo_magazine/c38,/obj/item/ammo_magazine/c38,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/box/a556,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/obj/item/ammo_magazine/a10mm,/turf/simulated/floor/shuttle/darkred,/area/space)
+"qN" = (/obj/machinery/door/airlock/freezer,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"qP" = (/obj/structure/bed/chair/shuttle{dir = 8},/turf/simulated/floor/shuttle/pod,/area/space)
+"rD" = (/obj/structure/flora/ausbushes/jungleplants,/turf/simulated/floor/natural,/area/space)
+"rG" = (/obj/structure/flora/ausbushes/glowshroom,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"rM" = (/obj/structure/closet/secure_closet/engineering_personal,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"rR" = (/turf/simulated/shuttle/wall/merchant{dir = 8; icon_state = "merchwall"},/area/space)
+"sb" = (/obj/structure/flora/ausbushes/grassybush,/turf/unsimulated/floor/bluespace,/area/space)
+"sj" = (/obj/item/storage/toolbox/syndicate,/turf/simulated/floor/trim/wood/broken5,/area/space)
+"sx" = (/obj/item/gun/projectile/automatic/l6_saw,/turf/simulated/floor/shuttle/darkred,/area/space)
+"tk" = (/obj/mecha/combat/durand,/turf/simulated/floor/shuttle/darkred,/area/space)
+"tv" = (/obj/item/clothing/suit/storage/toggle/leathercoat,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"tV" = (/obj/item/remains/robot,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"vb" = (/obj/item/soap/brig,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"vh" = (/obj/effect/decal/cleanable/blood/gibs/down,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"vI" = (/obj/structure/shuttle/engine/propulsion/burst/left{dir = 4},/turf/space,/area/space)
+"wr" = (/obj/structure/closet/syndicate/nuclear,/turf/simulated/floor/shuttle/darkred,/area/space)
+"wT" = (/obj/structure/flora/ausbushes/lavendergrass,/turf/simulated/floor/natural,/area/space)
+"xq" = (/turf/simulated/floor/tiled/freezer,/area/space)
+"yl" = (/obj/item/stack/telecrystal,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"yP" = (/obj/item/remains/human,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"zD" = (/obj/item/modular_computer/tablet/preset,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"zX" = (/obj/item/gun/launcher/rocket,/obj/effect/decal/cleanable/blood/gibs/down,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Ad" = (/obj/item/clothing/suit/storage/hooded/wintercoat/security,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"AD" = (/obj/effect/gibspawner/human,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"AY" = (/obj/structure/barricade,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Bd" = (/turf/simulated/floor/natural,/area/space)
+"Bh" = (/obj/item/storage/firstaid/combat,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Bv" = (/obj/machinery/power/emitter,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Cq" = (/obj/item/remains/lizard,/turf/simulated/floor/natural/frozenground/cave,/area/space)
+"CS" = (/obj/structure/flora/ausbushes/pointybush,/turf/simulated/floor/natural,/area/space)
+"Dx" = (/turf/simulated/wall/plasma,/area/space)
+"EU" = (/turf/unsimulated/floor/bluespace,/area/space)
+"EW" = (/obj/item/book/wiki/surgery,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Fg" = (/turf/simulated/shuttle/wall/merchant{icon_state = "merchwall_straight"},/area/space)
+"Fo" = (/obj/structure/flora/ausbushes/grassybush,/turf/simulated/floor/natural,/area/space)
+"Fp" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Fu" = (/obj/structure/railing/constructed{anchored = 1; dir = 4},/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"FX" = (/obj/item/rig/ert/assetprotection,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Gk" = (/obj/item/ammo_casing/rocket,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"GR" = (/obj/item/gun/projectile/revolver/detective/saw620,/turf/simulated/floor/shuttle/darkred,/area/space)
+"GS" = (/obj/item/storage/firstaid/surgery/syndie,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"GW" = (/obj/item/gun/projectile/pirate,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Hu" = (/turf/simulated/shuttle/wall{dir = 4; icon_state = "swall_c"},/area/space)
+"HD" = (/obj/item/gun/energy/xray,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"HW" = (/obj/item/trash/cans/dr_gibb,/turf/space,/area/space)
+"HY" = (/obj/item/storage/firstaid/adv,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"IE" = (/obj/item/tank/oxygen,/turf/simulated/floor/shuttle/darkred,/area/space)
+"IN" = (/obj/item/clothing/head/collectable/slime,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Je" = (/turf/simulated/floor/trim/wood,/area/space)
+"Lq" = (/obj/structure/flora/grass/brown,/turf/simulated/floor/natural,/area/space)
+"Mq" = (/obj/structure/flora/ausbushes/fullgrass,/obj/structure/flora/ausbushes/fullgrass,/turf/simulated/floor/natural,/area/space)
+"Ms" = (/turf/simulated/shuttle/wall/merchant{dir = 4; icon_state = "merchwall"},/area/space)
+"MA" = (/obj/item/gun/energy/captain,/turf/simulated/floor/shuttle/darkred,/area/space)
+"MV" = (/mob/living/simple_animal/hostile/retaliate/malf_drone,/turf/space,/area/space)
+"Nv" = (/obj/structure/railing/constructed{anchored = 1; dir = 8},/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Oe" = (/obj/item/stack/telecrystal,/turf/simulated/floor/grid,/area/space)
+"OF" = (/turf/simulated/floor/shuttle/darkred,/area/space)
+"Ph" = (/obj/structure/flora/ausbushes/ywflowers,/turf/simulated/floor/natural,/area/space)
+"Pk" = (/obj/structure/barricade,/turf/simulated/floor/grid,/area/space)
+"PI" = (/obj/structure/flora/tree/green/small/tree6,/obj/structure/flora/ausbushes/grassybush,/turf/simulated/floor/natural,/area/space)
+"PM" = (/obj/item/mecha_parts/mecha_equipment/weapon/energy/laser,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"PS" = (/obj/item/clothing/head/surgery/navyblue,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"Qj" = (/obj/machinery/vending/engineering,/turf/simulated/floor/trim/wood/broken5,/area/space)
+"Ql" = (/turf/simulated/shuttle/wall{dir = 1; icon_state = "swall_c"},/area/space)
+"QA" = (/obj/effect/decal/mecha_wreckage/gygax/dark,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"QE" = (/turf/simulated/shuttle/wall/merchant,/area/space)
+"RM" = (/obj/effect/decal/cleanable/blood/gibs/core,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"RR" = (/turf/simulated/floor/trim/wood/broken1,/area/space)
+"Tt" = (/turf/simulated/shuttle/wall/merchant{dir = 4; icon_state = "merchwall_t"},/area/space)
+"Tv" = (/obj/structure/flora/tree/green/tree8,/turf/simulated/floor/natural,/area/space)
+"Tx" = (/obj/structure/sign/firstaid,/turf/simulated/wall/r_wall,/area/space)
+"TE" = (/turf/simulated/shuttle/wall/merchant{dir = 8; icon_state = "merchwall_t"},/area/space)
+"Uv" = (/turf/simulated/floor/natural/ice,/area/space)
+"UK" = (/obj/machinery/door/airlock/autoname/engineering,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"VD" = (/obj/structure/flora/goonbushes/fern,/turf/simulated/floor/natural,/area/space)
+"VS" = (/turf/simulated/shuttle/wall/corner/syndi/nw,/area/space)
+"Wu" = (/obj/structure/flora/tree/green/small/tree3,/turf/simulated/floor/natural,/area/space)
+"Xk" = (/obj/item/gun/projectile/automatic/c20r,/turf/simulated/floor/shuttle/darkred,/area/space)
+"XB" = (/obj/structure/boulder,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"ZG" = (/obj/item/skull,/turf/unsimulated/floor/shuttle_ceiling,/area/space)
+"ZN" = (/obj/structure/flora/ausbushes/fullgrass{pixel_x = 23; pixel_y = 2},/turf/simulated/floor/natural,/area/space)
+
+(1,1,1) = {"
+EUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEU
+EUqkqkqkqkEUqkqkqkqkqkEUqkqkEUqkqkqkEUEUqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUEUqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkEUqkqkqkEUqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkEUEUqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkHWEUEUEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUEUqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkPIqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkEUqkEUEUqkEUEUEUqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkEUqkqkHWqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkEUEUEUEUqkqkqkqkqkqkqkqkEUqkEUqkEUqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUEUqkqkqkEUEUqkEUEUqkEUEUEUqkqkBdqkqkEUqkBdqkqkqkqkqkEUEUqkqkqkqkqkqkqkqkqkqkqkqkEUqkEUEUqkqkqkqkqkqkqkqkqkEUqkEUqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkEUqkqkqkqkEUEUqkqkBdqkqkEUEUbaqkqkBdqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkEUqkqkqkqkqkEUqkBdqkBdsbBdBdBdqkqkEUcYqkqkqkqkEUEUqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkEUqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkEUEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkEUqkqkbUBdEUqkgugubaqkqkqkBdqkqkEUEUqkEUqkEUqkEUqkqkEUEUEUEUEUqkqkqkqkEUqkEUqkqkEUqkqkqkqkEUqkqkqkqkqkqkEUqkqkqkEUqkqkqkqkqkqkqkEUqkqkEU
+EUqkqkqkqkqkqkqkEUEUEUqkEUqkEUEUVDqkonMqgugIEUqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkEUqkqkEUEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkEUqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkEUqkBdcWguqkguEUqkqkqkqkqkqkqkEUqkEUqkqkqkqkEUqkEUEUqkEUqkqkqkqkqkqkqkqkqkEUEUqkqkqkEUqkEUqkqkqkqkqkqkqkqkqkEUqkqkEUqkqkqkqkEU
+EUqkqkqkqkEUqkEUqkqkqkqkqkqkTvZNLqBdqkqkqkqkEUguqkqkEUqkqkqkEUqkEUqkEUqkqkqkqkqkEUqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkEU
+EUqkqkqkqkEUqkEUqkqkqkqkwTrDqkZNqkqkEUqkEUqkEUqkqkqkqkqkEUEUqkqkEUqkqkEUqkqkqkEUqkqkqkqkqkEUqkqkEUqkqkqkEUqkqkqkqkEUEUEUqkqkHucbcbcbcbqkEUcbqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkrDqkqkqkEUcdqkPhqkEUqkqkFoqkqkEUqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkqkqkqkEUqkEUqkqkqkqkqkEUqkqkqkqkEUEUEUEUqPjhjhjhqkqkqkqkvIqkqkEUqkqkqkqkEU
+EUqkqkqkEUqkqkEUqkqkqkEUrDwTqkqkEUZNqkEUqkqkWuqkqkqkEUEUEUEUEUEUqkqkqkqkqkEUqkqkqkqkEUqkqkqkqkqkqkEUEUqkEUqkEUqkqkqkqkEUEUqkqkjhjhjhjhqkqkqkqkqkqkqkqkqkqkEUqkEU
+EUqkqkqkqkqkEUqkqkqkqkqkCSqkqkqkqkEUqkqkqkFoqkqkqkqkEUqkEUqkEUqkqkqkqkqkqkEUqkEUqkqkqkqkqkEUqkqkEUEUqkEUqkqkqkqkqkqkqkqkEUEUQlcbcbcbcbqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkEUqkEUqkqkqkqkqkEUqkqkqkqkqkqkEUEUqkqkqkqkEUEUEUEUqkqkEUqkqkEUEUqkqkqkqkEUqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkEUEUqkqkqkqkEUEUEUqkqkqkqkEUcbvIqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkEUEUEUqkqkEUqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkEUqkqkzDosqkEUEUEUqkEUqkEUqkqkEUqkEUqkEUqkqkqkqkEUqkqkqkqkHWqkqkqkqkqkqkqkqkEUEUEUqkEUqkqkqkqkEUqkqkqkqkEU
+EUqkqkEUqkEUqkEUqkqkqkqkqkqkdKqkqkdKqkdKqkEUqkEUqkEUqkqkqkdKlDosqkqkqkqkqkqkqkqkqkqkqkEUqkEUqkqkqkqkqkEUqkqkqkEUEUqkqkqkqkqkqkqkqkqkqkqkEUqkEUqkqkqkqkEUqkqkqkEU
+EUqkqkqkqkEUqkqkqkqkqkqkqkxqqkFpEWosGSdKqkqkqkqkEUqkqkqkEUdKdKdKdKQEqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkqkEUqkEUqkqkqkqkEUqkqkqkqkqkqkqkEUEUqkqkqkqkqkqkEUqkqkqkqkqkEU
+EUqkEUEUqkEUqkqkqkqkqkEUEUqkqkosxqcMPSdKqkqkEUqkqkqkEUqkqkqkqkqkqkqkqkEUqkEUqkqkqkQEqkqkEUqkqkqkqkEUqkqkqkqkqkqkqkqkqkEUqkqkqkEUEUqkqkqkqkqkqkqkqkEUqkqkqkqkqkEU
+EUqkqkqkqkqkqkEUEUqkqkEUEUxqxqxqospLqNosdKqkqkqkqkEUqkqkqkqkqkQEqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkEUqkqkEUqkEU
+EUqkqkqkEUqkqkqkqkqkqkHWEUEUqkqkosqkqkosqkEUqkEUqkqkqkqkQEqkosdKosososRMososdKososZGosososdKqkqkQEqkdKqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkEUqkqkqkqkqkEUqkosdKdKdKdKosqkqkqkqkEUqkqkqkEUososososdKososososososdKososososqkdKqkososqkdKEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkEUqkEUqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkdKqkosqkEUEUqkqkEUqkqkqkEUqkEUqkqkqkosososososososbBosvhososososososEUqkqkososqkqkqkqkqkqkqkqkqkqkEUqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkqkqkosEUEUqkqkqkEUqkEUEUEUqkqkqkqkqknjoszXosGkososAYosososososvhosnjqkqkdKqkqkqkqkEUqkqkEUqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUEUqkEU
+EUqkqkqkEUqkqkqkEUqkqkqkEUqkEUqkqkqkqkqkEUqkqkEUEUqkqkqkosdKnjnjosososdKosososXBososososnjdKosnjdKqkEUdKqkqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkqkEUqkqkqkEUqkqkqkqkqkEU
+EUqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUEUqkEUEUqkqkQEnjRMosXBnjdKososososylosvhososnjosylnjosqkqkqkqkqkqkqkqkEUqkEUqkqkqkqkqkqkEUqkqkqkEUqkqkqkqkqkqkqkEUqkEU
+EUEUqkqkqkqkqkEUqkqkEUEUqkqkqkEUqkqkqkqkqkdKqkqkdKqkqkqkosnjylososnjosADosDxososososPkdKosnjososEUEUqkqkqkqkEUqkqkqkqkqkqkEUHWqkqkEUEUqkEUqkqkqkHWqkqkEUqkqkqkEU
+EUqkqkEUEUqkqkEUqkqkqkqkEUqkqkqkqkqkqkEUqkqkINosdKqkqkqkososnjAYososEUEUEUEUEUEUEUEUososnjosososqkqkqkqkqkqkqkqkqkqkEUqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkHWqkqkqkqkqkEUqkqkEUEUdKqkqkEUqkqkqkosososnkosDxEUEUEUEUEUEUEUEUosnjnZosososqkqkQEqkEUqkEUqkqkdKdKqkqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkqkqkqkqkEU
+EUqkqkqkosEUosososqkososqkosososEUososEUEUosEUEUosososEUosADososnjosEUEUEUEUEUEUEUEUnjosososvhosqkqkqkqkqkqkqkqkEUqkqkqkqkdKdKdKqkqkqkqkqkqkqkEUqkqkqkqkEUEUqkEU
+EUososososEUEUEUosososososEUosqkosososqkosososdKosEUosEUdKosososdKosEUEUEUEUEUEUEUEUdKRMososososososososososososdKqvOFXkdKOFOFqkqkqkqkqkqkqkqkEUEUEUqkEUEUqkqkEU
+EUqkososqkosEUososEUosqkososososqkososososqkososososEUososososylnjosEUEUEUEUEUEUEUEUnjososdKosososEUosososEUEUosdKsxOFOFqkGRtkqkqkqkqkqkqkqkqkEUEUqkqkqkqkqkqkEU
+EUEUqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkdKEUqkqkQEqkosXBvhnjosdKEUEUEUEUEUEUEUEUosnjososRMosososososEUqkEUqkdKOFOFXkdKOFOFqkEUqkEUqkEUqkqkEUqkqkqkqkqkqkqkEU
+EUEUqkqkqkEUqkEUqkqkqkqkqkqkqkqkqkqkqkEUqkEUosososdKqkqkZGosnjosososEUEUEUEUEUEUEUEUdKosOeosososqkqkqkqkqkqkEUQEOFOFOFOFqkqkqkdKqkqkqkbUqkEUEUqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkHWqkqkEUqkqkqkqkqkqkqkEUqkqkEUEUqkFXosnadKqkqkosnjoskYosnjDxosososDxososylnjososnjososqkqkqkqkqkEUEUOFOFdKdKqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkEUqkqkqkqkEU
+EUEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkqkqkqkdKqkqknjRMososnjGkososososZGosososRMnjososnjosqkqkQEqkQEEUOFOFQEdKEUqkqkEUqkqkEUqkqkEUqkEUEUqkqkqkqkEUqkqkqkEU
+EUqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkEUqkEUqkdKEUqkEUqkososnjnjoqososRMosososososHDososnjnjosnjqkOFOFOFOFOFOFQEqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkEU
+EUqkqkqkEUEUqkqkqkqkEUqkEUqkqkqkEUEUEUqkqkqkqkqkqkqkqkqkqkEUnjososososososdKoskzososGkAYosnjqkqkEUqkqkdKqkqkEUqkqkqkqkEUqkqkEUqkqkqkqkqkqkqkqkEUEUqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkdKEUqkqkqkqkEUEUEUqkqkEUosXBosvhosososososososososGWososqkEUdKdKqkqkqkqkqkqkqkqkEUqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUEUEU
+EUEUqkqkqkqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkEUqkEUqkEUqkqkqkqkEUdKososososososAYosylosdKososososqkqkTxHYosqkqkqkEUqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkEUEUqkqkEUqkEUqkqkqkqkqkqkEUqkqkqkosvbEUqkqkEUqkqkqkqkEUososylosdKososososososososososADqkqkdKososqkEUqkqkqkqkqkEUqkqkEUqkqkqkqkqkqkEUEUEUqkqkqkEUEUEUqkqkEU
+EUqkqkqkqkqkqkEUEUqkqkqkqkqkqkqkqkqkqkososqkqkdKqkqkqkqkqkQEqkqkqkqkqkqkososososqkTxdKqkqkqkQEqkqkqkqkqkEUqkqkqkEUqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkEUqkEUqkqkqkqkqkqkqkqkqkqkEUqkqkqkdKqkqkqkEUqkqkqkEUqkEUqkqkEUEUqkososqkosdKdKqkqkqkqkqkqkdKqkqkqkqkqkEUqkqkqkqkqkqkqkEUqkqkqkqkEUEUqkqkqkqkEUqkqkqkqkqkEU
+EUqkqkEUqkEUEUqkqkqkqkqkqkqkqkEUqkqkdKqkqkEUEUEUqkEUqkqkqkqkqkqkEUqkEUEUEUEUqkEUdKosososqkEUqkqkqkqkdKqkEUEUqkqkqkqkqkqkqkqkqkqkqkqkEUqkEUqkqkqkqkqkqkqkqkqkEUEU
+EUqkEUEUqkEUqkqkqkqkqkVSqkEUcmqkqkqkqkqkqkqkqkqkqkqkqkdKdKUKqkqkdKdKdKdKqkosososqkososdKEUEUqkqkEUqkEUqkEUqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkEUEUqkqkqkqkEU
+EUEUEUqkEUqkqkqkqkqkVSQEjiOFQEcmqkqkqkqkqkqkqkqkEUqkdKrMsjJeqkqkEUqkQAososdKqkEUqkososdKqkqkEUEUqkqkqkqkqkqkqkEUqkqkqkqkqkEUqkEUEUqkqkqkqkqkqkqkqkqkqkqkqkEUqkEU
+EUqkqkqkqkqkqkqkqkqkFgOFOFOFOFFgqkqkqkqkqkEUqkqkqkqkdKjOJeosqkqkqkqkPMososqkqkEUEUososnedKqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkEU
+EUEUqkEUqkqkEUqkqkqkFgOFOFOFOFFgqkqkqkqkqkEUqkqkqkqkEUqbosBvdKEUqkdKqkqkdKdKqkEUqkosBhnedKEUqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkEUqkqkEUqkqkqkqkqkqkqkqkqkEU
+EUqkqkEUqkEUqkqkqkqkTErRiNMsiHTtEUqkqkqkqkqkqkqkqkqkqkEUqbbgdKqkqkqkqkqkEUqkqkEUqkososnedKqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkEUEUqkqkqkEUqkqkEUqkqkqkEUqkEU
+EUqkqkEUqkEUqkqkqkqkFgwrmsOFEUqkqkqkqkEUqkqkqkEUqkqkqkQjosRRqkEUqkqkqkqkqkqkEUqkqkqkqkososqkqkEUqkqkqkqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkqkEU
+EUqkqkqkqkEUEUqkqkqkqkOFOFEUqkqkqkqkqkqkqkqkqkqkqkqkqkdKdKqkqkFuqkqkqkqkqkqkqkqkqkqkqkqkdKqkEUqkqkqkqkqkqkqkqkHWqkqkEUqkqkqkqkqkqkEUqkqkEUqkqkqkEUqkqkEUqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkOFIEEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkFuqkqkqkqkEUqkqkdKdKqkqkqkqkqkqkEUqkqkqkqkHWqkqkqkqkqkqkqkqkqkqkqkqkqkqkeoiuqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkMAqkqkqkFgqkqkqkEUqkqkqkEUqkqkqkqkEUqkqkFuqkqkEUqkqkqkqkqkqkdKdKqkEUEUqkEUqkEUqkqkqkqkeoeoqkqkeorGqkqkqkqkqkeoeoqkqkqkqkqkqkqkEUqkEUqkqkEU
+EUqkqkqkqkEUqkqkqkqkFgqkqkqkqkqkqkqkEUqkqkqkqkEUqkqkqkEUqkqkqkFuqkEUqkqkqkEUqkqkEUqkqkqkqkqkqkqkqkqkqkEUtVeoqkqkqkqkqkeoqkHWEUeoqkqkqkqkqkqkqkqkEUqkqkEUEUqkqkEU
+EUqkqkEUqkqkqkEUqkqkEUqkqkqkEUqkEUqkEUqkqkqkqkqkEUEUqkqkqkqkosFuqkqkqkqkEUqkqkqkEUqkEUqkqkqkqkqkqkqkEUqkeoqkqkEUqkqkeoeoqkEUqkqkqkqkEUqkqkqkqkqkEUEUqkEUqkqkqkEU
+EUqkqkEUqkqkqkqkqkqkqkqkEUqkqkqkqkqkEUqkqkqkqkqkqkqkqkEUEUEUosFuEUqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkeoeoeoeoeoEUeoCqqkqkqkEUqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkEU
+EUqkqkqkqkqkEUEUqkqkqkqkqkqkqkqkqkEUqkqkEUqkqkqkqkqkqkqkqkqkosqkqkEUqkqkqkEUqkqkqkqkqkqkqkqkqkqkEUqkqkeoEUqkEUEUUvqkrGqkEUqkEUtvqkeoeoeoeoEUEUqkqkqkqkqkqkqkEUEU
+EUqkqkEUqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkEUqkqkqkqkqkosqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkeoqkqkeoqkqkeoUveoEUqkqkqkeoEUqkqkqkeoqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkEUqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkEUqkqkqkqkqkqkqkqkqkqkosqkqkqkEUqkqkqkqkEUqkqkqkqkEUqkEUeoeoqkeoqkEUeoeorGUvUvUvUveoEUeoqkEUqkEUqkqkeoeoqkeoqkqkEUqkqkqkEU
+EUqkqkqkEUEUqkEUqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkqkqkqkqkqkqkNvosqkqkqkqkEUqkqkqkqkEUqkqkqkqkqkqkqkeoeoeoEUqkeoUveoUvUvUvUveoUvgqEUqkqkqkqkqkeoeoeoeoqkqkqkqkqkqkEU
+EUqkqkEUqkqkEUqkqkqkqkqkqkqkEUqkqkEUqkqkEUqkEUqkqkqkEUqkqkNvosqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkeoqkeoeoqkEUUvUvUvUveoeoqkqkEUqkqkEUqkqkEUqkEUqkqkqkqkqkqkEU
+EUqkqkqkqkEUHWEUqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkEUqkNvosqkqkqkqkqkqkqkqkEUqkqkEUqkqkEUqkEUqkeoeoqkgqqkqkqkUveoeoUvAdEUqkqkqkqkqkqkqkEUqkEUqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkEUEUqkEUqkqkqkqkqkqkqkEUqkqkqkqkEUEUqkqkEUqkEUNvosEUqkqkEUqkqkEUqkqkEUqkqkEUqkqkqkqkqkeoeoqkqkeoeoUvgqeoeorGeoUveoeoeoqkeogqeoEUqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkEUEUEUqkEUqkqkEUqkqkqkEUEUEUqkqkqkEUEUNvosEUqkEUqkqkEUqkqkqkqkqkqkqkqkqkEUqkqkqkqkEUqkeoqkEUeoeoyPnOeogqeoqkqkqkqkqkqkEUEUqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkEUqkqkqkqkEUEUEUqkqkqkqkqkqkqkEUqkEUEUqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkHWqkqkqkqkEUqkqkqkqkqkqkqkEUqkeoEUEUeoeoeoeoeoeoeoeoqkqkqkEUqkqkEUqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkEUEUqkqkqkMVEUMVEUqkEUqkEUqkqkqkqkEUEUqkqkqkEUNvosFuqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkeoqkqkqkqkqkEUqkeoqkqkeoeoEUqkEUqkqkEUqkqkqkqkqkqkEU
+EUqkqkqkqkEUEUEUEUqkEUEUlwEUqkqkqkqkEUqkqkqkEUEUqkqkqkqkqkNvosFuqkqkqkqkqkqkEUqkqkqkqkqkqkEUqkqkEUqkqkeoqkqkgqqkqkeoEUqkqkEUqkqkeoeoqkEUqkqkqkEUqkqkqkqkEUqkqkEU
+EUqkqkEUqkqkqkEUqkqkEUMVEUMVqkqkqkqkEUqkqkqkqkEUqkqkqkqkqkqkosFuqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkEUqkEUqkqkqkeoqkqkEUrGEUqkeoqkqkqkqkqkqkEUqkqkqkqkHWqkqkqkqkqkqkEU
+EUqkEUEUqkqkqkqkEUEUqkqkEUqkqkqkEUqkqkqkEUEUEUEUEUEUqkqkqkqkosFuqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkEUqkqkEUqkqkqkqkqkeoqkqkqkqkqkqkqkqkqkqkEUEUqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkosFuqkqkqkEUqkqkqkqkEUqkqkqkqkqkqkqkqkqkEUEUqkqkEUqkqkeoeoeoeoqkqkEUqkqkqkqkqkqkqkqkEUqkEUqkqkEUqkEU
+EUqkqkqkqkqkEUqkqkqkHWqkqkqkqkqkqkqkqkEUqkEUqkEUqkqkqkqkqkNvosFuEUEUEUqkqkqkqkqkqkqkEUqkqkqkqkEUqkqkqkqkEUqkqkqkqkqkeoeoqkEUqkqkqkeoqkqkqkqkEUqkEUqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkEUEUqkEUqkqkqkqkqkqkqkNvosFuqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkEUqkEUqkqkeoEUqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkEUqkqkqkqkqkqkqkNvosFuqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkeoqkqkqkqkqkqkqkqkqkeoqkqkqkqkqkqkqkqkqkqkEU
+EUqkqkqkqkqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkEUqkqkqkqkqkNvosFuqkqkqkqkEUqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkqkEU
+EUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEUEU
+"}
