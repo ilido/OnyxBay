@@ -309,7 +309,7 @@
 	B.throw_range = throw_range
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.bmark_outline, ICON_OVERLAY, rand(5), rand(3))
+	I.Blend(B.bmark_outline, ICON_OVERLAY, 2, 3 )
 	B.icon = I
 
 	if(istype(Proj, /obj/item/projectile/energy/) && !istype (Proj, /obj/item/projectile/energy/electrode))
@@ -427,11 +427,12 @@
 				var/obj/item/Gibbed_can/C = new /obj/item/Gibbed_can(loc)
 				C.icon_state = gib_icon
 				sleep(4)
-				qdel(C, src)
-
-			visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
-			throw_at(get_step(src, pick(GLOB.alldirs)), rand(2, 3), 1)
-			make_hole(loc, Proj)
+				qdel(C)
+				qdel(src)
+			else:
+				visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
+				throw_at(get_step(src, pick(GLOB.alldirs)), rand(2, 3), 1)
+				make_hole(loc, Proj)
 		return
 	return PROJECTILE_CONTINUE
 
