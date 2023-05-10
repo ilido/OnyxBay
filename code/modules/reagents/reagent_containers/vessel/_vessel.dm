@@ -424,11 +424,11 @@
 			smash(loc)
 		else
 			if(Proj.damage > 40)
+				qdel(src)
 				var/obj/item/Gibbed_can/C = new /obj/item/Gibbed_can(loc)
 				C.icon_state = gib_icon
 				sleep(4)
 				qdel(C)
-				qdel(src)
 			else:
 				visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
 				throw_at(get_step(src, pick(GLOB.alldirs)), rand(2, 3), 1)
