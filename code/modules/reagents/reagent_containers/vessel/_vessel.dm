@@ -423,6 +423,12 @@
 			visible_message(SPAN("warning", "\The [Proj] shatters \the [src]!"))
 			smash(loc)
 		else
+			if(Proj.damage > 40)
+				var/obj/item/Gibbed_can/C = new /obj/item/Gibbed_can(loc)
+				C.icon_state = gib_icon
+				sleep(2)
+				qdel(C)
+
 			visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
 			throw_at(get_step(src, pick(GLOB.alldirs)), rand(2, 3), 1)
 			make_hole(loc, Proj)
@@ -470,3 +476,11 @@
 	edge = 0
 	unacidable = 1
 	var/icon/bmark_outline = icon("icons/effects/effects.dmi", "scorch")
+
+/obj/item/Gibbed_can
+	name = "Gibbed can"
+	icon = 'icons/obj/reagent_containers/cans.dmi'
+	w_class = ITEM_SIZE_SMALL
+	attack_verb = list("stabbed", "slashed", "attacked")
+	hitsound = 'sound/weapons/bladeslice.ogg'
+	sharp = 1

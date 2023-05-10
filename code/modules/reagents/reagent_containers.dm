@@ -10,6 +10,7 @@
 	var/label_text
 	var/can_be_splashed = FALSE
 	var/list/startswith // List of reagents to start with
+	var/gib_icon
 
 /obj/item/reagent_containers/verb/set_APTFT() //set amount_per_transfer_from_this
 	set name = "Set transfer amount"

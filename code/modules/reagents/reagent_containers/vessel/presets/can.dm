@@ -9,6 +9,8 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/cola
 	startswith = list(/datum/reagent/drink/space_cola = 40)
+	gib_icon = ""
+
 
 /obj/item/reagent_containers/vessel/can/colavanilla
 	name = "\improper Vanilla Space Cola"
@@ -18,6 +20,7 @@
 	trash = /obj/item/trash/cans/colavanilla
 	startswith = list(/datum/reagent/drink/space_cola = 30,
 					  /datum/reagent/drink/milkshake = 10)
+	gib_icon = "cola-gib"
 
 /obj/item/reagent_containers/vessel/can/colacherry
 	name = "\improper Cherry Space Cola"
@@ -27,6 +30,7 @@
 	trash = /obj/item/trash/cans/colacherry
 	startswith = list(/datum/reagent/drink/space_cola = 30,
 					  /datum/reagent/nutriment/cherryjelly = 10)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/dopecola
 	name = "\improper Dope Cola"
@@ -36,6 +40,7 @@
 	trash = /obj/item/trash/cans/dopecola
 	startswith = list(/datum/reagent/drink/space_cola = 30,
 					  /datum/reagent/thc = 10)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/space_mountain_wind
 	name = "\improper Space Mountain Wind"
@@ -44,6 +49,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/space_mountain_wind
 	startswith = list(/datum/reagent/drink/spacemountainwind = 40)
+	gib_icon =	""
 
 /obj/item/reagent_containers/vessel/can/thirteenloko
 	name = "\improper Thirteen Loko"
@@ -52,6 +58,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/thirteenloko
 	startswith = list(/datum/reagent/ethanol/thirteenloko = 40)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/dr_gibb
 	name = "\improper Dr. Gibb"
@@ -60,6 +67,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/dr_gibb
 	startswith = list(/datum/reagent/drink/dr_gibb = 40)
+	gib_icon = "dr_gibb_gib"
 
 /obj/item/reagent_containers/vessel/can/starkist
 	name = "\improper Star-kist"
@@ -68,6 +76,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/starkist
 	startswith = list(/datum/reagent/drink/brownstar = 40)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/space_up
 	name = "\improper Space-Up"
@@ -76,6 +85,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/space_up
 	startswith = list(/datum/reagent/drink/space_up = 40)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/lemon_lime
 	name = "\improper Lemon-Lime"
@@ -84,6 +94,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/lemon_lime
 	startswith = list(/datum/reagent/drink/lemon_lime = 40)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/iced_tea
 	name = "\improper Vrisk Serket Iced Tea"
@@ -92,7 +103,8 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/iced_tea
 	startswith = list(/datum/reagent/drink/tea/icetea = 40)
-
+	gib_icon = ""
+	
 /obj/item/reagent_containers/vessel/can/grape_juice
 	name = "\improper Grapel Juice"
 	desc = "500 pages of rules of how to appropriately enter into a combat with this juice!"
@@ -100,7 +112,8 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/grape_juice
 	startswith = list(/datum/reagent/drink/juice/grape = 40)
-
+	gib_icon = ""
+	
 /obj/item/reagent_containers/vessel/can/tonic
 	name = "\improper T-Borg's Tonic Water"
 	desc = "Quinine tastes funny, but at least it'll keep that Space Malaria away."
@@ -108,6 +121,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/tonic
 	startswith = list(/datum/reagent/drink/tonic = 40)
+	gib_icon = "tonic-gib"
 
 /obj/item/reagent_containers/vessel/can/sodawater
 	name = "soda water"
@@ -116,6 +130,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/sodawater
 	startswith = list(/datum/reagent/drink/sodawater = 40)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/machpellabeer
 	name = "\improper Machpella Dark Beer"
@@ -124,6 +139,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/machpellabeer
 	startswith = list(/datum/reagent/ethanol/beer/dark/machpella = 40)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/applecider
 	name = "\improper MeadBy Apple Cider"
@@ -132,6 +148,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/applecider
 	startswith = list(/datum/reagent/ethanol/cider/apple = 40)
+	gib_icon = ""
 
 /obj/item/reagent_containers/vessel/can/red_mule
 	name = "\improper Red MULE"
@@ -140,3 +157,4 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/red_mule
 	startswith = list(/datum/reagent/drink/energy = 40)
+	gib_icon = ""
