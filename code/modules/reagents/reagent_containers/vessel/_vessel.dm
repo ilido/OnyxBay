@@ -424,8 +424,8 @@
 			smash(loc)
 		else
 			if(Proj.damage > 40)
-				qdel(src)
 				var/obj/item/Gibbed_can/C = new /obj/item/Gibbed_can(loc)
+				qdel(src)
 				C.icon_state = gib_icon
 				sleep(4)
 				qdel(C)
