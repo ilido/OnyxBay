@@ -424,8 +424,8 @@
 	set src in usr
 
 	if(!istype(C.get_active_hand(), src))
-			to_chat(C, SPAN("warning", "You need to hold \the [src] in hands!"))
-			return
+		to_chat(C, SPAN("warning", "You need to hold \the [src] in hands!"))
+		return
 
 	if(is_open_container())
 		reagents.splash(target, reagents.total_volume)
