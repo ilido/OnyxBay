@@ -22,6 +22,27 @@
 	if(N)
 		amount_per_transfer_from_this = N
 
+/obj/item/reagent_containers/proc/shake_up()
+	var/shake_up = TRUE
+	return(shake_up)
+
+/obj/item/reagent_containers/verb/shake()
+	set name = "Shake"
+	set category = "Object"
+	set src in usr
+
+	if(!istype(usr.get_active_hand(), src))
+		to_chat(usr, SPAN("warning", "You need to hold \the [src] in hands!"))
+		return
+
+	if(is_open_container())
+		reagents.splash(usr, reagents.total_volume)
+		visible_message(SPAN("warning", "From shaking the contents of the [src] spills onto the floor"))
+		return
+	else
+		shake_up()
+		return
+
 /obj/item/reagent_containers/Initialize()
 	. = ..()
 	if(!possible_transfer_amounts)
