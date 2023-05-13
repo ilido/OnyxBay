@@ -420,7 +420,7 @@
 
 /obj/item/reagent_containers/proc/shake_up()
 	var/shake_up = TRUE
-	return
+	return(shake_up)
 
 /obj/item/reagent_containers/verb/shake()
 	set name = "Shake"
