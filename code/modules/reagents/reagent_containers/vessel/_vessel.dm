@@ -322,7 +322,7 @@
 			spawn(0)
 				S.start()
 			reagents.clear_reagents()
-		else:
+		else
 			playsound(src, SFX_BREAK_WINDOW, 70, 1) //Поменять звук
 
 	if(istype(Proj, /obj/item/projectile/bullet))
@@ -426,12 +426,12 @@
 			if(Proj.damage > 40)
 				var/obj/item/Gibed_can/C = new /obj/item/Gibed_can(loc)
 				C.icon_state = gib_icon
-				С.pixel_x = pixel_x
+				C.pixel_x = pixel_x
 				C.pixel_y = pixel_y
 				qdel(src)
 				sleep(4)
 				qdel(C)
-			else:
+			else
 				visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
 				throw_at(get_step(src, pick(GLOB.alldirs)), rand(2, 3), 1)
 				make_hole(loc, Proj)
