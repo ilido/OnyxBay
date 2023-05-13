@@ -17,7 +17,7 @@
 	pickup_sound = 'sound/effects/using/bottles/pickup3.ogg'
 	can_be_splashed = TRUE
 
-	var/shake_up = null //if someone opens it, the contents will splash out on him and blind
+	var/shake_up //if someone opens it, the contents will splash out on him and blind
 	var/brittle = FALSE
 	var/smash_weaken = 0 // Decides how much weakening it may inflict (if any) when smashing someone's head
 
