@@ -309,7 +309,7 @@
 	B.throw_range = throw_range
 
 	var/icon/I = new(src.icon, src.icon_state)
-	I.Blend(B.bmark_outline, ICON_OVERLAY, 2, 3 )
+	I.Blend(B.bmark_outline, ICON_OVERLAY, 16, 10 )
 	B.icon = I
 
 	if(istype(Proj, /obj/item/projectile/energy/) && !istype (Proj, /obj/item/projectile/energy/electrode))
@@ -424,9 +424,11 @@
 			smash(loc)
 		else
 			if(Proj.damage > 40)
-				var/obj/item/Gibbed_can/C = new /obj/item/Gibbed_can(loc)
-				qdel(src)
+				var/obj/item/Gibed_can/C = new /obj/item/Gibed_can(loc)
 				C.icon_state = gib_icon
+				С.pixel_x = pixel_x
+				C.pixel_y = pixel_y
+				qdel(src)
 				sleep(4)
 				qdel(C)
 			else:
@@ -478,8 +480,8 @@
 	unacidable = 1
 	var/icon/bmark_outline = icon("icons/effects/effects.dmi", "scorch")
 
-/obj/item/Gibbed_can
-	name = "Gibbed can"
+/obj/item/Gibed_can
+	name = "Gibed can"
 	icon = 'icons/obj/reagent_containers/cans.dmi'
 	w_class = ITEM_SIZE_SMALL
 	attack_verb = list("stabbed", "slashed", "attacked")
