@@ -11,6 +11,7 @@
 	var/can_be_splashed = FALSE
 	var/list/startswith // List of reagents to start with
 	var/gib_icon
+	var/shake_up //if someone opens it, the contents will splash out on him and blind
 
 /obj/item/reagent_containers/verb/set_APTFT() //set amount_per_transfer_from_this
 	set name = "Set transfer amount"
