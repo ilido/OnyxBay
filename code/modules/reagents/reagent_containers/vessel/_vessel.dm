@@ -17,6 +17,7 @@
 	pickup_sound = 'sound/effects/using/bottles/pickup3.ogg'
 	can_be_splashed = TRUE
 
+	var/shake_up = null //if someone opens it, the contents will splash out on him and blind
 	var/brittle = FALSE
 	var/smash_weaken = 0 // Decides how much weakening it may inflict (if any) when smashing someone's head
 
@@ -416,6 +417,27 @@
 			reagents.trans_to_mob(C, reagents.total_volume, CHEM_INGEST)
 	else
 		to_chat(C, SPAN("notice", "You need to open \the [src] first!"))
+
+/obj/item/reagent_containers/verb/shake()
+	set name = "Shake"
+	set category = "Object"
+	set src in usr
+
+	if(!istype(C.get_active_hand(), src))
+			to_chat(C, SPAN("warning", "You need to hold \the [src] in hands!"))
+			return
+
+	if(is_open_container())
+		reagents.splash(target, reagents.total_volume)
+		visible_message(SPAN("warning", "From shaking the contents of the [src] spills onto the floor"))
+		return
+	else
+		shake_up(src)
+		return
+
+/obj/item/reagent_containers/vessel/shake_up(vessel)
+	shake_up = TRUE
+	return(shake_up)
 
 /obj/item/reagent_containers/vessel/bullet_act(obj/item/projectile/Proj)
 	if(Proj.get_structure_damage())
