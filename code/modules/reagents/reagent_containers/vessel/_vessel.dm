@@ -429,7 +429,7 @@
 				C.pixel_x = pixel_x
 				C.pixel_y = pixel_y
 				qdel(src)
-				sleep(4)
+				sleep(3.8)
 				qdel(C)
 			else
 				visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
