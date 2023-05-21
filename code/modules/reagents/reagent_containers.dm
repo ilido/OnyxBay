@@ -11,7 +11,6 @@
 	var/can_be_splashed = FALSE
 	var/list/startswith // List of reagents to start with
 	var/gib_icon
-	var/shake_up //if someone opens it, the contents will splash out on him and blind
 
 /obj/item/reagent_containers/verb/set_APTFT() //set amount_per_transfer_from_this
 	set name = "Set transfer amount"
@@ -21,27 +20,6 @@
 	var/N = input("Amount per transfer from this:","[src]") as null|anything in cached_number_list_decode(possible_transfer_amounts)
 	if(N)
 		amount_per_transfer_from_this = N
-
-/obj/item/reagent_containers/proc/shake_up()
-	var/shake_up = TRUE
-	return(shake_up)
-
-/obj/item/reagent_containers/verb/shake()
-	set name = "Shake"
-	set category = "Object"
-	set src in usr
-
-	if(!istype(usr.get_active_hand(), src))
-		to_chat(usr, SPAN("warning", "You need to hold \the [src] in hands!"))
-		return
-
-	if(is_open_container())
-		reagents.splash(usr, reagents.total_volume)
-		visible_message(SPAN("warning", "From shaking the contents of the [src] spills onto the floor"))
-		return
-	else
-		shake_up()
-		return
 
 /obj/item/reagent_containers/Initialize()
 	. = ..()
