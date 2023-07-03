@@ -499,7 +499,7 @@ BLIND     // can't see anything
 	var/list/say_messages
 	var/list/say_verbs
 	var/down_gas_transfer_coefficient = 0
-	var/down_body_parts_covered = 0
+	var/down_body_parts_covered = NO_BODYPARTS
 	var/down_icon_state = 0
 	var/down_item_flags = 0
 	var/down_flags_inv = 0
@@ -629,6 +629,9 @@ BLIND     // can't see anything
 		user.visible_message("<span class='notice'>\The [user] shoves \the [I] into \the [src].</span>", range = 1)
 		verbs |= /obj/item/clothing/shoes/proc/draw_knife
 		update_icon()
+	else if(istype(I, /obj/item/flame/match))
+		var/obj/item/flame/match/M = I
+		M.light_by_shoes(user)
 	else
 		return ..()
 

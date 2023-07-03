@@ -62,15 +62,27 @@
 	return 1
 
 
-/obj/structure/table/MouseDrop_T(obj/O, mob/user)
-	if(!istype(O, /obj/item) || user.get_active_hand() != O)
+/obj/structure/table/MouseDrop_T(obj/O, mob/user, params)
+	if(!istype(O, /obj/item))
+		return ..()
+	var/turf/T = get_turf(O)
+	var/table_found = FALSE
+	for(var/obj/item in T.contents)
+		if(istype(item, /obj/structure/table))
+			table_found = TRUE
+			break
+	if(O.loc == loc)
+		auto_align(O, params)
+		O.forceMove(loc)
+		return
+	else if(user.get_active_hand() != O && !(T.Adjacent(src, user) && table_found))
 		return ..()
 	if(isrobot(user))
 		return
-	if(!user.drop(O))
+	if(!user.drop(O) && (!T && !T.Adjacent(src, user)))
 		return
-	if(O.loc != loc)
-		step(O, get_dir(O, src))
+	O.forceMove(loc)
+	auto_align(O, params)
 	return
 
 /obj/structure/table/attack_hand(mob/user as mob)
@@ -183,6 +195,9 @@ Note: This proc can be overwritten to allow for different types of auto-alignmen
 */
 /obj/item/var/center_of_mass = "x=16;y=16" //can be null for no exact placement behaviour
 /obj/structure/table/proc/auto_align(obj/item/W, click_params)
+	// If item is anchored, we can't move it.
+	if(W.anchored)
+		return
 	if (!W.center_of_mass) // Clothing, material stacks, generally items with large sprites where exact placement would be unhandy.
 		W.pixel_x = rand(-W.randpixel, W.randpixel)
 		W.pixel_y = rand(-W.randpixel, W.randpixel)

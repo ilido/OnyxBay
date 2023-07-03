@@ -454,6 +454,12 @@
 	required_reagents = list(/datum/reagent/radium = 1, /datum/reagent/potassium = 1, /datum/reagent/acid/hydrochloric = 1)
 	result_amount = 3
 
+/datum/chemical_reaction/hair_grower
+	name = "Hair Grower"
+	result = /datum/reagent/toxin/hair_grower
+	required_reagents = list(/datum/reagent/arithrazine = 1, /datum/reagent/potassium = 1, /datum/reagent/acid/polyacid = 1)
+	result_amount = 1
+
 /datum/chemical_reaction/noexcutite
 	name = "Noexcutite"
 	result = /datum/reagent/noexcutite
@@ -505,6 +511,10 @@
 
 /datum/chemical_reaction/explosion/potassium
 	required_reagents = list(/datum/reagent/water = 1, /datum/reagent/potassium = 1)
+
+/datum/chemical_reaction/explosion/hair_solution
+	required_reagents = list(/datum/reagent/toxin/hair_grower = 1, /datum/reagent/toxin/hair_remover = 1)
+	result_amount = 1
 
 /datum/chemical_reaction/explosion/nitroglycerin
 	name = "Nitroglycerin"
@@ -1278,8 +1288,7 @@
 
 /datum/chemical_reaction/metroid/golem/on_reaction(datum/reagents/holder)
 	..()
-	var/obj/effect/golemrune/Z = new /obj/effect/golemrune(get_turf(holder.my_atom))
-	Z.announce_to_ghosts()
+	new /obj/item/golem_shell(get_turf(holder.my_atom))
 
 //Sepia
 /datum/chemical_reaction/metroid/film
@@ -1314,13 +1323,7 @@
 	reaction_sound = 'sound/effects/teleport.ogg'
 
 /datum/chemical_reaction/metroid/teleport/on_reaction(datum/reagents/holder)
-	var/list/turfs = list()
-	for(var/turf/T in orange(holder.my_atom,6))
-		turfs += T
-	for(var/atom/movable/a in viewers(holder.my_atom,2))
-		if(!a.simulated)
-			continue
-		a.forceMove(pick(turfs))
+	new /obj/item/stack/telecrystal/bluespace_crystal(get_turf(holder.my_atom))
 	..()
 
 //pyrite

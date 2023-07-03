@@ -9,6 +9,9 @@
 /obj/item/clothing/gloves/color/white
 	color = COLOR_WHITE
 
+/obj/item/clothing/gloves/color/purple
+	color = COLOR_PURPLE
+
 /obj/item/clothing/gloves/color/white/modified
 	item_flags = ITEM_FLAG_PREMODIFIED
 
@@ -22,6 +25,14 @@
 	name = "long evening gloves"
 	desc = "A pair of long gloves for ladies wearing evening dresses."
 	icon_state = "long_evening_gloves"
+
+/obj/item/clothing/gloves/color/fingerless_gloves
+	name = "fingerless gloves"
+	desc = "A pair of fingerless gloves, they look like they belong to a soul hungry for rebellion."
+	icon_state = "color_fingerless"
+	body_parts_covered = NO_BODYPARTS	//fingerless gloves don't prevent from leaving fingerprints
+	clipped = TRUE
+	species_restricted = list("exclude", SPECIES_NABBER, SPECIES_VOX)
 
 /obj/item/clothing/gloves/rainbow/modified
 	item_flags = ITEM_FLAG_PREMODIFIED

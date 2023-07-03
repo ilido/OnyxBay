@@ -588,7 +588,7 @@
 	icon_state = "xburger"
 	filling_color = "#43de18"
 	center_of_mass = "x=16;y=11"
-	startswith = list(/datum/reagent/nutriment/protein = 8)
+	startswith = list(/datum/reagent/nutriment/protein = 8, /datum/reagent/xenomicrobes = 5)
 	bitesize = 2
 
 /obj/item/reagent_containers/food/clownburger
@@ -962,6 +962,19 @@
 	startswith = list(
 		/datum/reagent/nutriment/protein = 2,
 		/datum/reagent/nutriment/garlicsauce = 2)
+	bitesize = 3
+
+/obj/item/reagent_containers/food/porkchop
+	name = "Pork chop"
+	desc = "This steak tastes like haram."
+	icon_state = "porkchop"
+	trash = /obj/item/trash/dish/plate
+	filling_color = "#7a3d11"
+	center_of_mass = "x=16;y=13"
+	startswith = list(
+		/datum/reagent/nutriment/protein = 4,
+		/datum/reagent/sodiumchloride = 1,
+		/datum/reagent/blackpepper = 1)
 	bitesize = 3
 
 /obj/item/reagent_containers/food/spacylibertyduff
@@ -1894,6 +1907,15 @@
 	center_of_mass = "x=17;y=20"
 	startswith = list(/datum/reagent/nutriment/protein = 2)
 	bitesize = 2
+
+/obj/item/reagent_containers/food/bacon
+	name = "bacon"
+	desc = "A thin slice of pork."
+	icon = 'icons/obj/food.dmi'
+	icon_state = "bacon"
+	center_of_mass = "x=17;y=20"
+	startswith = list(/datum/reagent/nutriment/protein = 2)
+	bitesize = 1
 
 /obj/item/reagent_containers/food/rawfaggot
 	name = "raw faggot"

@@ -20,7 +20,7 @@
 		if(isnull(model))
 			model = "Unbranded"
 		model_info = model
-		var/datum/robolimb/R = all_robolimbs[model]
+		var/datum/robolimb/R = GLOB.all_robolimbs[model]
 		if(R)
 			SetName("[R.company] [initial(name)]")
 			desc = "[R.desc]"
@@ -185,7 +185,7 @@
 					to_chat(user, "<span class='notice'>\The [W] is completely unresponsive; there's no point.</span>")
 					return
 
-			if(B.stat == DEAD)
+			if(B.is_ooc_dead())
 				to_chat(user, "<span class='warning'>Sticking a dead [W] into the frame would sort of defeat the purpose.</span>")
 				return
 

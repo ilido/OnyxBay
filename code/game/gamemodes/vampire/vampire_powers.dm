@@ -152,12 +152,12 @@
 	if(vampire.stealth)
 		endsuckmsg += "They will remember nothing of this occurance, provided they survived."
 	user.visible_message(SPAN_DANGER("[user.name] stops biting [T.name]'s neck!"), SPAN_NOTICE("[endsuckmsg]"))
+	T.paralysis = 0
 	if(target_aware)
-		T.paralysis = 0
-		if(T.stat != DEAD && vampire.stealth)
+		if(!T.is_ooc_dead() && vampire.stealth)
 			spawn()			//Spawned in the same manner the brain damage alert is, just so the proc keeps running without stops.
 				alert(T, "You remember NOTHING about the cause of your blackout. Instead, you remember having a pleasant encounter with [user.name].", "Bitten by a vampire")
-		else if(T.stat != DEAD)
+		else if(!T.is_ooc_dead())
 			spawn()
 				alert(T, "You remember everything that happened. Remember how blood was sucked from your neck. It gave you pleasure, like a pleasant dream. You feel great. How you react to [owner.name]'s actions is up to you.", "Bitten by a vampire")
 	user.verbs -= /datum/vampire/proc/vampire_drain_blood
@@ -937,7 +937,7 @@
 		return
 
 	if (isfakeliving(user))
-		if (user.stat == DEAD)
+		if (user.is_ooc_dead())
 			to_chat(user, SPAN_WARNING("You cannot appear alive while dead"))
 			user.status_flags &= ~FAKELIVING
 
@@ -973,7 +973,7 @@
 	to_chat(T, SPAN_NOTICE("You feel pure bliss as [user] touches you."))
 	vampire.use_blood(power_use_cost)
 
-	T.reagents.add_reagent(/datum/reagent/rezadone, 3)
+	T.reagents.add_reagent(/datum/reagent/rezadone, 2)
 	T.reagents.add_reagent(/datum/reagent/painkiller, 1.0) //enough to get back onto their feet
 
 // Convert a human into a vampire.

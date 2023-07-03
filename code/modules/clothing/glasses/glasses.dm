@@ -70,7 +70,7 @@
 		slot_l_hand_str = "blindfold", // Looks kinda close ngl
 		slot_r_hand_str = "blindfold"
 		)
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	one_eyed = TRUE
 	var/flipped = FALSE // Indicates left or right eye; 0 = on the right
 
@@ -98,7 +98,7 @@
 		slot_l_hand_str = "headset",
 		slot_r_hand_str = "headset"
 		)
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	one_eyed = TRUE
 
 /obj/item/clothing/glasses/regular
@@ -106,7 +106,7 @@
 	desc = "Made by Nerd. Co."
 	icon_state = "glasses"
 	prescription = 7
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/glasses/regular/scanners
 	name = "scanning goggles"
@@ -124,19 +124,19 @@
 	name = "3D glasses"
 	desc = "A long time ago, people used these glasses to makes images from screens threedimensional."
 	icon_state = "3d"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/glasses/gglasses
 	name = "green glasses"
 	desc = "Forest green glasses, like the kind you'd wear when hatching a nasty scheme."
 	icon_state = "gglasses"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/glasses/rglasses
 	name = "red glasses"
 	desc = "They make you look like a wannabe elite agent."
 	icon_state = "bigredglasses"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/glasses/sunglasses
 	name = "sunglasses"
@@ -251,3 +251,18 @@
 	armor = list(melee = 20, bullet = 20, laser = 20, energy = 15, bomb = 20, bio = 0)
 	siemens_coefficient = 0.6
 	electric = TRUE
+
+/obj/item/clothing/glasses/magma_dark_glasses
+	name = "dark gar glasses"
+	desc = "The coolest dark-colored glasses in the universe! At least according to ads."
+	icon_state = "magma_dark_glasses"
+
+/obj/item/clothing/glasses/magma_red_glasses
+	name = "red gar glasses"
+	desc = "The coolest red-colored glasses in the universe! At least according to ads."
+	icon_state = "magma_red_glasses"
+
+/obj/item/clothing/glasses/magma_dual_glasses
+	name = "dual gar glasses"
+	desc = "The coolest dual-colored glasses in the universe! At least according to ads."
+	icon_state = "magma_dual_glasses"

@@ -9,7 +9,7 @@
 		)
 	desc = "It's good to be emperor."
 	siemens_coefficient = 0.9
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 10, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/hairflower
@@ -17,7 +17,7 @@
 	icon_state = "hairflower"
 	desc = "Smells nice."
 	slot_flags = SLOT_HEAD | SLOT_EARS
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/head/hairflower/blue
 	icon_state = "hairflower_blue"
@@ -57,21 +57,21 @@
 	icon_state = "tophat"
 	item_state = "tophat"
 	siemens_coefficient = 0.9
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/redcoat
 	name = "redcoat's hat"
 	icon_state = "redcoat"
 	desc = "<i>'I guess it's a redhead.'</i>"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 10, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/mailman
 	name = "mail cap"
 	icon_state = "mailman"
 	desc = "<i>Choo-choo</i>!"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/head/plaguedoctorhat
 	name = "plague doctor's hat"
@@ -79,7 +79,7 @@
 	icon_state = "plaguedoctor"
 	permeability_coefficient = 0.01
 	siemens_coefficient = 0.9
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/hasturhood
@@ -94,7 +94,7 @@
 	desc = "It allows quick identification of trained medical personnel."
 	icon_state = "nursehat"
 	siemens_coefficient = 0.9
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/head/syndicatefake
 	name = "red space-helmet replica"
@@ -154,7 +154,7 @@
 	name = "rabbit ears"
 	desc = "Wearing these makes you looks useless, and only good for your sex appeal."
 	icon_state = "bunny"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/head/flatcap
 	name = "flat cap"
@@ -171,21 +171,21 @@
 	name = "pirate hat"
 	desc = "Yarr."
 	icon_state = "pirate"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/hgpiratecap
 	name = "pirate hat"
 	desc = "Yarr."
 	icon_state = "hgpiratecap"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 10, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/bandana
 	name = "pirate bandana"
 	desc = "Yarr."
 	icon_state = "bandana"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/bandana/green
@@ -203,7 +203,7 @@
 	name = "bowler-hat"
 	desc = "Gentleman, elite aboard!"
 	icon_state = "bowler"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
 //stylish bs12 hats
@@ -212,7 +212,7 @@
 	name = "bowler hat"
 	icon_state = "bowler_hat"
 	desc = "For the gentleman of distinction."
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/beaverhat
@@ -298,7 +298,7 @@
 		slot_r_hand_str = "pwig",
 		)
 	flags_inv = BLOCKHAIR
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 5, laser = 0,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/hijab
@@ -312,14 +312,14 @@
 	name = "kippa"
 	desc = "A small, brimless cap."
 	icon_state = "kippa"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/turban
 	name = "turban"
 	desc = "A sturdy cloth, worn around the head."
 	icon_state = "turban"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	flags_inv = BLOCKHEADHAIR //Shows beards!
 	armor = list(melee = 10, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0)
 
@@ -335,7 +335,7 @@
 	desc = "A short, rounded skullcap usually worn for religious purposes."
 	icon_state = "taqiyah"
 	item_state = "taqiyah"
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0)
 
 /obj/item/clothing/head/tank
@@ -359,9 +359,9 @@
 	tint = TINT_BLIND
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|BLOCKHAIR
 	body_parts_covered = HEAD|FACE|EYES
+	visor_body_parts_covered = NO_BODYPARTS
 	flash_protection = FLASH_PROTECTION_MAJOR
 	armor = list(melee = 20, bullet = 10, laser = 10,energy = 5, bomb = 5, bio = 0)
-	has_visor = 0
 
 /obj/item/clothing/head/rasta
 	name = "rasta hat"
@@ -375,3 +375,42 @@
 	item_state = "sombrero"
 	desc = "You can practically taste the fiesta."
 	armor = list(melee = 10, bullet = 10, laser = 5,energy = 0, bomb = 30, bio = 0)
+
+/obj/item/clothing/head/samura_hat
+	name = "samurai hat"
+	icon_state = "samura_hat"
+	item_state = "samura_hat"
+	desc = "Asian straw hat with cool stripes of fabric throughout the brim."
+	armor = list(melee = 10, bullet = 10, laser = 5,energy = 0, bomb = 0, bio = 0)
+
+/obj/item/clothing/head/agua_helmet
+	name = "head-worn aquarium"
+	icon_state = "agua_helmet"
+	item_state = "agua_helmet"
+	desc = "Water with some fishes in the glass aquarium."
+	armor = list(melee = 10, bullet = 10, laser = 5,energy = 0, bomb = 0, bio = 0)
+
+/obj/item/clothing/head/crown
+	name = "crown"
+	icon_state = "crown"
+	item_state = "crown"
+	desc = "Royal gold worthy of a true ruler of the world."
+	armor = list(melee = 10, bullet = 10, laser = 5,energy = 0, bomb = 0, bio = 0)
+
+/obj/item/clothing/head/antenna
+	name = "antenna"
+	icon_state = "antenna"
+	item_state = "antenna"
+	desc = "People of the past thought that alien species walked around with such antennas. It turned out that they really did."
+
+/obj/item/clothing/head/tiara
+	name = "tiara"
+	icon_state = "tiara"
+	item_state = "tiara"
+	desc = "Silver crown adorned with jewelry stones."
+
+/obj/item/clothing/head/vpp_cap
+	name = "vpp cap"
+	icon_state = "vpp_cap"
+	item_state = "vpp_cap"
+	desc = "Green cap of unknown design. The emblem proudly bears the abbreviation V.P.P."

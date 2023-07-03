@@ -624,7 +624,7 @@
 	icon_state = "gear_harness"
 	worn_state = "gear_harness"
 	species_restricted = null
-	body_parts_covered = 0
+	body_parts_covered = NO_BODYPARTS
 
 /obj/item/clothing/under/grayson
 	name = "\improper Grayson overalls"
@@ -662,6 +662,50 @@
 	name = "\improper Hephaestus jumpsuit"
 	desc = "A jumpsuit belonging to Hephaestus Industries, a megacorp best known for its arms production."
 	icon_state = "heph"
+
+/obj/item/clothing/under/plugwhite
+	name = "White Plug jumpsuit"
+	desc = "White latex jumpsuit looking like an old-movie superhero suit. Very sexy though"
+	icon_state = "plug_white"
+	w_class = ITEM_SIZE_HUGE//bulky item
+	gas_transfer_coefficient = 0.01
+	permeability_coefficient = 0.02
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS //Needs gloves and shoes with cold protection to be fully protected.
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
+
+/obj/item/clothing/under/plugred
+	name = "Red Plug jumpsuit"
+	desc = "Red latex jumpsuit looking like an old-movie superhero suit. Very sexy though"
+	icon_state = "plug_red"
+	w_class = ITEM_SIZE_HUGE//bulky item
+	gas_transfer_coefficient = 0.01
+	permeability_coefficient = 0.02
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS //Needs gloves and shoes with cold protection to be fully protected.
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
+
+/obj/item/clothing/under/plugblack
+	name = "Black Plug jumpsuit"
+	desc = "Black latex jumpsuit looking like an old-movie superhero suit. Very sexy though"
+	icon_state = "plug_black"
+	w_class = ITEM_SIZE_HUGE//bulky item
+	gas_transfer_coefficient = 0.01
+	permeability_coefficient = 0.02
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS //Needs gloves and shoes with cold protection to be fully protected.
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
+
+/obj/item/clothing/under/plugblue
+	name = "Blue Plug jumpsuit"
+	desc = "Blue latex jumpsuit looking like an old-movie superhero suit. Very sexy though"
+	icon_state = "plug_blue"
+	w_class = ITEM_SIZE_HUGE//bulky item
+	gas_transfer_coefficient = 0.01
+	permeability_coefficient = 0.02
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS //Needs gloves and shoes with cold protection to be fully protected.
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 
 /obj/item/clothing/under/savage_hunter
 	name = "savage hunter's hides"

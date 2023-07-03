@@ -185,12 +185,8 @@
 			return global.all_money_accounts;
 		if("all_objectives")
 			return global.all_objectives;
-		if("all_robolimbs")
-			return global.all_robolimbs;
 		if("all_species")
 			return global.all_species;
-		if("all_ui_styles")
-			return global.all_ui_styles;
 		if("announced_news_types")
 			return global.announced_news_types;
 		if("antag_add_finished")
@@ -321,8 +317,6 @@
 			return global.department_accounts;
 		if("department_radio_keys")
 			return global.department_radio_keys;
-		if("description_icons")
-			return global.description_icons;
 		if("dna_activity_bounds")
 			return global.dna_activity_bounds;
 		if("dna_genes")
@@ -409,10 +403,6 @@
 			return global.gear_tweak_free_color_choice_;
 		if("gender_datums")
 			return global.gender_datums;
-		if("ghost_darkness_images")
-			return global.ghost_darkness_images;
-		if("ghost_sightless_images")
-			return global.ghost_sightless_images;
 		if("ghost_traps")
 			return global.ghost_traps;
 		if("global_message_listener")
@@ -649,8 +639,6 @@
 			return global.priv_station_access;
 		if("priv_syndicate_access")
 			return global.priv_syndicate_access;
-		if("prometheans")
-			return global.prometheans;
 		if("protected_objects")
 			return global.protected_objects;
 		if("rad_collectors")
@@ -687,8 +675,6 @@
 			return global.robot_hud_colours;
 		if("robot_inventory")
 			return global.robot_inventory;
-		if("robot_modules")
-			return global.robot_modules;
 		if("round_start_time")
 			return global.round_start_time;
 		if("roundstart_hour")
@@ -1058,12 +1044,8 @@
 			global.all_money_accounts=newval;
 		if("all_objectives")
 			global.all_objectives=newval;
-		if("all_robolimbs")
-			global.all_robolimbs=newval;
 		if("all_species")
 			global.all_species=newval;
-		if("all_ui_styles")
-			global.all_ui_styles=newval;
 		if("all_virtual_listeners")
 			global.all_virtual_listeners=newval;
 		if("announced_news_types")
@@ -1198,8 +1180,6 @@
 			global.department_accounts=newval;
 		if("department_radio_keys")
 			global.department_radio_keys=newval;
-		if("description_icons")
-			global.description_icons=newval;
 		if("dna_activity_bounds")
 			global.dna_activity_bounds=newval;
 		if("dna_genes")
@@ -1286,10 +1266,6 @@
 			global.gear_tweak_free_color_choice_=newval;
 		if("gender_datums")
 			global.gender_datums=newval;
-		if("ghost_darkness_images")
-			global.ghost_darkness_images=newval;
-		if("ghost_sightless_images")
-			global.ghost_sightless_images=newval;
 		if("ghost_traps")
 			global.ghost_traps=newval;
 		if("global_message_listener")
@@ -1526,8 +1502,6 @@
 			global.priv_station_access=newval;
 		if("priv_syndicate_access")
 			global.priv_syndicate_access=newval;
-		if("prometheans")
-			global.prometheans=newval;
 		if("protected_objects")
 			global.protected_objects=newval;
 		if("rad_collectors")
@@ -1564,8 +1538,6 @@
 			global.robot_hud_colours=newval;
 		if("robot_inventory")
 			global.robot_inventory=newval;
-		if("robot_modules")
-			global.robot_modules=newval;
 		if("round_start_time")
 			global.round_start_time=newval;
 		if("roundstart_hour")
@@ -1847,9 +1819,7 @@
 	"all_languages",
 	"all_money_accounts",
 	"all_objectives",
-	"all_robolimbs",
 	"all_species",
-	"all_ui_styles",
 	"all_virtual_listeners",
 	"announced_news_types",
 	"antag_add_finished",
@@ -1925,7 +1895,6 @@
 	"delta_index",
 	"department_accounts",
 	"department_radio_keys",
-	"description_icons",
 	"dna_activity_bounds",
 	"dna_genes",
 	"doppler_arrays",
@@ -1970,8 +1939,6 @@
 	"hash_to_gear",
 	"gear_tweak_free_color_choice_",
 	"gender_datums",
-	"ghost_darkness_images",
-	"ghost_sightless_images",
 	"ghost_traps",
 	"global_message_listener",
 	"global_vars_",
@@ -2039,6 +2006,7 @@
 	"meteors_threatening",
 	"mil_branches",
 	"minevendor_list",
+	"minevendor_prison_list",
 	"mining_floors",
 	"mining_walls",
 	"minor_air_alarms",
@@ -2099,7 +2067,6 @@
 	"priv_station_access",
 	"priv_syndicate_access",
 	"prizes",
-	"prometheans",
 	"protected_objects",
 	"rad_collectors",
 	"radio_controller",
@@ -2119,7 +2086,6 @@
 	"rkeys",
 	"robot_hud_colours",
 	"robot_inventory",
-	"robot_modules",
 	"round_start_time",
 	"roundstart_hour",
 	"rune_list",
