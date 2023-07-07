@@ -9,6 +9,7 @@
 	var/hacked = 0   // Has been emagged, no access restrictions.
 
 	var/ui_template = "shuttle_control_console.tmpl"
+	var/map_template = "shuttle_map_content.tmpl"
 
 
 /obj/machinery/computer/shuttle_control/attack_hand(user as mob)
