@@ -9,7 +9,7 @@
 	var/hacked = 0   // Has been emagged, no access restrictions.
 
 	var/ui_template = "shuttle_control_console.tmpl"
-	var/map_template = "shuttle_map_content.tmpl"
+
 
 
 /obj/machinery/computer/shuttle_control/attack_hand(user as mob)
@@ -79,6 +79,10 @@
 		if (newcode && CanInteract(usr, GLOB.default_state))
 			shuttle.set_docking_codes(uppertext(newcode))
 		return TOPIC_REFRESH
+		
+	if(href_list["map"])
+		SSnano.try_update_ui(user, src, "second", "shuttle_map_content.tmpl", "Sector Map", 900,800)
+		return TOPIC_REFRESH
 
 /obj/machinery/computer/shuttle_control/ui_interact(mob/user, ui_key = "main", datum/nanoui/ui = null, force_open = 1)
 	var/datum/shuttle/autodock/shuttle = SSshuttle.shuttles[shuttle_tag]
@@ -91,6 +95,11 @@
 	ui = SSnano.try_update_ui(user, src, ui_key, ui, data, force_open)
 	if(!ui)
 		ui = new(user, src, ui_key, ui_template, "[shuttle_tag] Shuttle Control", 470, 450)
+
+		ui.add_template("mapContent", "crew_monitor_map_content.tmpl")
+
+		ui.add_template("mapHeader", "crew_monitor_map_header.tmpl")
+		
 		ui.set_initial_data(data)
 		ui.open()
 		ui.set_auto_update(1)
