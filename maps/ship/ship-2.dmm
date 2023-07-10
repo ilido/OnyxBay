@@ -1,13 +1,13 @@
-"ab" = (/obj/effect/floor_decal/corner/red{dir = 5},/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/security/brig)
+"ab" = (/obj/machinery/pipedispenser/disposal,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "aJ" = (/obj/machinery/light/small/hl{dir = 1},/turf/simulated/floor/trim/wood,/area/crew_quarters/mess)
 "aP" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/structure/table/reinforced,/turf/simulated/floor/trim/carpet/oldred,/area/hallway/primary/frontier/central_west)
 "ba" = (/obj/machinery/vending/engivend,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "bl" = (/obj/structure/bed,/obj/item/bedsheet/brown,/obj/machinery/light/small{dir = 8},/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/obj/effect/landmark/joinlate,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin5)
 "bm" = (/turf/simulated/floor/trim/carpet/oldred,/area/hallway/primary/frontier/central_west)
-"bo" = (/obj/effect/floor_decal/corner/red{dir = 10},/obj/machinery/autolathe{desc = "Your typical Autolathe. It appears to have much more options than your regular one, however..."; hacked = 1; name = "Unlocked Autolathe"},/turf/simulated/floor/tiled/rough,/area/security/brig)
+"bo" = (/obj/structure/railing/wood,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "bq" = (/obj/machinery/door/airlock/glass,/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "br" = (/obj/structure/bed/chair{dir = 8},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
-"bJ" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/effect/floor_decal/industrial/warning,/obj/effect/floor_decal/corner/grey{dir = 6},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"bJ" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/effect/floor_decal/industrial/warning,/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "cm" = (/obj/effect/floor_decal/rust,/turf/simulated/floor,/area/engineering/workshop)
 "cq" = (/obj/effect/floor_decal/corner/grey{dir = 5},/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "cs" = (/turf/space,/area/space)
@@ -15,37 +15,37 @@
 "cA" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "cB" = (/turf/space/transit/east,/area/space)
 "cC" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"cF" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"cH" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"cU" = (/obj/effect/floor_decal/stairs,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"cF" = (/obj/structure/railing/wood{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"cH" = (/turf/simulated/open,/area/space)
+"cU" = (/obj/effect/floor_decal/stairs,/obj/structure/railing/steel{dir = 8},/obj/structure/railing/steel{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "cW" = (/obj/structure/sign/poster{pixel_x = 32},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "dd" = (/obj/machinery/pipedispenser/disposal,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"dr" = (/obj/machinery/papershredder,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
+"dr" = (/obj/machinery/papershredder,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "dt" = (/obj/machinery/vending/snack/medbay,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
 "dA" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"dB" = (/obj/effect/floor_decal/corner/red{dir = 10},/turf/simulated/floor/tiled/rough,/area/security/brig)
-"dI" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 6},/obj/machinery/light/small{dir = 1},/turf/simulated/floor,/area/engineering/workshop)
+"dB" = (/obj/structure/window_frame/grille,/turf/simulated/wall/r_wall,/area/space)
+"dI" = (/obj/structure/table/reinforced,/obj/item/device/flashlight/maglight,/obj/item/device/radio,/obj/item/device/radio,/obj/item/device/radio,/obj/item/device/flashlight/maglight,/obj/item/device/flashlight/maglight,/obj/item/clothing/accessory/badge/holo,/obj/item/clothing/accessory/badge/holo,/obj/item/hand_labeler,/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "dV" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/corner/grey{dir = 6},/obj/effect/floor_decal/stairs,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "ea" = (/obj/structure/bed/chair{dir = 8},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/mess)
 "er" = (/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "eS" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/effect/floor_decal/rust,/obj/structure/window_frame/grille/rglass,/obj/structure/shuttle/engine/heater{dir = 8},/turf/simulated/floor,/area/engineering/workshop)
 "eX" = (/obj/structure/closet/cabinet,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "eY" = (/obj/structure/closet/secure_closet/hop2,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
-"eZ" = (/obj/structure/closet/secure_closet/security,/obj/effect/floor_decal/industrial/outline/red,/obj/item/storage/secure/guncase/security,/obj/machinery/light/small,/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
+"eZ" = (/obj/structure/table/reinforced,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/glass{amount = 50; pixel_x = 2; pixel_y = 4},/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "fg" = (/obj/machinery/door/airlock,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
 "fn" = (/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "fC" = (/obj/structure/sink{dir = 4; pixel_x = 11},/obj/structure/mirror{pixel_x = 30},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "fG" = (/obj/structure/sink{dir = 4; pixel_x = 11},/obj/structure/mirror{pixel_x = 30},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin4)
-"fM" = (/obj/effect/floor_decal/corner/red{dir = 6},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/security/brig)
+"fM" = (/obj/effect/floor_decal/corner/red{dir = 5},/turf/simulated/wall/r_wall,/area/security/brig)
 "fT" = (/obj/machinery/door/airlock,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
-"gb" = (/obj/effect/floor_decal/corner/grey{dir = 5},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"gb" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/freezer,/area/security/brig)
 "gh" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/corner/grey{dir = 6},/obj/effect/floor_decal/stairs,/turf/simulated/floor/tiled/rough,/area/crew_quarters/kitchen)
 "gp" = (/obj/structure/closet/secure_closet/engineering_personal,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "gG" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/freezer,/area/crew_quarters/toilet)
 "gN" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin5)
 "hn" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/machinery/door/window/southright{dir = 1; name = "Research and Development Desk"; req_access = list(7)},/obj/machinery/door/window/southright{name = "Research and Development Desk"; req_access = list(7)},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"hQ" = (/obj/structure/window_frame/grille/rglass,/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/security/brig)
-"ie" = (/obj/structure/table/reinforced,/obj/item/device/flashlight/maglight,/obj/item/device/radio,/obj/item/device/radio,/obj/item/device/radio,/obj/item/device/flashlight/maglight,/obj/item/device/flashlight/maglight,/obj/item/clothing/accessory/badge/holo,/obj/item/clothing/accessory/badge/holo,/obj/item/hand_labeler,/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
+"hQ" = (/obj/structure/window_frame/grille/rglass,/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/hallway/primary/frontier/central_west)
+"ie" = (/obj/structure/curtain/open/bed,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "ii" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
 "ir" = (/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
 "iB" = (/obj/machinery/door/airlock/glass_security{name = "Security Lobby"},/obj/machinery/door/blast/regular{density = 0; icon_state = "pdoor0"; id = "Prison Gate"; name = "Security Blast Door"; opacity = 0},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
@@ -55,7 +55,7 @@
 "iQ" = (/obj/machinery/vending/cola,/obj/machinery/light/small,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
 "iR" = (/obj/machinery/vending/engivend,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "iU" = (/turf/simulated/wall/r_wall,/area/crew_quarters/heads/hop)
-"iV" = (/obj/machinery/pipedispenser/disposal,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
+"iV" = (/obj/structure/railing/steel{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "iW" = (/obj/effect/floor_decal/corner/grey{dir = 5},/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "jc" = (/obj/machinery/vending/boozeomat,/obj/effect/floor_decal/corner/red{dir = 5},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/bar)
 "jl" = (/obj/structure/closet/secure_closet/engineering_electrical,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
@@ -72,7 +72,6 @@
 "kK" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/kitchen)
 "kU" = (/obj/machinery/door/airlock/glass,/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "ld" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
-"lz" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "lA" = (/obj/structure/table/steel,/obj/machinery/chemical_dispenser/bar_soft/full,/obj/machinery/light/small/hl{dir = 1; icon_state = "hanginglantern1"},/obj/effect/floor_decal/corner/red{dir = 5},/obj/effect/floor_decal/corner/red{dir = 6},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/bar)
 "lB" = (/obj/effect/floor_decal/corner/red{dir = 6},/turf/simulated/floor/tiled/rough,/area/security/brig)
 "lH" = (/obj/structure/shuttle/engine/propulsion/burst{can_atmos_pass = 0; dir = 8},/turf/simulated/floor{can_atmos_pass = 0},/area/engineering/workshop)
@@ -90,22 +89,21 @@
 "mS" = (/obj/structure/table/reinforced,/obj/item/paper_bin{pixel_x = -3; pixel_y = 7},/obj/item/pen,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "mU" = (/turf/simulated/wall/r_wall,/area/crew_quarters/sleep/cabin1)
 "nf" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"nh" = (/obj/structure/table/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/item/device/megaphone,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
+"nh" = (/obj/structure/table/reinforced,/obj/structure/window/reinforced{dir = 1},/obj/item/device/megaphone,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "ni" = (/obj/structure/window_frame/grille,/obj/structure/window_frame/grille,/obj/structure/window_frame/grille,/turf/space,/area/space)
 "np" = (/obj/effect/floor_decal/corner/red{dir = 9},/obj/structure/table/steel,/obj/machinery/light/small/hl,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/kitchen)
-"nr" = (/obj/item/modular_computer/console/preset/command,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "nt" = (/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "nD" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 4},/obj/structure/window_frame/grille/rglass,/obj/structure/shuttle/engine/heater{dir = 8},/turf/simulated/floor,/area/engineering/workshop)
 "nG" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/corner/grey{dir = 6},/obj/effect/floor_decal/stairs{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "nJ" = (/obj/machinery/door/airlock/glass,/obj/effect/floor_decal/corner/grey{dir = 9},/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"nP" = (/obj/machinery/light_switch{pixel_x = 32},/obj/machinery/papershredder,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
+"nP" = (/obj/machinery/light_switch{pixel_x = 32},/obj/machinery/papershredder,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
 "oa" = (/obj/structure/sign/poster{pixel_x = 32},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
 "oc" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/kitchen)
 "oi" = (/obj/structure/closet/cabinet,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
-"ok" = (/obj/effect/floor_decal/corner/red{dir = 9},/obj/effect/floor_decal/corner/red{dir = 10},/turf/simulated/floor/tiled/rough,/area/security/brig)
+"ok" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/space)
 "on" = (/obj/machinery/light/small{dir = 4},/obj/structure/sign/poster{pixel_y = 32},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin5)
 "oE" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
-"oM" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/trim/carpet/oldred,/area/hallway/primary/frontier/central_west)
+"oM" = (/obj/structure/railing/steel{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "oS" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/corner/grey{dir = 6},/obj/effect/floor_decal/stairs{dir = 1},/turf/simulated/floor/tiled/rough,/area/crew_quarters/bar)
 "oZ" = (/obj/structure/table/woodentable,/obj/machinery/light/small{dir = 4},/obj/item/device/flashlight/lamp,/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin4)
 "ph" = (/obj/structure/table/woodentable,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
@@ -113,13 +111,11 @@
 "po" = (/turf/simulated/open,/area/hallway/primary/frontier/central_west)
 "pw" = (/obj/effect/floor_decal/corner/grey{dir = 5},/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "pP" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"pQ" = (/obj/effect/floor_decal/corner/red{dir = 1},/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/security/brig)
 "qf" = (/turf/simulated/wall/r_wall,/area/hallway/primary/frontier/central_west)
 "qh" = (/obj/structure/table/darkwood_reinforced,/obj/item/reagent_containers/vessel/condiment/small/saltshaker,/obj/item/reagent_containers/vessel/condiment/small/peppermill{pixel_x = -3; pixel_y = 2},/obj/machinery/light/small/hl{dir = 1; icon_state = "hanginglantern1"},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/kitchen)
 "qn" = (/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "qo" = (/obj/effect/floor_decal/industrial/loading{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "qp" = (/obj/effect/floor_decal/corner/red{dir = 1},/turf/simulated/floor/tiled/rough,/area/security/brig)
-"qq" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
 "qA" = (/obj/effect/floor_decal/corner/old/blue/three_quarters{dir = 1},/turf/simulated/floor/tiled/rough,/area/crew_quarters/heads/hop)
 "qC" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "rg" = (/obj/structure/bed,/obj/item/bedsheet/brown,/obj/effect/landmark/joinlate,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin3)
@@ -127,27 +123,23 @@
 "rn" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
 "ro" = (/obj/structure/window_frame/grille/rglass,/obj/machinery/door/blast/regular{density = 0; icon_state = "pdoor0"; id = "Prison Gate"; name = "Security Blast Door"; opacity = 0},/turf/simulated/floor,/area/security/brig)
 "rp" = (/obj/effect/floor_decal/corner/old/blue{dir = 6},/turf/simulated/floor/tiled/rough,/area/crew_quarters/heads/hop)
-"rq" = (/obj/effect/floor_decal/stairs{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"rq" = (/obj/effect/floor_decal/stairs{dir = 8},/obj/structure/railing/wood,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "rx" = (/obj/structure/table/reinforced,/obj/machinery/photocopier/faxmachine{department = "Head of Personnel's Office"},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
-"rC" = (/obj/structure/closet/secure_closet/guncabinet,/obj/item/gun/projectile/pistol/secgun,/obj/item/clothing/head/helmet/riot,/obj/item/clothing/mask/balaclava,/obj/item/clothing/suit/armor/riot,/obj/machinery/light/small,/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "rE" = (/obj/structure/bed,/obj/item/bedsheet/brown,/obj/effect/landmark/joinlate,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin4)
 "rR" = (/obj/structure/sink/kitchen{pixel_y = 21},/turf/simulated/floor/trim/wood,/area/crew_quarters/kitchen)
 "rS" = (/obj/structure/bed/chair{dir = 4},/obj/structure/sign/poster{pixel_x = -32; poster_type = "/datum/poster/bay_50"},/obj/machinery/light/small/hl{dir = 8},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
 "se" = (/turf/simulated/wall,/area/crew_quarters/bar)
-"sf" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "ss" = (/obj/structure/reagent_dispensers/fueltank,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "st" = (/obj/structure/bed/chair/comfy/captain{dir = 4},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "sE" = (/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/tiled/freezer,/area/crew_quarters/toilet)
 "sH" = (/obj/structure/table/reinforced,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "sJ" = (/turf/simulated/wall/r_wall,/area/crew_quarters/bar)
-"sN" = (/obj/structure/table/standard,/obj/item/device/camera,/obj/item/device/camera_film,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"sN" = (/obj/structure/table/standard,/obj/item/device/camera,/obj/item/device/camera_film,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "sO" = (/obj/structure/table/rack{dir = 8},/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "sU" = (/obj/machinery/door/airlock/multi_tile/glass,/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/crew_quarters/kitchen)
 "sY" = (/obj/machinery/vending/security,/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "sZ" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/crew_quarters/sleep/cabin2)
 "ta" = (/obj/structure/window_frame/grille,/turf/space,/area/space)
-"tc" = (/turf/simulated/open,/area/space)
-"to" = (/obj/machinery/light/small,/turf/simulated/floor,/area/engineering/workshop)
 "tp" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/turf/simulated/floor,/area/engineering/workshop)
 "tT" = (/obj/effect/floor_decal/rust,/obj/machinery/light/small{dir = 4},/turf/simulated/floor,/area/engineering/workshop)
 "ur" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/structure/table/standard{name = "plastic table frame"},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
@@ -157,10 +149,8 @@
 "uT" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "uW" = (/obj/structure/bed/chair{dir = 1},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
 "vc" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/rough,/area/crew_quarters/bar)
-"vd" = (/obj/effect/floor_decal/stairs,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"vm" = (/obj/structure/table/reinforced,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/glass{amount = 50; pixel_x = 2; pixel_y = 4},/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
+"vd" = (/obj/effect/floor_decal/stairs,/obj/structure/railing/steel{dir = 8},/obj/structure/railing/steel{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "vn" = (/obj/structure/window/reinforced{dir = 8},/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"vp" = (/obj/structure/table/reinforced,/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "vq" = (/obj/structure/curtain/open/shower,/obj/machinery/shower{dir = 8},/turf/simulated/floor/tiled/freezer,/area/crew_quarters/toilet)
 "vs" = (/obj/item/stool/bar_new/padded,/obj/machinery/light/small/hl{dir = 1; icon_state = "hanginglantern1"},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
 "vC" = (/obj/structure/window_frame/relectric/rglass,/turf/simulated/floor,/area/crew_quarters/heads/hop)
@@ -168,11 +158,11 @@
 "vF" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/crew_quarters/sleep/cabin3)
 "vN" = (/obj/structure/window/reinforced{dir = 8},/obj/effect/floor_decal/corner/grey{dir = 9},/obj/effect/floor_decal/stairs,/turf/simulated/floor/tiled/rough,/area/crew_quarters/kitchen)
 "vP" = (/turf/simulated/floor/tiled/freezer,/area/crew_quarters/toilet)
-"vW" = (/obj/structure/bookcase,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/trim/carpet/oldred,/area/hallway/primary/frontier/central_west)
+"vW" = (/obj/structure/bookcase,/turf/simulated/floor/trim/carpet/oldred,/area/hallway/primary/frontier/central_west)
 "wo" = (/obj/structure/window/reinforced{dir = 8},/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/crew_quarters/bar)
 "wv" = (/obj/machinery/light/small/hl{dir = 4},/obj/structure/table/steel,/obj/item/storage/box/donut,/turf/simulated/floor/trim/wood,/area/crew_quarters/mess)
 "wx" = (/obj/effect/floor_decal/corner/red{dir = 9},/turf/simulated/floor/tiled/rough,/area/security/brig)
-"wG" = (/obj/effect/floor_decal/corner/grey{dir = 5},/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/effect/floor_decal/corner/grey{dir = 6},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"wG" = (/obj/effect/floor_decal/corner/grey{dir = 5},/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "wJ" = (/obj/structure/table/darkwood_reinforced,/obj/item/reagent_containers/vessel/condiment/small/peppermill{pixel_x = -3; pixel_y = 2},/obj/item/reagent_containers/vessel/condiment/small/saltshaker,/obj/machinery/light/small/hl,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/kitchen)
 "wS" = (/obj/machinery/door/airlock/glass_command{id_tag = "sbridgedoor"; name = "Bridge"; req_access = list(19)},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "xh" = (/obj/structure/table/woodentable,/obj/machinery/light/small{dir = 4},/obj/item/device/flashlight/lamp,/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin1)
@@ -180,7 +170,6 @@
 "xp" = (/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/crew_quarters/kitchen)
 "xt" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin2)
 "xv" = (/turf/simulated/wall/r_wall,/area/bridge)
-"xC" = (/obj/effect/floor_decal/stairs{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "xL" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/rough,/area/crew_quarters/kitchen)
 "yc" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/engineering/workshop)
 "ym" = (/obj/effect/floor_decal/corner/grey{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
@@ -191,7 +180,6 @@
 "yN" = (/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
 "yS" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/bridge)
 "yU" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"zj" = (/obj/machinery/vending/security,/obj/machinery/light/small,/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "zk" = (/obj/effect/floor_decal/corner/grey{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "zl" = (/obj/machinery/light/small/hl{dir = 8},/turf/simulated/floor/trim/wood,/area/crew_quarters/bar)
 "zv" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
@@ -201,22 +189,20 @@
 "Av" = (/obj/structure/table/rack{dir = 8},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "AJ" = (/obj/structure/bed/chair{dir = 8},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/kitchen)
 "AO" = (/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
-"Bm" = (/obj/effect/floor_decal/corner/grey{dir = 9},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Bp" = (/obj/structure/table/standard,/obj/item/stack/cable_coil/random,/obj/item/storage/fancy/crayons,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Bv" = (/obj/machinery/power/apc{name = "south bump"; pixel_y = -24},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
-"BQ" = (/obj/effect/floor_decal/corner/red{dir = 9},/obj/effect/floor_decal/stairs{dir = 1},/turf/simulated/floor/tiled/rough,/area/security/brig)
-"BY" = (/obj/effect/floor_decal/stairs{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
+"BY" = (/obj/effect/floor_decal/stairs{dir = 1},/obj/structure/railing/steel{dir = 4},/obj/structure/railing/steel{dir = 8},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "Cm" = (/obj/structure/lattice,/turf/simulated/wall/r_wall,/area/engineering/workshop)
 "Cs" = (/obj/effect/floor_decal/corner/grey{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Ct" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/structure/bed/chair,/turf/simulated/floor/trim/carpet/oldred,/area/hallway/primary/frontier/central_west)
 "Cy" = (/obj/machinery/door/airlock,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "CR" = (/obj/structure/window/reinforced{dir = 8},/obj/effect/floor_decal/corner/grey{dir = 9},/obj/effect/floor_decal/stairs{dir = 1},/turf/simulated/floor/tiled/rough,/area/crew_quarters/bar)
 "CX" = (/obj/structure/table/darkwood_reinforced,/obj/machinery/door/blast/shutters{density = 0; dir = 2; icon_state = "shutter0"; id = "bar_shutters"; name = "Saloon Shutters"; opacity = 0},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/bar)
-"Da" = (/obj/structure/table/reinforced,/obj/prefab/hand_teleporter,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
+"Da" = (/obj/structure/table/reinforced,/obj/prefab/hand_teleporter,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "Dv" = (/obj/structure/bed/chair{dir = 4},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/mess)
 "Dw" = (/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "DE" = (/obj/structure/window_frame/rglass,/turf/simulated/floor,/area/crew_quarters/mess)
-"DF" = (/obj/structure/table/reinforced,/obj/structure/window/reinforced,/obj/random_multi/single_item/captains_spare_id{weight = 10},/obj/machinery/light/small,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
+"DF" = (/obj/structure/table/reinforced,/obj/structure/window/reinforced,/obj/random_multi/single_item/captains_spare_id{weight = 10},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "DY" = (/obj/machinery/vending/tool,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "El" = (/obj/machinery/pipedispenser,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "Eq" = (/obj/structure/window_frame/rglass,/turf/simulated/floor,/area/hallway/primary/frontier/central_west)
@@ -231,10 +217,9 @@
 "Fs" = (/obj/structure/window/reinforced{dir = 8},/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/crew_quarters/kitchen)
 "Fw" = (/obj/structure/table/reinforced,/obj/machinery/light/small/hl,/obj/item/reagent_containers/vessel/condiment/small/peppermill{pixel_x = -3; pixel_y = 2},/obj/item/reagent_containers/vessel/condiment/small/saltshaker,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/mess)
 "FI" = (/obj/structure/sign/poster{pixel_y = 32},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
-"FL" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor,/area/engineering/workshop)
-"Gd" = (/obj/machinery/autolathe{desc = "Your typical Autolathe. It appears to have much more options than your regular one, however..."; hacked = 1; name = "Unlocked Autolathe"},/obj/effect/floor_decal/corner/red{dir = 5},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/security/brig)
+"Gd" = (/turf/simulated/floor/tiled/freezer,/area/security/brig)
 "Ge" = (/turf/simulated/wall/r_wall,/area/crew_quarters/sleep/cabin5)
-"Gf" = (/obj/structure/flora/pottedplant/minitree,/obj/effect/floor_decal/corner/grey{dir = 5},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"Gf" = (/obj/structure/flora/pottedplant/minitree,/obj/effect/floor_decal/corner/grey{dir = 5},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Gi" = (/obj/structure/closet/secure_closet/guncabinet,/obj/item/gun/projectile/pistol/secgun,/obj/item/clothing/head/helmet/riot,/obj/item/clothing/mask/balaclava,/obj/item/clothing/suit/armor/riot,/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "Gv" = (/obj/structure/toilet{dir = 1},/obj/machinery/light/small,/turf/simulated/floor/tiled/freezer,/area/crew_quarters/toilet)
 "Gy" = (/obj/machinery/door/airlock/glass,/obj/effect/floor_decal/corner/grey{dir = 6},/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
@@ -242,17 +227,16 @@
 "GO" = (/obj/machinery/light/small/hl,/turf/simulated/floor/trim/wood,/area/crew_quarters/bar)
 "GU" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Hm" = (/obj/machinery/food_replicator,/obj/machinery/light/small/hl,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/kitchen)
-"Hq" = (/obj/effect/floor_decal/corner/red{dir = 9},/obj/effect/floor_decal/stairs,/turf/simulated/floor/tiled/rough,/area/security/brig)
+"Hq" = (/obj/effect/floor_decal/corner/red{dir = 9},/obj/effect/floor_decal/stairs,/obj/structure/railing/steel{dir = 4},/turf/simulated/floor/tiled/rough,/area/security/brig)
 "HA" = (/turf/simulated/wall/r_wall,/area/crew_quarters/sleep/cabin3)
 "HJ" = (/obj/machinery/computer/account_database,/turf/simulated/floor/trim/carpet/blue2,/area/crew_quarters/heads/hop)
 "HK" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 10},/obj/effect/floor_decal/rust,/turf/simulated/floor,/area/engineering/workshop)
 "HN" = (/obj/structure/table/standard{name = "plastic table frame"},/obj/machinery/door/window/eastright{dir = 8; name = "Reception Window"},/obj/machinery/door/window/brigdoor/westleft{dir = 4; name = "Head of Personnel's Desk"; req_access = list(57)},/turf/simulated/floor/tiled/rough,/area/crew_quarters/heads/hop)
 "HV" = (/obj/structure/table/darkwood_reinforced,/obj/item/storage/pill_bottle/dice,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
-"HW" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "HX" = (/obj/item/modular_computer/console,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "Ih" = (/obj/structure/lattice,/obj/structure/lattice,/turf/simulated/wall/r_wall,/area/engineering/workshop)
 "Ir" = (/obj/structure/bed,/obj/item/bedsheet/brown,/obj/effect/landmark/joinlate,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin1)
-"Iv" = (/obj/effect/floor_decal/corner/red{dir = 6},/obj/structure/reagent_dispensers/peppertank{pixel_y = 32},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/security/brig)
+"Iv" = (/obj/effect/floor_decal/corner/red{dir = 6},/obj/structure/reagent_dispensers/peppertank{pixel_y = 32},/turf/simulated/floor/tiled/rough,/area/security/brig)
 "ID" = (/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "IH" = (/obj/machinery/light/small,/obj/structure/sign/poster{pixel_x = -32; poster_type = "/datum/poster/bay_9"},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
 "II" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/trim/carpet/blue2,/area/crew_quarters/heads/hop)
@@ -260,74 +244,64 @@
 "Je" = (/obj/structure/bed/chair/office/dark{dir = 4},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "Jv" = (/obj/machinery/light/small/hl{dir = 8},/turf/simulated/floor/trim/wood,/area/crew_quarters/kitchen)
 "JL" = (/obj/structure/table/reinforced,/obj/machinery/light/small/hl{dir = 1},/obj/item/reagent_containers/vessel/condiment/small/peppermill{pixel_x = -3; pixel_y = 2},/obj/item/reagent_containers/vessel/condiment/small/saltshaker,/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/mess)
-"JQ" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"Kj" = (/obj/machinery/door/airlock/multi_tile/glass,/turf/simulated/floor/tiled/rough,/area/crew_quarters/bar)
+"Kj" = (/obj/machinery/door/airlock/multi_tile/glass,/turf/simulated/floor/trim/wood,/area/crew_quarters/bar)
 "Kn" = (/turf/simulated/wall/r_wall,/area/security/brig)
 "Kx" = (/turf/simulated/wall/r_wall,/area/crew_quarters/toilet)
 "Ky" = (/obj/structure/closet/secure_closet/hop,/obj/item/clothing/accessory/holster/hip,/obj/item/melee/telebaton,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
 "KF" = (/obj/machinery/door/airlock/command,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "KO" = (/obj/machinery/door/airlock/maintenance_hatch,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"KQ" = (/obj/structure/table/glass,/obj/item/hand_labeler,/obj/item/packageWrap,/obj/item/device/eftpos{eftpos_name = "HoP EFTPOS scanner"},/obj/item/stamp/denied,/obj/item/stamp/ok,/obj/item/stamp/void,/obj/machinery/light/small{dir = 8},/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -24},/turf/simulated/floor/trim/carpet/blue2,/area/crew_quarters/heads/hop)
-"KU" = (/obj/machinery/pipedispenser,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
+"KQ" = (/obj/structure/table/glass,/obj/item/hand_labeler,/obj/item/packageWrap,/obj/item/device/eftpos{eftpos_name = "HoP EFTPOS scanner"},/obj/item/stamp/denied,/obj/item/stamp/ok,/obj/item/stamp/void,/obj/machinery/power/apc{dir = 8; name = "west bump"; pixel_x = -24},/turf/simulated/floor/trim/carpet/blue2,/area/crew_quarters/heads/hop)
 "Lf" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin2)
 "Li" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/crew_quarters/sleep/cabin5)
 "Lz" = (/obj/machinery/microwave{pixel_y = 6},/obj/structure/table/steel,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/kitchen)
 "LC" = (/obj/machinery/food_replicator,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/kitchen)
-"LE" = (/obj/structure/flora/pottedplant/minitree,/obj/structure/sign/poster{pixel_x = 32},/obj/effect/floor_decal/corner/grey{dir = 10},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Mk" = (/obj/structure/table/darkwood_reinforced,/obj/item/deck/cards,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
 "Ml" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin5)
 "Mo" = (/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/crew_quarters/bar)
 "Mq" = (/obj/structure/table/woodentable,/obj/item/device/flashlight/lamp,/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/sleep/cabin3)
-"Mx" = (/turf/simulated/floor/tiled/rough,/area/crew_quarters/bar)
 "MF" = (/obj/structure/sink{dir = 4; pixel_x = 11},/obj/structure/mirror{pixel_x = 30},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin5)
 "MZ" = (/obj/effect/floor_decal/rust,/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "Nf" = (/obj/structure/sign/poster{pixel_x = -32; poster_type = "/datum/poster/bay_9"},/obj/machinery/light/small/hl,/obj/structure/bed/chair{dir = 1},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
-"Nk" = (/obj/effect/floor_decal/corner/red{dir = 10},/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/security/brig)
-"Nl" = (/obj/effect/floor_decal/stairs,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"Nl" = (/obj/effect/floor_decal/stairs,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Nu" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/crew_quarters/kitchen)
 "NF" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/turf/simulated/floor,/area/engineering/workshop)
-"NH" = (/obj/structure/table/reinforced,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/glass{amount = 50; pixel_x = 2; pixel_y = 4},/obj/machinery/power/apc{dir = 4; name = "east bump"; pixel_x = 24},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "NN" = (/obj/structure/table/reinforced,/obj/item/storage/box/ids,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "Ou" = (/obj/machinery/light/small/hl,/turf/simulated/floor/trim/wood,/area/crew_quarters/mess)
 "OW" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/hallway/primary/frontier/central_west)
 "OX" = (/obj/effect/floor_decal/corner/grey,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"Pn" = (/obj/machinery/photocopier/faxmachine{department = "Head of Personnel's Office"},/obj/structure/table/glass,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
+"Pn" = (/obj/machinery/photocopier/faxmachine{department = "Head of Personnel's Office"},/obj/structure/table/glass,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
 "Po" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin1)
 "PJ" = (/turf/simulated/floor/trim/carpet/blue2,/area/crew_quarters/heads/hop)
 "PV" = (/obj/machinery/door/airlock/command,/turf/simulated/floor/tiled/dark/rough,/area/hallway/primary/frontier/central_west)
-"PY" = (/obj/machinery/vending/tool,/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "PZ" = (/obj/structure/window_frame/grille,/obj/effect/landmark/map_data{height = 2},/turf/space,/area/space)
 "Qm" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor,/area/engineering/workshop)
 "Qn" = (/obj/effect/floor_decal/industrial/loading{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Qs" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/freezer,/area/crew_quarters/toilet)
 "Qy" = (/obj/structure/window_frame/grille,/obj/structure/window_frame/grille,/turf/space,/area/space)
 "Qz" = (/obj/structure/closet/secure_closet/engineering_personal,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"QG" = (/obj/item/modular_computer/console/preset/command,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/trim/carpet/blue2,/area/crew_quarters/heads/hop)
+"QG" = (/obj/item/modular_computer/console/preset/command,/turf/simulated/floor/trim/carpet/blue2,/area/crew_quarters/heads/hop)
 "QL" = (/obj/machinery/vending/tool,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"QR" = (/obj/machinery/vending/tool,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"Re" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"QR" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "Rk" = (/turf/simulated/wall/r_wall,/area/crew_quarters/kitchen)
 "Rr" = (/turf/simulated/wall/r_wall,/area/crew_quarters/sleep/cabin4)
 "Ru" = (/obj/machinery/vending/snack,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "RB" = (/obj/effect/floor_decal/rust,/turf/simulated/wall/r_wall,/area/engineering/workshop)
-"RI" = (/obj/structure/table/reinforced,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "RJ" = (/turf/simulated/wall,/area/hallway/primary/frontier/central_west)
 "RP" = (/obj/item/stool/bar_new/padded,/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
-"RR" = (/obj/structure/closet/secure_closet/engineering_electrical,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
+"RR" = (/obj/structure/closet/secure_closet/engineering_electrical,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "Sa" = (/obj/structure/window/reinforced{dir = 8},/obj/effect/floor_decal/corner/grey{dir = 9},/obj/effect/floor_decal/stairs{dir = 1},/obj/effect/floor_decal/stairs{dir = 1},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"Sb" = (/obj/effect/floor_decal/corner/red{dir = 8},/turf/simulated/floor/tiled/rough,/area/security/brig)
 "Sk" = (/obj/machinery/light/small/hl{dir = 4},/turf/simulated/floor/trim/carpet/oldred,/area/crew_quarters/bar)
 "Sy" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 6},/turf/simulated/floor,/area/engineering/workshop)
-"SB" = (/obj/effect/floor_decal/rust,/obj/machinery/light/small{dir = 8},/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/turf/simulated/floor,/area/engineering/workshop)
+"SB" = (/obj/effect/floor_decal/rust,/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/turf/simulated/floor,/area/engineering/workshop)
 "SK" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/crew_quarters/sleep/cabin1)
-"SP" = (/obj/structure/flora/pottedplant/minitree,/obj/effect/floor_decal/corner/grey{dir = 10},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"SP" = (/obj/effect/floor_decal/corner/grey{dir = 10},/turf/simulated/wall/r_wall,/area/hallway/primary/frontier/central_west)
 "SS" = (/obj/structure/lattice,/obj/structure/lattice,/turf/space,/area/space)
 "SV" = (/obj/structure/window_frame/rglass,/turf/simulated/floor,/area/crew_quarters/bar)
 "SX" = (/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin4)
 "SZ" = (/obj/machinery/vending/dinnerware,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/kitchen)
-"Tc" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/effect/floor_decal/corner/grey{dir = 6},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"Tc" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Td" = (/turf/simulated/wall/r_wall,/area/engineering/workshop)
-"Tf" = (/obj/structure/flora/pottedplant/minitree,/obj/structure/sign/poster{pixel_x = 32},/obj/effect/floor_decal/corner/grey{dir = 5},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"Tf" = (/obj/structure/sign/poster{pixel_x = 32},/obj/effect/floor_decal/corner/grey{dir = 5},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Th" = (/obj/effect/floor_decal/corner/red/three_quarters{dir = 8},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/kitchen)
 "Tm" = (/obj/machinery/door/airlock/security,/obj/machinery/door/blast/regular{density = 0; icon_state = "pdoor0"; id = "Prison Gate"; name = "Security Blast Door"; opacity = 0},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Tx" = (/obj/machinery/vending/coffee,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
@@ -335,13 +309,11 @@
 "TI" = (/obj/machinery/door/airlock/autoname,/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "TR" = (/obj/structure/table/rack{dir = 8},/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
 "TT" = (/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/bar)
-"Ui" = (/obj/structure/table/reinforced,/obj/item/device/flashlight/maglight,/obj/item/device/radio,/obj/item/device/radio,/obj/item/device/radio,/obj/item/device/flashlight/maglight,/obj/item/device/flashlight/maglight,/obj/item/clothing/accessory/badge/holo,/obj/item/clothing/accessory/badge/holo,/obj/item/hand_labeler,/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
-"Uv" = (/obj/effect/floor_decal/stairs{dir = 1},/obj/machinery/light/small,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"Uv" = (/obj/effect/floor_decal/stairs{dir = 1},/obj/structure/railing/steel{dir = 4},/obj/structure/railing/steel{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Ux" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/security/brig)
 "UE" = (/obj/structure/sign/poster{pixel_x = 32},/obj/effect/floor_decal/corner/red{dir = 6},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/bar)
 "UJ" = (/obj/structure/sink{dir = 4; pixel_x = 11},/obj/structure/mirror{pixel_x = 30},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin3)
 "UK" = (/obj/machinery/door/airlock/multi_tile/glass,/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"UM" = (/obj/structure/closet/secure_closet/security,/obj/effect/floor_decal/industrial/outline/red,/obj/item/storage/secure/guncase/security,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "UU" = (/obj/machinery/door/airlock/multi_tile/glass,/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/crew_quarters/bar)
 "UY" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "Vk" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/turf/simulated/floor,/area/engineering/workshop)
@@ -350,8 +322,6 @@
 "VD" = (/obj/machinery/door/airlock/command,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "VY" = (/obj/machinery/door/airlock,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin4)
 "Wg" = (/turf/simulated/floor/tiled/rough,/area/engineering/workshop)
-"WD" = (/obj/effect/floor_decal/corner/red{dir = 6},/obj/structure/reagent_dispensers/peppertank{pixel_y = -32},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/security/brig)
-"WJ" = (/obj/effect/floor_decal/corner/red,/turf/simulated/floor/tiled/rough,/area/security/brig)
 "WU" = (/obj/machinery/vending/cigars,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "WY" = (/obj/effect/floor_decal/corner/red{dir = 5},/obj/effect/floor_decal/corner/red{dir = 9},/turf/simulated/floor/tiled/rough,/area/security/brig)
 "Xf" = (/turf/simulated/wall/r_wall,/area/crew_quarters/sleep/dorms)
@@ -360,19 +330,16 @@
 "Xu" = (/obj/machinery/door/airlock,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/cabin5)
 "XE" = (/obj/structure/window/reinforced{dir = 4},/obj/effect/floor_decal/corner/grey{dir = 6},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "XU" = (/obj/machinery/door/airlock/glass_security{name = "Security Lobby"},/obj/machinery/door/blast/regular{density = 0; icon_state = "pdoor0"; id = "Prison Gate"; name = "Security Blast Door"; opacity = 0},/turf/simulated/floor/tiled/rough,/area/security/brig)
-"XY" = (/obj/structure/sign/poster{pixel_y = 32},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
-"Yi" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/dark/rough,/area/bridge)
+"XY" = (/obj/structure/sign/poster{pixel_y = 32},/obj/structure/railing/steel{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "YA" = (/obj/machinery/door/window/westleft{dir = 2; name = "Bar"; req_access = list(25)},/obj/machinery/door/blast/shutters{density = 0; dir = 2; icon_state = "shutter0"; id = "bar_shutters"; name = "Saloon Shutters"; opacity = 0},/obj/effect/floor_decal/corner/red{dir = 6},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/bar)
-"YD" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/effect/floor_decal/stairs{dir = 8},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
+"YD" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/effect/floor_decal/stairs{dir = 8},/obj/structure/railing/wood,/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "YM" = (/obj/structure/closet/secure_closet/guncabinet,/obj/item/gun/projectile/pistol/secgun,/obj/item/clothing/head/helmet/riot,/obj/item/clothing/mask/balaclava,/obj/item/clothing/suit/armor/riot,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/dark/rough,/area/security/brig)
 "YS" = (/obj/structure/table/steel,/obj/machinery/chemical_dispenser/bar_alc/full,/obj/effect/floor_decal/corner/red{dir = 5},/obj/machinery/power/apc{dir = 1; name = "north bump"; pixel_y = 24},/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/bar)
 "Zf" = (/turf/simulated/floor,/area/engineering/workshop)
 "Zo" = (/obj/structure/table/reinforced,/obj/item/device/megaphone,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
-"ZA" = (/obj/effect/floor_decal/corner/red{dir = 4},/turf/simulated/floor/tiled/rough,/area/security/brig)
-"ZE" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/dark/rough,/area/crew_quarters/heads/hop)
+"ZA" = (/obj/machinery/autolathe{desc = "Your typical Autolathe. It appears to have much more options than your regular one, however..."; hacked = 1; name = "Unlocked Autolathe"},/obj/effect/floor_decal/corner/red{dir = 5},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/rough,/area/security/brig)
 "ZL" = (/obj/machinery/vending/cigarette,/obj/machinery/light/small,/turf/simulated/floor/trim/wood,/area/crew_quarters/sleep/dorms)
-"ZM" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor,/area/engineering/workshop)
-"ZR" = (/obj/item/modular_computer/console/preset/command,/obj/machinery/light/small,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
+"ZR" = (/obj/item/modular_computer/console/preset/command,/turf/simulated/floor/tiled/dark/rough,/area/bridge)
 "ZS" = (/obj/effect/floor_decal/corner/grey{dir = 10},/obj/effect/floor_decal/corner/grey{dir = 9},/turf/simulated/floor/tiled/rough,/area/hallway/primary/frontier/central_west)
 "ZX" = (/obj/machinery/atmospherics/pipe/manifold/visible/yellow{dir = 4},/obj/effect/floor_decal/rust,/turf/simulated/floor,/area/engineering/workshop)
 
@@ -409,48 +376,48 @@ cscscscscscscscscscscscscscscscscscstacscscscscsTdTdZfTdFrfnWgWgTdcscstacscscscs
 cscscscscscscscscscscscscscscscscstatacscscscsTdTdZfcmTdTdTITdTdTdTdcscscscscscscscscscscscscscscsTdTdTdZfTdGIWgfnWgTdRBycIPIPycTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscscscscscscscscscscscscscscstataXkcscsTdTdTdcmZfRBTdcCfnIDWggpTdcscscscscscscscscscscscscscscscscsTdTdTdTdyUWgWgWgfnWgWgWgWgEITdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscBcBcBcBcBcBcscscscscscscstataXkXkXkTdTdSyNFZfZfTdWgWgWgfnWggpTdcscscscscscscscscscscscscscscscscscscscsTdTdTdWgfnWgfnWgWgWgqfqfqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscBcBcBcBcBcBcscscscscscscscscscscscslHnDVkZfTdTdTdcATdWgWgWgurTdXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkTdsOAvqCqCWgBYmqqfcFntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscBcBcBcBcBcBcscscscscscscscscscscscslHeSVkZfTdiVElfnTdTdqfhnOWqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfpPqfqfntpoqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscBcBcBcBcBcBcscscscscscscscscscscscslHeSVkZfTdfnWgWgycWgntntntrqcqiIiIgbiIiIiIiIgbpwiIiIiIiIgbiIiIiIiIgbiIiIiIiIgbiWqfJQntntntntpoqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscBcBcBcBcBcBcscscscscscscscscscscscslHnDVkcmEQWgfnmqycWgntntntrqDwntntntntntntntntntntntntntntntntntntntntntntntnteruTntntntntntReqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscslHnDVkZfTdTdcATdTdWgntntntrqZSlzdAdAdAlzmmmmmmdAdAdAlzmmmmmmlzdAdAdAdAdAdAdAdAbJqfJQntntntntntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscslHeStpZfcmqfntntntntntpopontqfqfOWOWOWqfUKerqfOWOWOWqfnJOWGyqfOWOWOWOWOWOWOWOWOWqfqfTmqfqfqfVDqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscsTdTdZfZfZfqfntntntntntntntqfqftctctctctcvNghtctctctctclQNldVtctctctctctctctctctctcKnHqIvKnGUcUntqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscscsTdTdTdTdqfJQntntntntntntqftctctctctctcFsNutctctctctcvnntXEtctctctctctctctctctcKnKnwxlBKnGUntntntqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscsXktatatatatatacscscscscscscscscscscscscsqfqfntntntcHqfqfqftctctctctcRksUxpRktctctctcvnntXEtctctctctctcKnKnKnKnKnsYwxlBKnKnWUntntntqfxvxvxvyScscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscsXkXkXkcscscscscscscscscscscscsXkXkXkXkXkXkqfqfuTqfqfqftctctctctctcRkRkococRkRktctctcvncHXEtctctctctctcKnGiGiGiYMTzwxlBieKnKnntntntPVlRyGnrySyScscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscstatacscsXkcscscscscscscsXkXkXkXkXkHAvFHARrRrRrcFntoMCtOWtctctctctcRkRkkDococrRRkRkRkRkbqOWkUqfUxUxUxUxKnKnTzTzTzTzTzwxlBTzvmKnKnwSqfqfyGyGJeZoyScscscscscscscscscscscscscscscscscscscscscscscscs
-cscscsXktacscscscsXkXkXkXkXkXkXkkmsZsZkmvFHAeXHArEoZRrntntbmaPOWtctctctcRkRkyrocococockKqhAJRkDwnterqfUMmtmtmtmtHWTzWYabFfFfpQZAFfFfGdKnyNqqiUdryGyGmSyScscscscscscscscscscscscscscscscscscscscscscscscs
+cscscBcBcBcBcBcBcscscscscscscscscscscscslHnDVkZfTdTdTdcATdWgWgWgurTdXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkTdsOAvqCqCWgBYmqqfntntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscBcBcBcBcBcBcscscscscscscscscscscscslHeSVkZfTdabElfnTdTdqfhnOWqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfpPqfqfntpoqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscBcBcBcBcBcBcscscscscscscscscscscscslHeSVkZfTdfnWgWgycWgntntntrqcqiIiIiIiIiIiIiIiIpwiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiWqfntntntntntpoqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscBcBcBcBcBcBcscscscscscscscscscscscslHnDVkcmEQWgfnmqycWgntntntrqDwntntntntntntntntntntntntntntntntntntntntntntntnteruTntntntntntntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscslHnDVkZfTdTdcATdTdWgntboborqZSmmdAdAdAmmmmmmmmdAdAdAmmmmmmmmmmdAdAdAdAdAdAdAdAbJqfntntntntntntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscslHeStpZfcmqfntntntntntpopoqfqfqfOWOWOWqfUKerqfOWOWOWqfnJOWGyqfOWOWOWOWOWOWOWOWOWqfqfTmqfqfqfVDqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscsTdTdZfZfZfqfntntntntntcFcFqfqfcHdBcHcHdBvNghcHcHcHcHcHlQNldVcHcHcHcHcHcHcHcHcHcHcHKnHqIvKnGUcUntqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscscsTdTdTdTdqfntntntntntntntqfcHcHdBcHcHcHFsNucHcHcHcHcHvnntXEcHcHcHcHcHcHcHcHcHcHKnKnwxlBKnGUntntntqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscsXktatatatatatacscscscscscscscscscscscscsqfqfntntntntqfqfqfcHcHdBcHcHRksUxpRkcHcHcHcHvnntXEcHcHcHcHcHcHKnKnKnKnKnsYwxlBKnKnqfntntntqfxvxvxvyScscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscsXkXkXkcscscscscscscscscscscscsXkXkXkXkXkXkqfqfuTqfqfqfcHcHcHcHdBdBRkRkococRkRkcHcHcHvnntXEcHcHcHcHcHcHKnGiGiGiYMTzwxdIKnGdKnqfntntPVlRyGZRySyScscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscstatacscsXkcscscscscscscsXkXkXkXkXkHAvFHARrRrRrntntbmCtOWcHcHcHcHcHRkRkkDococrRRkRkRkRkbqOWkUqfUxUxUxUxKnKnTzTzTzTzTzwxeZKnGdGdKnwSqfqfyGyGJeZoyScscscscscscscscscscscscscscscscscscscscscscscscs
+cscscsXktacscscscsXkXkXkXkXkXkXkkmsZsZkmvFHAeXHArEoZRrntntbmaPOWcHcHcHcHRkRkyrocococockKqhAJRkDwnterqfmtmtmtmtmtTzTzWYFfFfFfqpZAfMGdGdgbyNyNiUdryGyGmSyScscscscscscscscscscscscscscscscscscscscscscscscs
 cscstaXkXkcscsXkXkXkGeGeLiLiGekmkmxnxtkmrgMqmhHASXSXRrntntbmvWqfEDEDEDEDEDJvococococococococxLDwnteriBFfFfFfFfFfFfFfqpKnXUKnKnKnKnKnKnKnqAyNiUxvyGyGyGySyScscscscscscscscscscscscscscscscscscscscscscscs
-cscstacscscsXkmUmUmUmUblgNgNonkmqnoEoEkmmhmhmhHASXSXVYntntcWqfqfDvJLealYjGococococThmPmPmPmPmlBmnterqfqfiBqfqfqfrororoKncqiIgbiIqonfvCQGPJqAeYxvRuyGyGrxyScscscscscscscscscscscscscscscscscscscscscscscs
-cscstacscscsXkmUIrxhmUMlgNgNMFkmLfoEfCkmmhmhUJHAplfGRrntntntOWaJlYlYlYlYDEwJAJococnpLzLCSZHmmlDwntzkgbiIiIiITfRJGfiIiIgbymntntntEqnfHNIIPJrpPnxvxvYiAOnhySyScscscscscscscscscscscscscscscscscscscscscscs
-cscstacscscsXkSKPoPomUGeXuGeGekmkmkhkmkmHACyHAHARrRrRrJQntntntlYlYlYlYwvseseseKjMxsesesesesesekIntntntntntntntntntntntntntntntntEqnfvCEKVuPJqAKFyGyGyGstHXyScscscscscscscscscscscscscscscscscscscscscscs
-cscsPZXkXkXkXkSKPoPofgiizvzvFIzviizvzviizvzvzviizvzvfTntntntuElYlYlYlYyBserSMkczczvsCXjcYSlAseDwntntntntntntntuEntntntntntntntntEqnfvCHJPJPJEWKFyGyGyGstHXyScscscscscscscscscscscscscscscscscscscscscscs
-cscstacscscsXkmUoijnmUzvzvzvzvzvzvzvzvzvzvKxiFKxKxKxqfJQntntOWOulYlYlYlYSViruWczczRPCXTTTTUEseDwntOXlzmmmmmmLERJSPmmmmlzCsntntntQnnfiUKQPJrpnPxvxvYiAODFySyScscscscscscscscscscscscscscscscscscscscscscs
-cscstacscscsXkmUmUmUmUIHrnphbrvDBvzvzvzvoaKxvPvPsEgGqfntntcWqfqfDvFwealYvcczczczczRPCXCXCXYAseDwnterqfqfiBqfqfqfrororoKnZSmmmmlzmmmmuLPJPJEWKyxvTxyGyGNNyScscscscscscscscscscscscscscscscscscscscscscscs
-cscstaXkXkcscsXkXkXkXfXfAbAbAbXfXfZLdtEsiQKxyqvPKxQsqfntntntReqfEDEDEDEDsJzlczczczirRPRPRPSkseBmnteriBdBdBdBdBdBdBdBSbKnXUKnKnKnKnKnKnKnEWyNiUxvyGyGyGySyScscscscscscscscscscscscscscscscscscscscscscscs
-cscscsXktacscscscsXkXkXkXkXkXkXkXfXfXfXfXfKxvqvqKxGvqfntntntUYOWtctctctcsJsJldHVczczczczczczVCDwcHerqfeZmtmtmtmtsfTzokNkdBdBSbWJNkdBboKnyNZEiUDayGyGmSyScscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscstatacscsXkcscscscscscsXkXkXkXkXkXkKxKxKxKxKxqfcHntcHUYOWtctctctctcsJsJNfczczGOsJsJsJsJbqOWjoqfhQUxUxUxKnKnTzTzTzTzTzwxlBTzNHKnKnwSqfqfyGyGJeiHyScscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscsXkXkXkcscscscscscscscscscscscsXkXkXkXkXkXkqfqfuTqfntqftctctctctctcsJsJczczsJsJtctctcvncFXEtctctctctctcKnrCGiGiGiTzwxlBUiKnKnntntntPVyGyGZRySyScscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscsXktatatatatatacscscscscscscscscscscscscsTdqfsNntntpoqfqfqftctctctctcsJUUMosJtctctctcvnntXEtctctctctctcKnKnKnKnKnzjwxfMKnKnWUntntntqfxvxvxvyScscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscscsTdTdTdTdTdqfAkntntpoXYcFqftctctctctctcworltctctctctcvnntXEtctctctctctctctctctcKnKnwxlBKnGUntntntqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscsTdTddINFZfZMqfBpntntntntntqfqftctctctctcCRoStctctctctcSaUvnGtctctctctctctctctctctcKnBQWDKnRIxCntqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscslHnDVkcmZfZfqfJQntntntntntntqfqfOWOWOWqfUKerqfOWOWOWqfnJOWGyqfOWOWOWOWOWOWOWOWOWqfqfTmqfqfqfVDqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscslHnDVkZfcmZfqfntntntntntntrqcqgbkikikigbiIiIiIkikikigbiIgbiIgbkikikikikikikikiwGqfntntntcFntntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscslHeSZXZfZfTdqfqfpPqfcHntntrqDwntntntntntntntntntntntntntntntntntntntntntntntnterjontntntntntntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscslHnDVkZfTdTdqCqCfnqfqfqfcHYDZSmmmmlzmmmmmmlzmmmmlzmmmmmmlzmmmmmmmmlzmmmmmmmmmmTcqfcHntntpopontqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscstacscscsXkmUmUmUmUblgNgNonkmqnoEoEkmmhmhmhHASXSXVYntntcWqfqfDvJLealYjGococococThmPmPmPmPmlDwnterqfqfiBqfqfqfrororoKncqiIiIiIqonfvCQGPJqAeYxvRuyGyGrxyScscscscscscscscscscscscscscscscscscscscscscscs
+cscstacscscsXkmUIrxhmUMlgNgNMFkmLfoEfCkmmhmhUJHAplfGRrntntntOWaJlYlYlYlYDEwJAJococnpLzLCSZHmmlDwntzkiIiIiIiITfRJGfiIiIiIymntntntEqnfHNIIPJrpPnxvxvyGAOnhySyScscscscscscscscscscscscscscscscscscscscscscs
+cscstacscscsXkSKPoPomUGeXuGeGekmkmkhkmkmHACyHAHARrRrRrntntntntlYlYlYlYwvseseseKjczsesesesesesekIntntntntntntntjontntntntntntntntEqnfvCEKVuPJqAKFyGyGyGstHXyScscscscscscscscscscscscscscscscscscscscscscs
+cscsPZXkXkXkXkSKPoPofgiizvzvFIzviizvzviizvzvzviizvzvfTntntntuElYlYlYlYyBserSMkczczvsCXjcYSlAseDwntntmmmmmmmmmmqfntntntntntntntntEqnfvCHJPJPJEWKFyGyGyGstHXyScscscscscscscscscscscscscscscscscscscscscscs
+cscstacscscsXkmUoijnmUzvzvzvzvzvzvzvzvzvzvKxiFKxKxKxqfntntntOWOulYlYlYlYSViruWczczRPCXTTTTUEseDwntOXqfqfntqfqfqfSPSPSPSPCsntntntQnnfiUKQPJrpnPxvxvyGAODFySyScscscscscscscscscscscscscscscscscscscscscscs
+cscstacscscsXkmUmUmUmUIHrnphbrvDBvzvzvzvoaKxvPvPsEgGqfntntcWqfqfDvFwealYvcczczczczRPCXCXCXYAseDwnterntntntntntntntntntqfZSmmmmmmmmmmuLPJPJEWKyxvTxyGyGNNyScscscscscscscscscscscscscscscscscscscscscscscs
+cscstaXkXkcscsXkXkXkXfXfAbAbAbXfXfZLdtEsiQKxyqvPKxQsqfntntntntqfEDEDEDEDsJzlczczczirRPRPRPSkseDwnterntntntntntntntntntqfqfqfqfqfqfqfqfqfEWyNiUxvyGyGyGySyScscscscscscscscscscscscscscscscscscscscscscscs
+cscscsXktacscscscsXkXkXkXkXkXkXkXfXfXfXfXfKxvqvqKxGvqfntntntUYOWcHcHcHcHsJsJldHVczczczczczczVCDwnterqfntntntntntntntntntntntntntntntntqfyNyNiUDayGyGmSyScscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscstatacscsXkcscscscscscsXkXkXkXkXkXkKxKxKxKxKxqfntntntUYOWcHcHcHcHcHsJsJNfczczGOsJsJsJsJbqOWjoqfhQOWOWOWqfqfntntntntntntntntntqfqfwSqfqfyGyGJeiHyScscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscsXkXkXkcscscscscscscscscscscscsXkXkXkXkXkXkqfqfuTqfieqfcHcHcHcHdBdBsJsJczczsJsJcHcHcHvnntXEcHcHcHcHcHcHqfntntntntntntntntqfqfntntntPVyGyGZRySyScscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscsXktatatatatatacscscscscscscscscscscscscsTdqfsNntiVpoqfqfqfcHcHdBcHcHsJUUMosJcHcHcHcHvnntXEcHcHcHcHcHcHqfqfqfqfqfntntntntqfWUntntntqfxvxvxvyScscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscscsTdTdTdTdTdqfAkntiVpoXYntqfcHcHdBcHcHokworlcHcHcHcHcHvnntXEcHcHcHcHcHcHcHcHcHcHqfqfntntntqfntntntqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscsTdTdSyNFZfZfqfBpntntoMntntqfqfcHdBcHcHdBCRoScHcHcHcHcHSaUvnGcHcHcHcHcHcHcHcHcHcHcHqfntntntqfUvntqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscslHnDVkcmZfZfqfntntntntntntboqfqfOWOWOWqfUKerqfOWOWOWqfnJOWGyqfOWOWOWOWOWOWOWOWOWqfqfntqfqfqfVDqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscslHnDVkZfcmZfqfntntntntntntrqcqiIkikikintiIiIiIkikikiiIiIiIiIiIkikikikikikikikiwGqfntntntntntntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscslHeSZXZfZfTdqfqfpPqfntntntrqDwntntntntntntntntntntntntntntntntntntntntntntntnterjontntntntntntqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscslHnDVkZfTdTdqCqCfnqfqfqfntYDZSmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmTcqfntntntpopontqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscscscscscscscscscscscscscscscscscscslHnDZXcmKOIDfnfnWgTRTRqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfqfpPqfqfqfqfcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscslHnDtpZfTdyUWgWgWgfnWgWgElTdXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkTdRREIqCssTRcCvdQLTdZfTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscstataXkXkXkTdTdtoZfTdWgAtWgWgfnWgfnddTdcscscscscscscscscscscscscscscscscscscscsTdTdTdWgWgWgfnfnfnWgbaTdTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscstataXkcscsTdTdTdTdWgWgFrWgfnfnFrssTdcscscscscscscscscscscscscscscscscscsTdTdTdTdkgWgfnWgWgWgWgWgQRTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscstatacscscscsTdTdqCTdTdcATdTdTdTdTdcstacscscscscscscscscscscscscscsTdTdTdZfZfTdyUWgTdTdcATdTdTdTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscstacscscsXkXkTdTdTdWgWgfnjlEITdcscstatacscscscscscscscscscscsTdTdTdFLZfcmZfTdfnWgTdyUWgWgWgddTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscsXkcsXkXkcscsTdTdfnfnWgWgfnTdXkXkXktacscscscscscscscscscscslHnDHKcmZfcmZfKOfnWgTdWgfnWgWgKUTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscstataXkcscscscsTdGIPYiRqCvpTdcscstatacscscscscscscscscscscslHnDVkcmZfZfZfTdTdTdTdWgfnTdTdTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscslHnDtpZfTdWgWgWgWgfnWgWgElTdXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkXkTdRREIqCssTRWgvdQLTdZfTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscstataXkXkXkTdTdZfZfTdWgAtWgWgfnWgfnddTdcscscscscscscscscscscscscscscscscscscscsTdTdTdWgWgWgfnfnfnWgbaTdTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscstataXkcscsTdTdTdTdWgWgWgWgfnfnWgssTdcscscscscscscscscscscscscscscscscscsTdTdTdTdkgWgfnWgWgWgWgWgQRTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscstatacscscscsTdTdqCTdTdcATdTdTdTdTdcstacscscscscscscscscscscscscscsTdTdTdZfZfTdWgWgTdTdcATdTdTdTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscstacscscsXkXkTdTdTdWgWgfnjlEITdcscstatacscscscscscscscscscscsTdTdTdZfZfcmZfTdfnWgTdWgWgWgWgddTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscsXkcsXkXkcscsTdTdfnfnWgWgfnTdXkXkXktacscscscscscscscscscscslHnDHKcmZfcmZfKOfnWgTdWgfnWgWgElTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscstataXkcscscscsTdGIQLiRqCqCTdcscstatacscscscscscscscscscscslHnDVkcmZfZfZfTdTdTdTdWgfnTdTdTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscscscscscscscscscscscscscscscscscscstatacscscscsTdTdTdTdTdTdTdcscstacscscscscscscscscscscscslHnDVkZfZfZfZfZfcmZfTdWgWgTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscscscscscscscscscscscscscscscscscscscstaXkcscscscsXkXkcsXkXkcscscsXkcscscscscscscscscscscscslHnDSBcmZfZfcmZfZfZfTdfnfnTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscscscscscscscscscscscscscscscscscscscscscsXktataXkXkcscscsXkXktatacscscscscscscscscscscscscsTdTdXoNFZfZfZfZfZfZfTdmfmfTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
-cscscscscscscscscscscscscscscscscscscscscscscscscstatacscscscscstatacscscscscscscscscscscscstatacsTdCmCmZftoZfZftoZfTdTdTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
+cscscscscscscscscscscscscscscscscscscscscscscscscstatacscscscscstatacscscscscscscscscscscscstatacsTdCmCmZfZfZfZfZfZfTdTdTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscscscscscscscscscscscscscscscscscscscscscscscscsnitatatatatatacscscscscscscscscscscscscscstataXkXkcsTdTdTdIhCmTdTdcscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscstatacscscscscscsXkXkcstatacscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
 cscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscstatatacscscscscsXktatacscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscscs
