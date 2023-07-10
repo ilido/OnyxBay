@@ -92,8 +92,8 @@
 	if(!ui)
 		ui = new(user, src, ui_key, ui_template, "[shuttle_tag] Shuttle Control", 470, 450)
 
-		ui.add_template("mapContent", "shuttle_map_content.tmpl")
-		ui.add_template("mapHeader", "shuttle_map_header.tmpl")
+		ui.add_template("SectorMapContent", "shuttle_map_content.tmpl")
+		ui.add_template("SectormapHeader", "shuttle_map_header.tmpl")
 		
 		ui.set_initial_data(data)
 		ui.open()

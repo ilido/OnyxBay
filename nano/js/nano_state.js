@@ -96,6 +96,46 @@ NanoStateClass.prototype.onUpdate = function (data) {
         {
             $("#uiMapFooter").html(NanoTemplate.parse('mapFooter', data)); // render the 'mapFooter' template to the #uiMapFooter div
         }
+
+//Shuttles an travel map.
+        if (NanoTemplate.templateExists('SectorMapContent'))
+        {
+            if (!this.mapInitialised)
+            {
+                // Add drag functionality to the map ui
+                $('#uiSectorMap').draggable();
+
+                $('#uiSectorMapTooltip')
+                    .off('click')
+                    .on('click', function (event) {
+                        event.preventDefault();
+                        $(this).fadeOut(400);
+                    });
+
+                this.mapInitialised = true;
+            }
+
+            $("#uiSectorMapContent").html(NanoTemplate.parse('SectorMapContent', data)); // render the 'mapContent' template to the #uiMapContent div
+
+            if (data['config'].hasOwnProperty('showMap') && data['config']['showMap'])
+            {
+                $('#uiContent').addClass('hidden');
+                $('#uiMapWrapper').removeClass('hidden');
+            }
+            else
+            {
+                $('#uiMapWrapper').addClass('hidden');
+                $('#uiContent').removeClass('hidden');
+            }
+        }
+        if (NanoTemplate.templateExists('mapHeader'))
+        {
+            $("#uiMapHeader").html(NanoTemplate.parse('mapHeader', data)); // render the 'mapHeader' template to the #uiMapHeader div
+        }
+        if (NanoTemplate.templateExists('mapFooter'))
+        {
+            $("#uiMapFooter").html(NanoTemplate.parse('mapFooter', data)); // render the 'mapFooter' template to the #uiMapFooter div
+        }
     }
     catch(error)
     {

@@ -42,7 +42,8 @@ NanoBaseCallbacks = function ()
                         $('body').oneTime(300, 'enableClick', function () {
                             _canClick = true;
                         });
-                        if (updateData['config']['status'] == 2)
+                        if (updateData
+                            ['config']['status'] == 2)
                         {
                             $(this).oneTime(300, 'linkPending', function () {
                                 $(this).addClass('linkPending');
@@ -118,9 +119,3 @@ NanoBaseCallbacks = function ()
 	};
 } ();
  
-
-
-
-
-
-
