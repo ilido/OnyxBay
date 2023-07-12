@@ -11,7 +11,7 @@
 	var/ui_template = "Helm"
 
 
-/obj/machinery/computer/shuttle_control/attack_hand(user as mob)
+/obj/machinery/computer/helm/attack_hand(user as mob)
 	if(..(user))
 		return
 	if(!allowed(user))
@@ -20,7 +20,7 @@
 
 	ui_interact(user)
 
-/obj/machinery/computer/shuttle_control/proc/get_ui_data(datum/shuttle/autodock/shuttle)
+/obj/machinery/computer/helm/proc/get_ui_data(datum/shuttle/autodock/shuttle)
 	var/shuttle_state
 	switch(shuttle.moving_status)
 		if(SHUTTLE_IDLE) shuttle_state = "idle"
@@ -54,7 +54,7 @@
 		"docking_codes" = shuttle.docking_codes
 	)
 
-/obj/machinery/computer/shuttle_control/proc/handle_topic_href(datum/shuttle/autodock/shuttle, list/href_list, user)
+/obj/machinery/computer/helm/proc/handle_topic_href(datum/shuttle/autodock/shuttle, list/href_list, user)
 	if(!istype(shuttle))
 		return TOPIC_NOACTION
 
@@ -79,7 +79,7 @@
 			shuttle.set_docking_codes(uppertext(newcode))
 		return TOPIC_REFRESH
 
-/obj/machinery/computer/shuttle_control/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = TRUE, datum/tgui/master_ui = null, datum/ui_state/state(GLOB.default_state))
+/obj/machinery/computer/helm/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = TRUE, datum/tgui/master_ui = null, datum/ui_state/state(GLOB.default_state))
 	var/datum/shuttle/autodock/shuttle = SSshuttle.shuttles[shuttle_tag]
 	if (!istype(shuttle))
 		to_chat(user,"<span class='warning'>Unable to establish link with the shuttle.</span>")
@@ -90,14 +90,12 @@
 	ui = SStgui.try_update_ui(user, src, ui_key, ui, force_open)
 	if(!ui)
 		ui = new(user, src, ui_key, ui_template, "[shuttle_tag] Shuttle Control", 470, 450)
-		ui.set_initial_data(data)
 		ui.open()
-		ui.set_auto_update(1)
 
-/obj/machinery/computer/shuttle_control/OnTopic(user, href_list)
+/obj/machinery/computer/helm/OnTopic(user, href_list)
 	return handle_topic_href(SSshuttle.shuttles[shuttle_tag], href_list, user)
 
-/obj/machinery/computer/shuttle_control/emag_act(remaining_charges, mob/user)
+/obj/machinery/computer/helm/emag_act(remaining_charges, mob/user)
 	if (!hacked)
 		playsound(src.loc, 'sound/effects/computer_emag.ogg', 25)
 		req_access = list()
@@ -106,11 +104,11 @@
 		to_chat(user, "You short out the console's ID checking system. It's now available to everyone!")
 		return 1
 
-/obj/machinery/computer/shuttle_control/bullet_act(obj/item/projectile/Proj)
+/obj/machinery/computer/helm/bullet_act(obj/item/projectile/Proj)
 	visible_message("\The [Proj] ricochets off \the [src]!")
 
-/obj/machinery/computer/shuttle_control/ex_act()
+/obj/machinery/computer/helm/ex_act()
 	return
 
-/obj/machinery/computer/shuttle_control/emp_act()
+/obj/machinery/computer/helm/emp_act()
 	return
