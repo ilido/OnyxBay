@@ -9,15 +9,9 @@
 
 
 /obj/machinery/computer/helm/attack_hand(user as mob)
-	if(..(user))
-		return
-	if(!allowed(user))
-		to_chat(user, "<span class='warning'>Access Denied.</span>")
-		return 1
-
 	ui_interact(user)
 
-/obj/machinery/computer/helm/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = TRUE, datum/tgui/master_ui = null)
+/obj/machinery/computer/helm/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = FALSE, datum/tgui/master_ui = null, datum/ui_state/state = GLOB.default_state)
 	ui = SStgui.try_update_ui(user, src, ui_key, ui, force_open)
 	if(!ui)
 		ui = new(user, src, ui_key, ui_template, "Helm Shuttle Control", 470, 450)
