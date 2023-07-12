@@ -42,8 +42,7 @@ NanoBaseCallbacks = function ()
                         $('body').oneTime(300, 'enableClick', function () {
                             _canClick = true;
                         });
-                        if (updateData
-                            ['config']['status'] == 2)
+                        if (updateData['config']['status'] == 2)
                         {
                             $(this).oneTime(300, 'linkPending', function () {
                                 $(this).addClass('linkPending');
@@ -91,33 +90,9 @@ NanoBaseCallbacks = function ()
 
             $('#uiMapImage').attr('src', updateData['config']['mapName'] + '-' + updateData['config']['mapZLevel'] + '.png');
 
-                
-            $('.zoomLink')
-                .off('click')
-                .on('click', function (event) {
-                    event.preventDefault();
-                    var zoomLevel = $(this).data('zoomLevel');
-                    var uiMapObject = $('#uiSectorMap');
-                    var uiMapWidth = uiMapObject.width() * zoomLevel;
-                    var uiMapHeight = uiMapObject.height() * zoomLevel;
-
-                    uiMapObject.css({
-                        zoom: zoomLevel,
-                        left: '50%',
-                        top: '50%',
-                        marginLeft: '-' + Math.floor(uiMapWidth / 2) + 'px',
-                        marginTop: '-' + Math.floor(uiMapHeight / 2) + 'px'
-                    });
-                });
-
-            $('#uiSectorMapImage').attr('src', updateData['config']['mapName'] + '-' + updateData['config']['mapZLevel'] + '.png');
-
-
             return updateData;
-            
         }
 	};
-
 
 	return {
 		addCallbacks: function () {
@@ -143,3 +118,9 @@ NanoBaseCallbacks = function ()
 	};
 } ();
  
+
+
+
+
+
+

@@ -1,27 +1,34 @@
 "ac" = (/obj/machinery/light/small{dir = 8},/obj/effect/floor_decal/rust,/obj/item/modular_computer/console/preset/engineering,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"aj" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 10},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "ao" = (/obj/machinery/portable_atmospherics/canister/empty/oxygen,/turf/simulated/floor/reinforced/oxygen,/area/engineering/engine_eva)
+"as" = (/obj/machinery/telecomms/bus,/turf/simulated/floor,/area/engineering/engine_eva)
 "av" = (/obj/structure/sign/poster{pixel_y = 32},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "aP" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "aU" = (/obj/machinery/atmospherics/binary/circulator{anchored = 1; dir = 1},/obj/effect/floor_decal/industrial/warning/full,/turf/simulated/floor,/area/engineering/engine_eva)
+"bc" = (/obj/machinery/biogenerator,/obj/effect/floor_decal/corner/lime{dir = 10},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"bl" = (/obj/effect/floor_decal/corner/lime/three_quarters,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "bn" = (/obj/machinery/pipedispenser,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "bp" = (/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/trim/lino,/area/engineering/engine_eva)
 "by" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
+"bL" = (/obj/machinery/portable_atmospherics/hydroponics,/turf/simulated/floor/natural/grass,/area/space)
 "bP" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor,/area/engineering/engine_eva)
 "bU" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/effect/floor_decal/industrial/arrows/orange{dir = 1; pixel_x = -8},/turf/simulated/floor,/area/engineering/engine_eva)
 "cc" = (/obj/machinery/atmospherics/pipe/zpipe/up/red,/turf/simulated/floor,/area/engineering/engine_eva)
 "ci" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 6},/turf/simulated/floor,/area/engineering/engine_eva)
 "cO" = (/obj/structure/sign/warning/fire{pixel_y = -32},/obj/effect/floor_decal/rust,/obj/effect/floor_decal/industrial/warning,/obj/machinery/light,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
-"cX" = (/obj/effect/floor_decal/siding/wood{dir = 1},/turf/simulated/floor,/area/engineering/engine_eva)
+"cX" = (/obj/machinery/mass_driver{dir = 4},/turf/simulated/floor,/area/space)
 "dh" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "dl" = (/obj/machinery/atmospherics/binary/pump{target_pressure = 15000},/turf/simulated/floor,/area/engineering/engine_eva)
 "dy" = (/obj/machinery/atmospherics/pipe/manifold/hidden/red,/turf/simulated/floor,/area/engineering/engine_eva)
-"dA" = (/obj/structure/railing/wood{dir = 8},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
+"dA" = (/obj/structure/railing/wood{dir = 8},/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/engineering/engine_eva)
 "dJ" = (/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "dL" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 6},/obj/structure/cable{icon_state = "2-8"},/obj/effect/floor_decal/rust,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "dS" = (/obj/machinery/atmospherics/pipe/simple/visible/blue{dir = 9},/obj/machinery/light/small{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "dV" = (/obj/effect/floor_decal/industrial/box/blue,/obj/machinery/portable_atmospherics/canister/empty/oxygen,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "ee" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 6},/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/engineering/engine_eva)
+"ef" = (/obj/machinery/vending/hydronutrients,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "em" = (/obj/effect/decal/cleanable/ash,/turf/simulated/floor,/area/engineering/engine_eva)
+"ev" = (/obj/structure/window_frame/rglass,/turf/simulated/floor,/area/engineering/engine_eva)
 "eH" = (/obj/structure/bed/chair/office/light{dir = 8},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "eO" = (/obj/structure/bed/chair/wood{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "eQ" = (/obj/effect/floor_decal/rust,/obj/machinery/light,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
@@ -29,6 +36,7 @@
 "fp" = (/turf/simulated/wall/r_wall,/area/engineering/engine_eva)
 "fr" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/obj/machinery/door/airlock/engineering,/turf/simulated/floor,/area/engineering/engine_eva)
 "fw" = (/obj/machinery/light/small,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
+"fC" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/obj/structure/window_frame/rglass,/turf/simulated/floor,/area/engineering/engine_eva)
 "fF" = (/obj/machinery/door/airlock/external{frequency = 1380; icon_state = "door_locked"; id_tag = "mining_vessel_hatch"; locked = 1; name = "Docking Hatch"; req_access = list(13)},/turf/simulated/floor,/area/engineering/engine_eva)
 "fH" = (/turf/simulated/floor/reinforced/oxygen,/area/engineering/engine_eva)
 "fN" = (/obj/effect/floor_decal/rust,/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
@@ -39,6 +47,7 @@
 "gM" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 10},/obj/machinery/light/small{dir = 1},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor,/area/engineering/engine_eva)
 "gO" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/machinery/meter,/turf/simulated/floor,/area/engineering/engine_eva)
 "gQ" = (/obj/machinery/light/small,/obj/effect/floor_decal/rust,/turf/simulated/floor,/area/engineering/engine_eva)
+"gR" = (/obj/machinery/door/airlock/glass_command{name = "E.V.A."; req_one_access = list(18)},/turf/simulated/floor,/area/engineering/engine_eva)
 "he" = (/obj/structure/table/steel_reinforced,/obj/item/modular_computer/laptop/preset/custom_loadout/standard,/obj/machinery/light/small/he{dir = 8},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "hs" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/obj/structure/railing/steel{dir = 4},/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "ht" = (/obj/structure/table/woodentable,/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
@@ -46,6 +55,7 @@
 "hM" = (/obj/machinery/atmospherics/valve{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "hQ" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "ic" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor,/area/engineering/engine_eva)
+"id" = (/obj/effect/floor_decal/spline/fancy{dir = 1},/obj/effect/floor_decal/corner/lime{dir = 8},/turf/simulated/floor/tiled/rough,/area/space)
 "ih" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/effect/floor_decal/industrial/arrows/orange{dir = 4; pixel_x = -7; pixel_y = 8},/turf/simulated/floor,/area/engineering/engine_eva)
 "iv" = (/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{dir = 4},/turf/simulated/floor/reinforced/plasma,/area/engineering/engine_eva)
 "iH" = (/obj/machinery/light/small{dir = 1},/obj/structure/railing/steel{dir = 4},/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
@@ -54,12 +64,14 @@
 "iV" = (/obj/structure/lattice,/turf/space,/area/space)
 "jo" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor,/area/engineering/engine_eva)
 "jq" = (/obj/machinery/atmospherics/pipe/manifold4w/visible/red,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"jt" = (/obj/machinery/seed_extractor,/obj/effect/floor_decal/corner/lime{dir = 10},/obj/machinery/light,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "jw" = (/obj/machinery/cryopod/lifepod{dir = 4},/obj/machinery/light/small/he{dir = 8},/obj/effect/floor_decal/corner/blue{dir = 9},/obj/effect/landmark/joinlate,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "jF" = (/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "jO" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan,/turf/simulated/floor,/area/engineering/engine_eva)
 "kh" = (/obj/structure/sink{dir = 4; pixel_x = 11},/obj/structure/mirror{pixel_x = 30},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "kq" = (/obj/structure/window_frame/reinforced/thermal,/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 5},/obj/machinery/door/blast/regular/open{id = "TEG_BLAST"},/turf/simulated/floor,/area/engineering/engine_eva)
 "kt" = (/obj/machinery/door/airlock/glass,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor/trim/lino,/area/engineering/engine_eva)
+"ku" = (/obj/effect/floor_decal/spline/fancy{dir = 1},/obj/effect/floor_decal/corner/lime,/turf/simulated/floor/tiled/rough,/area/space)
 "kx" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "kB" = (/obj/machinery/door/airlock/medical{icon = 'icons/obj/doors/doorviro.dmi'; name = "Operating Theatre 2"; req_access = list(45)},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "kK" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/meter,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
@@ -73,7 +85,9 @@
 "ln" = (/obj/structure/table/rack,/obj/item/storage/toolbox/mechanical,/obj/item/storage/toolbox/mechanical,/obj/item/device/radio{frequency = 1487; name = "medbay emergency radio link"},/obj/item/device/radio{frequency = 1487; name = "medbay emergency radio link"},/obj/item/device/radio{frequency = 1487; name = "medbay emergency radio link"},/obj/item/crowbar,/obj/item/crowbar,/obj/item/crowbar,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "lo" = (/obj/machinery/atmospherics/binary/pump{dir = 1; name = "CO2 to Connector"},/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "lw" = (/obj/machinery/door/airlock,/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
+"lF" = (/obj/machinery/portable_atmospherics/hydroponics,/obj/machinery/light{dir = 1},/turf/simulated/floor/natural/grass,/area/space)
 "lI" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 9},/obj/machinery/meter,/turf/simulated/floor,/area/engineering/engine_eva)
+"lJ" = (/obj/effect/floor_decal/corner/lime{dir = 9},/obj/structure/reagent_dispensers/watertank,/obj/item/reagent_containers/vessel/bucket,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/rough,/area/space)
 "lN" = (/obj/structure/stairs/north,/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "lO" = (/obj/structure/table/rack,/obj/item/bodybag/cryobag{pixel_x = 6},/obj/item/bodybag/cryobag{pixel_x = 6},/obj/item/bodybag/cryobag{pixel_x = 6},/obj/item/bodybag/cryobag{pixel_x = 6},/obj/item/roller,/obj/item/roller,/obj/item/roller,/obj/item/roller,/obj/machinery/light/small,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "lR" = (/obj/effect/floor_decal/siding/wood{dir = 8},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
@@ -92,15 +106,18 @@
 "nP" = (/obj/structure/sink{dir = 4; pixel_x = 11},/obj/structure/mirror{pixel_x = 30},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "nV" = (/obj/effect/floor_decal/siding/wood{dir = 1},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "oe" = (/obj/structure/curtain/open/shower,/obj/machinery/shower{dir = 8},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
-"ou" = (/obj/structure/railing/wood{dir = 1},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
+"ou" = (/obj/structure/railing/wood{dir = 1},/turf/simulated/wall/r_wall,/area/engineering/engine_eva)
 "oz" = (/obj/machinery/atmospherics/binary/passive_gate/on{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "oA" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"oB" = (/obj/effect/floor_decal/spline/fancy{dir = 1},/turf/simulated/floor/tiled/rough,/area/space)
 "oE" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/turf/space,/area/space)
 "oF" = (/obj/machinery/door/airlock/engineering,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor,/area/engineering/engine_eva)
 "oH" = (/turf/simulated/wall/r_wall,/area/space)
 "oM" = (/obj/structure/railing/wood,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"pd" = (/obj/machinery/atmospherics/pipe/manifold/hidden/red,/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "pe" = (/obj/structure/closet/cabinet,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "pj" = (/obj/machinery/cryopod/lifepod{dir = 4},/obj/structure/window/reinforced{dir = 1},/obj/effect/floor_decal/corner/blue{dir = 9},/obj/effect/landmark/joinlate,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
+"pq" = (/obj/structure/window/reinforced,/turf/simulated/floor,/area/space)
 "pw" = (/obj/machinery/door/window/westright{dir = 1},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "pz" = (/obj/structure/table/rack,/obj/item/clothing/suit/space/void/atmos/prepared,/obj/item/clothing/suit/space/void/atmos/prepared,/obj/effect/floor_decal/corner/yellow/three_quarters,/turf/simulated/floor/tiled/dark/rough,/area/engineering/engine_eva)
 "pH" = (/obj/structure/table/rack,/obj/item/clothing/suit/space/void/medical/prepared,/obj/item/clothing/suit/space/void/medical/prepared,/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 8},/turf/simulated/floor/tiled/dark/rough,/area/engineering/engine_eva)
@@ -127,6 +144,7 @@
 "sB" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "sH" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor,/area/engineering/engine_eva)
 "sS" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
+"te" = (/obj/effect/floor_decal/corner/lime{dir = 9},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "ti" = (/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "to" = (/obj/effect/floor_decal/industrial/box/blue,/obj/structure/dispenser/oxygen,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "tw" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 9},/turf/simulated/floor,/area/engineering/engine_eva)
@@ -141,12 +159,15 @@
 "uJ" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 10},/obj/effect/floor_decal/rust,/turf/simulated/floor,/area/engineering/engine_eva)
 "uM" = (/obj/structure/sign/warning/fire{pixel_y = -32},/obj/effect/floor_decal/industrial/warning,/obj/machinery/light,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "uR" = (/obj/effect/floor_decal/rust,/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"uS" = (/obj/structure/closet/crate/hydroponics,/obj/item/shovel/spade,/obj/item/material/minihoe,/obj/effect/floor_decal/corner/lime{dir = 6},/turf/simulated/floor/tiled/rough,/area/space)
+"uX" = (/obj/machinery/door/airlock/glass{name = "Hydroponics"; req_one_access = list(28,35)},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "vd" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 10},/turf/simulated/floor,/area/engineering/engine_eva)
 "vf" = (/turf/simulated/floor,/area/engineering/engine_eva)
 "vm" = (/obj/structure/table/reinforced,/obj/item/storage/toolbox/electrical,/obj/machinery/alarm{pixel_y = 23},/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/engineering/engine_eva)
 "vt" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "vu" = (/obj/effect/floor_decal/rust,/obj/machinery/atmospherics/pipe/manifold/hidden/red{dir = 1; tag = "icon-map (WEST)"},/turf/simulated/floor,/area/engineering/engine_eva)
 "vL" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
+"vS" = (/turf/simulated/floor/tiled/rough,/area/space)
 "wb" = (/obj/effect/floor_decal/industrial/box/blue,/obj/structure/dispenser/oxygen,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "wc" = (/obj/machinery/optable,/obj/machinery/oxygen_pump{desc = "A wall mounted anesthetic pump with a retractable face mask that you can pull over patient face."; icon_state = "anesthetic_tank"; icon_state_closed = "anesthetic_tank"; icon_state_open = "anesthetic_tank_open"; mask_type = /obj/item/clothing/mask/breath/anesthetic; name = "anesthetic pump"; pixel_y = -28; spawn_type = /obj/item/tank/anesthetic},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "wf" = (/obj/structure/shuttle/engine/propulsion/burst{can_atmos_pass = 0; dir = 8},/turf/simulated/floor{can_atmos_pass = 0},/area/engineering/engine_eva)
@@ -219,6 +240,7 @@
 "DT" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/turf/simulated/floor,/area/engineering/engine_eva)
 "Ed" = (/obj/effect/floor_decal/rust,/turf/simulated/wall/r_wall,/area/engineering/engine_eva)
 "Ef" = (/obj/structure/window_frame/reinforced/thermal,/obj/machinery/door/blast/regular/open{id = "TEG_BLAST"},/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
+"Em" = (/obj/effect/landmark/start/crew/ai,/turf/simulated/floor,/area/engineering/engine_eva)
 "En" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 10},/obj/machinery/sparker{id = "ignition"; pixel_x = 32},/obj/machinery/atmospherics/pipe/manifold/visible/red{dir = 4},/turf/simulated/floor/reinforced/airless,/area/engineering/engine_eva)
 "ED" = (/obj/machinery/light/small{dir = 1},/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 10},/turf/simulated/floor,/area/engineering/engine_eva)
 "EE" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{dir = 1},/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/engineering/engine_eva)
@@ -226,6 +248,7 @@
 "EI" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/effect/floor_decal/industrial/arrows/orange{dir = 8; pixel_x = 7; pixel_y = 8},/turf/simulated/floor,/area/engineering/engine_eva)
 "EM" = (/obj/effect/floor_decal/rust,/obj/machinery/light{dir = 1},/turf/simulated/floor,/area/engineering/engine_eva)
 "Fg" = (/obj/effect/floor_decal/rust,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"Fp" = (/obj/effect/floor_decal/corner/lime/three_quarters{dir = 4},/obj/machinery/seed_storage/garden,/turf/simulated/floor/tiled/rough,/area/space)
 "Fq" = (/obj/machinery/atmospherics/binary/pump{dir = 8},/turf/simulated/floor,/area/engineering/engine_eva)
 "Fr" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging,/turf/space,/area/space)
 "Fx" = (/obj/structure/sign/warning/fire{pixel_y = 32},/obj/effect/floor_decal/rust,/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
@@ -250,6 +273,7 @@
 "Iu" = (/obj/structure/closet/secure_closet/medical3,/obj/item/device/hudmatrix/medical,/obj/item/device/hudmatrix/medical,/obj/item/device/radio/headset/headset_med,/obj/item/storage/belt/medical,/obj/item/storage/belt/medical,/obj/item/storage/belt/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/standard/medical,/obj/item/clothing/glasses/hud/standard/medical,/obj/item/device/flashlight/pen,/obj/item/clothing/accessory/stethoscope,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "IC" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "IO" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/light/small/he{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"IX" = (/turf/simulated/floor,/area/space)
 "IZ" = (/obj/machinery/atmospherics/binary/pump{dir = 4; name = "Mixing to Port"},/turf/simulated/floor,/area/engineering/engine_eva)
 "Jo" = (/obj/machinery/computer/cryopod{pixel_y = -36},/obj/effect/floor_decal/corner/blue{dir = 10},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "Jp" = (/obj/machinery/bodyscanner,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
@@ -258,11 +282,13 @@
 "JD" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/machinery/light/small/he{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "JF" = (/obj/structure/sign/poster{pixel_x = 32},/obj/machinery/cryopod/lifepod,/obj/machinery/light/small/he{dir = 4},/obj/effect/floor_decal/corner/blue{dir = 6},/obj/effect/landmark/joinlate,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "JJ" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/effect/floor_decal/industrial/arrows/blue{dir = 8; pixel_x = 8; pixel_y = 6},/obj/effect/floor_decal/rust,/turf/simulated/floor,/area/engineering/engine_eva)
+"Ku" = (/obj/effect/floor_decal/corner/lime{dir = 6},/obj/structure/sink{dir = 4; pixel_x = 11},/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled/rough,/area/space)
 "Ky" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 5},/turf/simulated/floor,/area/engineering/engine_eva)
 "KA" = (/obj/structure/bed/chair/wood{dir = 8},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "KC" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/light/small/he,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "KL" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 6},/turf/space,/area/space)
 "KO" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 10},/turf/simulated/floor,/area/engineering/engine_eva)
+"KP" = (/obj/machinery/atmospherics/pipe/manifold/hidden/red{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "Ll" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "Ln" = (/obj/machinery/door/airlock/engineering,/obj/machinery/atmospherics/pipe/simple/visible/blue,/turf/simulated/floor,/area/engineering/engine_eva)
 "Lr" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction,/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/engineering/engine_eva)
@@ -276,8 +302,10 @@
 "MA" = (/obj/machinery/suit_cycler/medical,/obj/effect/floor_decal/industrial/box/blue,/turf/simulated/floor/tiled/dark/rough,/area/engineering/engine_eva)
 "MD" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/obj/effect/floor_decal/rust,/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "ML" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
-"MP" = (/obj/structure/stairs/north,/turf/simulated/floor,/area/engineering/engine_eva)
+"MP" = (/obj/machinery/door/blast/regular,/turf/simulated/floor,/area/space)
 "MU" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 9},/obj/machinery/light/small{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
+"Nh" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/wall/r_wall,/area/engineering/engine_eva)
+"Nq" = (/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor,/area/space)
 "NP" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "NS" = (/obj/machinery/atmospherics/pipe/simple/visible/blue,/obj/machinery/meter,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "NT" = (/obj/structure/table/reinforced,/obj/item/storage/toolbox/mechanical,/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 6},/turf/simulated/floor,/area/engineering/engine_eva)
@@ -296,12 +324,13 @@
 "PJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 6},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "PO" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "PR" = (/obj/machinery/atmospherics/omni/mixer{tag_east = 2; tag_east_con = 0; tag_north = 1; tag_north_con = 0.21; tag_south_con = 0; tag_west = 1; tag_west_con = 0.79},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
-"PY" = (/turf/simulated/wall,/area/engineering/engine_eva)
+"PY" = (/obj/machinery/r_n_d/protolathe,/turf/simulated/floor,/area/engineering/engine_eva)
 "PZ" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/turf/space,/area/space)
 "Qg" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor/trim/lino,/area/engineering/engine_eva)
 "Qx" = (/obj/structure/window_frame/reinforced/thermal,/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/obj/machinery/door/blast/regular/open{id = "TEG_BLAST"},/turf/simulated/floor,/area/engineering/engine_eva)
 "QJ" = (/obj/machinery/atmospherics/binary/pump{target_pressure = 15000},/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "QP" = (/obj/effect/floor_decal/rust,/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor,/area/engineering/engine_eva)
+"QQ" = (/obj/effect/floor_decal/corner/lime{dir = 9},/obj/structure/table/standard,/obj/item/clothing/gloves/thick/botany,/obj/item/device/analyzer/plant_analyzer,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "QU" = (/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "Rd" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 6},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "Rg" = (/obj/structure/lattice,/obj/structure/lattice,/turf/space,/area/space)
@@ -312,10 +341,12 @@
 "Sb" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "Sh" = (/obj/machinery/power/smes/buildable,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "Ss" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 5},/turf/space,/area/space)
+"Sx" = (/obj/effect/floor_decal/corner/lime{dir = 6},/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled/rough,/area/space)
 "Sy" = (/obj/machinery/door/airlock/medical{icon = 'icons/obj/doors/doorviro.dmi'; name = "Secondary Storage"; req_access = list(66)},/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "SC" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/effect/floor_decal/industrial/arrows/blue{dir = 1; pixel_x = 8},/turf/simulated/floor,/area/engineering/engine_eva)
 "SU" = (/obj/machinery/light/small,/obj/structure/sign/poster{pixel_x = -32; poster_type = "/datum/poster/bay_9"},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "Tb" = (/obj/machinery/light/small{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/effect/floor_decal/industrial/warning{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
+"Tk" = (/obj/random/pottedplant,/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "TS" = (/obj/machinery/atmospherics/unary/freezer{icon_state = "freezer"},/turf/simulated/floor,/area/engineering/engine_eva)
 "TV" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/trim/lino,/area/engineering/engine_eva)
 "TX" = (/obj/structure/window_frame/grille,/obj/machinery/atmospherics/pipe/simple/visible/blue{dir = 4},/turf/simulated/wall/r_wall,/area/engineering/engine_eva)
@@ -329,7 +360,8 @@
 "UQ" = (/obj/effect/floor_decal/rust,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "UT" = (/obj/structure/table/standard,/obj/item/device/radio/phone/medbay{name = "reception emergency phone"; pixel_x = -5},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "UW" = (/obj/effect/floor_decal/rust,/obj/structure/cable{icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
-"UZ" = (/obj/structure/railing/wood{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
+"UX" = (/obj/effect/floor_decal/corner/lime{dir = 6},/obj/structure/closet/secure_closet/hydroponics,/turf/simulated/floor/tiled/rough,/area/space)
+"UZ" = (/obj/structure/window_frame/grille/rglass,/turf/space,/area/space)
 "Va" = (/obj/machinery/gravity_generator/main/station,/turf/simulated/floor/tiled/dark/rough,/area/centcom)
 "Vq" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "VR" = (/obj/structure/window_frame/grille/rglass,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
@@ -340,10 +372,12 @@
 "WQ" = (/obj/machinery/atmospherics/binary/pump{dir = 8; name = "Mixing to Port"},/turf/simulated/floor,/area/engineering/engine_eva)
 "Xl" = (/obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{dir = 4},/turf/simulated/floor/reinforced/oxygen,/area/engineering/engine_eva)
 "XD" = (/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"XI" = (/obj/effect/floor_decal/corner/lime{dir = 9},/obj/structure/reagent_dispensers/composttank,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "XO" = (/obj/machinery/atmospherics/binary/pump{target_pressure = 15000},/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "Yi" = (/obj/structure/window_frame/reinforced/thermal,/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction,/obj/machinery/door/blast/regular/open{id = "TEG_BLAST"},/turf/simulated/floor,/area/engineering/engine_eva)
 "Yo" = (/obj/structure/table/steel_reinforced,/obj/item/paper_bin,/obj/item/pen/blue,/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "Yt" = (/obj/machinery/door/airlock,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
+"YW" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/wall/r_wall,/area/engineering/engine_eva)
 "Zd" = (/obj/machinery/light/small/he{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "Zg" = (/obj/effect/floor_decal/corner/paleblue{dir = 9},/turf/simulated/floor/tiled/dark/rough,/area/engineering/engine_eva)
 "Zi" = (/obj/machinery/light/small,/obj/machinery/cryopod/lifepod{dir = 4},/obj/effect/floor_decal/corner/blue/diagonal,/obj/effect/landmark/joinlate,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
@@ -385,39 +419,39 @@ MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMniViVMnMnMniViVfpfpfpvfvfvfvffpMnMnCICIMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCIMnMnMnMnMnfpfpccfpvfvfvfvffpMnMnCIMnMnMnMnMnMnMnMnMnMnMnMnfpfpvfvfvfvffpvfvfvfvfvfvfvfsHvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnMnfpfpvfUFfpfpqgfpfpfpfpMnMnMnMnMnMnfpfFfFfpMnMnMnMnMnfpfpfpvfvffpvfvfvfvfvfvfvfsHvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiVMnMnfpfpfpvfvfsHfpvfvfMsvfMsfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnfpfpfpfpvfvfvfvfvfvfvfsHvfvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiViViVfpfpvfvfvfvfsHfpvfvfvfvfvffpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpfpfpfpfrfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTnHNPhMNPCMfpvfvfvfvfAgfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnMnMnfpvfvfvfvfvfsHvfvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpfpqgfpfpqgnmfpfpfpfpfpfpfpfpfFfFfpfpfpfpfpfpfpfpfpfpfpfpfpfpvfvfvfvfvfsHvfvfUZMPfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvffpfpHvHvHvkWHvHvHvHvHvfpqWtitGtovtvtBlBlCRqWqWQUtiqWqWqWQUtiQUfpvfvfvfvfvfsHvfvfUZvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfAgfpHvRdHNSbSbSbSbSbSbSbYtDfDfDfUWfNfNfNkUkUkUfNfNkUkUkUkUkUfNkULVNPNPNPNPNPxUvfvfvfcXfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUyPWQBprFwSkxHvBfnonoHvHvBffpqWqWcOoAsBuMQUqWqWUkQUqWqWeQQUQUqWQUVqfpvfvfvfvfvfsHvfvfvfvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTdytwAgfpfpHvkxHvfpugQUlRfpfpgGgGgGJyoFqgfpnmnmnmfpnmnmnmfpnmnmnmnmnmnmnmnmnmfpfpCifpfpvffpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpvfvfvffpbyHvkxHvkWououfpfpMngGDhivBdgpKOfpKLoEoEoEoEoEoEoEoEoEoEoEoEoEoEoEwYMnfpsHvfvfvfvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpHvHvkxHvHvHvHvfpMnMngGAxUGnmEGGSfpSsoEoEoEoEoEoEoEoEoEoEwYKLoEoEoEPZfpfpsHvfvfvfvfvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMniVCICICICICICIMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpHvkxBfHvfpfpfpMnMngGDhDhgGEGGSfpMnKLoEoEoEoEoEoEoEoEoEPZFrfpfpfpfpfpvfsHvfvfvfvfvfvfvffpfpfpfpnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMniViViVMnMnMnMnMnMnMnMnMnMnMnMniViViViViViVfpfpktfpfpfpMnMnMnMngGgGgGgGoFtZfpfpSsoEoEwYMnKLoEoEoEoEoEPZfpvfvfvfvfvfsHvfvfvfvfvfvfvfPYvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnCICIMnMniVMnMnMnMnMnMnMniViViViViVfpnmfpfpfpfpJApYhuzsnmMnMnMnMnMnfpfpkPBRkKiHfpfpfpfpEEfpEEfpnmnmnmnmfpfpvfvfvfvfvfsHvfvfvfvfPYvfPYPYvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMniVCIMnMnMnMniViViViViViViVfpnmnmfpnmfppefpwrZLfpHGItTVbpnmMnMnMnMnfpfpShBSdLjqmfvmbnPDNTBiEMLEEDyivLEIuJBBfpfpvfvfvfvfsHvfvfvfvfPYvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIiViVMnMniViViVfpfpnmnmfpfpfpwrxcfpwrxcHvfpHvHvfpJAQgJAJAfpfpfpfpfpfpfpfpfpRpPRzDKOvfCBLlozKOvfgJfVyiRNZUjonxfpvfPYPYPYsHPYPYPYPYPYvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVfpfpfpfpBjHvHvAMfpHvHvHvfpHvHvHvfpHvHvxtJAQgrCfpfpwpwwtDfpPCMLBzfpUzyICnMUnmEddleeLwiTOVRATbysYiysYifpPYPYvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVfpwrZLfpxcHvHvnPfpmDHvnPfpHvHvkhfpmDnPfpJAQgJAxZmijFjFjFkBdJdJwcfpaPzhpTyXDNgMicXOGkrxbPemhQyszkeYDCfpvfvfvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVnmHvHvfpfpxtfpfpfpfpxtfpfpfpxtfpfpfpfpfpHGQgJAqmICjFjFGZfpfpfpfpfpMDiJNUDkDsaUGWUEvfkYbPDshQysxwCyEnfpvfvfvfvfsHvfvfvfvfvfvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIiViViViVnmHvHvxtHvHvIbavHvHvHvIbHvHvVWHvIbHvHvxtJAQgJAfpUTjFjFJpfpZNIuqbfpqWyIqobPvfLEJJqJIiBiSCvfTbyskqEfQxfpvfvfvfvfsHvfvfvfvfvfvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVfpzbnPfpHvHvHvHvHvHvHvHvHvHvfpxtfpfpfpfpJAQgJAzdjFjFjFjFSyjFjFjFfpqWyIDSbPDsvfDsDTLDgOLlihWCHzrnHzHIfpvfvfvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVfpfpfpfpSUeOhtKAVWfppjpwDqDifpdJdJdJuffpJAQgrCfpfplOtCOIfpsolnZyfpqWyIDSsuTSTSTSdhfpWPBiemvfvfbUDsmrfpPYPYvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIiViVMnMniViViVfpfpnmnmnmfpfpjwdJdJJFfpmndJfpsSfpHGQgJAJAfpfpfpfpfpfpfpfpfpFgyIDSLEjOjOjOrxvfbPDsvfvfDsGSvflcVRvdPYPYPYsHPYPYPYPYPYvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMniVCIMnMnMnMniViViViViViViVfpZizwJoFYfpoeoefpGEfpJAQgJAJAnmMnMnMnMnfpfpacnCqWyIhsLDOFOFfwQJvLlofwwEvLvLRAgQfpfpsHvfvfvfsHvfvfvfvfPYvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnCICIMnMniVMnMnMnMnMnMniVoHoHoHoHoHfpfpfpfpfpfpJAQgJAwRnmMnMnMnMnMnfpUQqWqWNSyhfpfpfpfpLrfpLrfpnmnmnmnmfpfpvfsHvfvfvfsHvfvfvfvfPYvfPYPYvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMniViViVMnMnMnMnMnMnMnMnMnMnMnMniViViViViViVfpfpAzfpfpfpMnMnMnMngGgGgGJyqgLnfpfpKLoEoEPZMnSsoEoEoEoEoEwYfpvfKyNPNPNPdyvdvfvfvfvfvfvfPYvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMniVCICICICICICIMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpHvPOIclNqafpfpMnMngGfHXlTXIZdSfpKLPZKLoEoEoEoEoEoEoEoEoEPZfpfpfpfpfpvfvfsHvfvfvfvfvffpfpfpfpfpnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpfpbyPOIcHvdAHvfpMnMngGaounnmvfvffpFrMnSsoEoEoEoEoEoEoEoEoEoEoEoEoEwYfpfpvfsHvfvfvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpyPhMNPPxfpHvPOHvnVHvHvfpfpMngGfHfHgGvfAgfpSsoEoEoEoEoEoEoEoEoEoEoEoEoEoEoEPZMnfpvfsHvfvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpBfPOHvHvBfHvfpfpfpgGgGgGgGqgqgfpnmnmnmfpnmnmnmfpnmnmnmnmnmfpfpfpfpfpfpvfsHvfvfvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpfplwfpfpfpfpfpkWHvfpCRQURIvtuRFxqWqWqWCRqWQUQUtiQUQUqWqWQUfptiQUQUQUQUQUDpQUQUQUfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvffpfpHvPOkWHvHvHvHvHvHvxtQUqWqWqWqWqWqWqWqWQUQUQUQUqWqWqWQUQUQUnKQUQUQUQUQUQUDpoMoMQUfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvffpfpkWHvPOHvHvHvHvHvHvHvfpQUqWPHwbHsqUTYdVQUQUQUUkQUqWQUQUqWeQqWfpQUQUQUQUQUQUAlQUUnfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTAqWQBprFrFrFwSHvHvHvHvfpfpfpfpfpfpfpfpfFfFfpfpfpfpfpfpfpfpfpfpfpfpfpfpUkPJkUkUkUkUOMNWNWQUfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTtwvffpBffpOifpHvHvBfHvfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnfpfpfpfpZZfpfpnmmgfpnmfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiViViVfpfpvfvfvfvfsHfpvfvfvfvfvffpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpfpfpfpfrfpfpfpfpfpoHoHoHoHoHMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTnHNPhMNPCMfpvfvfvfvfAgfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnMnMnfpHvHvHvHvHvPOHvHvHvfpfpcXIXIXIXMPMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpfpqgfpfpqgnmfpfpfpfpfpfpfpfpfFfFfpfpfpfpfpfpfpfpfpfpfpfpfpfpHvHvHvHvHvPOHvHvIclNfpIXNqNqNqoHMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvffpfpHvHvHvkWHvHvHvHvHvfpqWtitGtovtvtBlBlCRqWqWQUtiqWqWqWQUtiQUfpHvHvHvHvHvPOHvHvIcHvfpIXIXIXIXUZMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfAgfpHvRdHNSbSbSbSbSbSbSbYtDfDfDfUWfNfNfNkUkUkUfNfNkUkUkUkUkUfNkULVrFrFrFrFrFKPHvHvHvnVgRIXIXIXIXUZMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUyPWQBprFwSkxHvBfnonoHvHvBffpqWqWcOoAsBuMQUqWqWUkQUqWqWeQQUQUqWQUVqfpHvHvHvHvHvPOHvHvHvHvfpoHoHoHoHoHMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTdytwAgfpfpHvkxHvfpugQUlRfpfpfpfpgGJyoFqgfpnmnmnmfpnmnmnmfpnmnmnmnmnmnmnmnmnmfpfpCiHvfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpvfvfvffpbyHvkxHvkWououfpfpIXfpDhivBdgpKOfpKLoEoEoEoEoEoEoEoEoEoEoEoEoEoEoEwYMnfpPOHvHvvfvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpHvHvkxHvHvfpvfvfIXIXfpAxUGnmEGGSfpSsoEoEoEoEoEoEoEoEoEoEwYKLoEoEoEPZfpfpPOHvHvfpvfvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMniVCICICICICICIMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpHvkxBfHvvfvfvfIXIXfpDhDhgGEGGSfpMnKLoEoEoEoEoEoEoEoEoEPZFrfpfpfpfpfpfpYWHvHvfpfpfpfpfpfpfpfpfpnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMniViViVMnMnMnMnMnMnMnMnMnMnMnMniViViViViViVfpfpktfpfpfpIXIXIXIXfpfpgGgGoFtZfpfpSsoEoEwYMnKLoEoEoEoEoEPZfpQUQUQUQUQUfCHvHvHvfpvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnCICIMnMniVMnMnMnMnMnMnMniViViViViVfpnmfpfpfpfpJApYhuzsnmIXIXIXIXIXfpfpkPBRkKiHfpfpfpfpEEfpEEfpnmnmnmnmfpfpQUQUQUQUQUYWHvHvHvfpvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMniVCIMnMnMnMniViViViViViViVfpnmnmfpnmfppefpwrZLfpHGItTVbpnmIXIXIXIXfpfpShBSdLjqmfvmbnPDNTBiEMLEEDyivLEIuJBBfpfpQUQUQUQUDpHvHvHvfpfpfpfpvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIiViVMnMniViViVfpfpnmnmfpfpfpwrxcfpwrxcHvfpHvHvfpJAQgJAJAfpfpfpfpfpfpfpfpfpRpPRzDKOvfCBLlozKOvfgJfVyiRNZUjonxfpfpfpfpfpYWHvHvHvfpvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVfpfpfpfpBjHvHvAMfpHvHvHvfpHvHvHvfpHvHvxtJAQgrCfpfpwpwwtDfpPCMLBzfpUzyICnMUnmEddleeLwiTOVRATbysYiysYifpvfvfvfvfYWHvHvHvfpasvfevvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVfpwrZLfpxcHvHvnPfpmDHvnPfpHvHvkhfpmDnPfpJAQgJAxZmijFjFjFkBdJdJwcfpaPzhpTyXDNgMicXOGkrxbPemhQyszkeYDCfpvfvfvfvfYWHvHvHvfpvfvfevvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVnmHvHvfpfpxtfpfpfpfpxtfpfpfpxtfpfpfpfpfpHGQgJAqmICjFjFGZfpfpfpfpfpMDiJNUDkDsaUGWUEvfkYbPDshQysxwCyEnfpvfvfvfvfYWHvHvHvfpevevfpfpfpvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIiViViViVnmHvHvxtHvHvIbavHvHvHvIbHvHvVWHvIbHvHvxtJAQgJAfpUTjFjFJpfpZNIuqbfpqWyIqobPvfLEJJqJIiBiSCvfTbyskqEfQxfpvfvfvfvfYWHvHvHvfpvfvfvfvffpvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVfpzbnPfpHvHvHvHvHvHvHvHvHvHvfpxtfpfpfpfpJAQgJAzdjFjFjFjFSyjFjFjFfpqWyIDSbPDsvfDsDTLDgOLlihWCHzrnHzHIfpvfvfvffpYWHvHvHvfpEmvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVfpfpfpfpSUeOhtKAVWfppjpwDqDifpdJdJdJuffpJAQgrCfpfplOtCOIfpsolnZyfpqWyIDSsuTSTSTSdhfpWPBiemvfvfbUDsmrfpvfvfvffpPOHvHvHvfpvfvfvfvffpvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIiViVMnMniViViVfpfpnmnmnmfpfpjwdJdJJFfpmndJfpsSfpHGQgJAJAfpfpfpfpfpfpfpfpfpFgyIDSLEjOjOjOrxvfbPDsvfvfDsGSvflcVRvdPYvffpPOHvHvHvfpvfvfvfvffpvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMniVCIMnMnMnMniViViViViViViVfpZizwJoFYfpoeoefpGEfpJAQgJAJAnmlFbLbLlFfpfpacnCqWyIhsLDOFOFfwQJvLlofwwEvLvLRAgQfpfpsHvfvffpPOHvHvHvfpfpfpfpfpfpvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnCICIMnMniVMnMnMnMnMnMniVoHoHoHoHoHfpfpfpfpfpfpJAQgJAwRnmidoBoBkuFpfpUQqWqWNSyhfpfpfpfpLrfpLrfpnmnmnmnmfpfpvfsHvfvfvfPOHvHvHvQUvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMniViViVMnMnMnMnMnMnMnMnMnMnMnMniViViViViViVfpfpAzfpfpfplJvSvSKufpfpgGJyqgLnfpfpKLoEoEPZMnSsoEoEoEoEoEwYfpvfKyNPNPNhpdajfpfpfpfpvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMniVCICICICICICIMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpTkPOIclNqaQQQUvSuSfpfHXlTXIZdSfpKLPZKLoEoEoEoEoEoEoEoEoEPZfpfpfpfpfpfpHvPOfpQUQUfpfpfpfpfpfpfpnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpfpbyPOIcHvdAXIQUvSUXfpaounnmvfvffpFrMnSsoEoEoEoEoEoEoEoEoEoEoEoEoEwYfpfpHvPOQUQUQUQUQUfpoHMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpyPhMNPPxfpHvPOHvnVfpteQUQUSxfpfHfHfpvfAgfpSsoEoEoEoEoEoEoEoEoEoEoEoEoEoEoEPZMnfpHvPOfpQUQUQUQUoHMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpBfPOHvHvuXbljtbceffpgGgGgGqgqgfpnmnmnmfpnmnmnmfpnmnmnmnmnmfpfpfpfpfpfpfpPOfpfpfpfpoHoHoHoHoHMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpfplwfpfpfpfpfpfpfpfpCRQURIvtuRFxqWqWqWCRqWQUQUtiQUQUqWqWQUfptiQUQUQUQUQUDpQUQUQUfpIXIXIXIXUZMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvffpfpHvPOkWHvHvHvHvHvHvxtQUqWqWqWqWqWqWqWqWQUQUQUQUqWqWqWQUQUQUnKQUQUQUQUQUQUDpoMoMQUgRIXIXIXIXUZMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvffpfpkWHvPOHvHvHvHvHvHvHvfpQUqWPHwbHsqUTYdVQUQUQUUkQUqWQUQUqWeQqWfpQUQUQUQUQUQUAlQUUnfpfpIXpqpqpqoHMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTAqWQBprFrFrFwSHvHvHvHvfpfpfpfpfpfpfpfpfFfFfpfpfpfpfpfpfpfpfpfpfpfpfpfpUkPJkUkUkUkUOMNWNWQUfpcXIXIXIXMPMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTtwvffpBffpOifpHvHvBfHvfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnfpfpfpfpZZfpfpnmmgfpnmfpfpfpoHoHoHoHoHMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnfpfpvfvffpfpfpQUfpfpfpfpfpfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnfpfpfpfpfpvfsHfppHnmQUQUMAfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiViViVfpfpfpfpheeHQUIOsBsBZdfpfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnfpfpfpccfpvfvfvfsHfpZgwvQUQUGLfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnMnfpfpYoHvrbFAFAFAXDfpfpMnCIMnMnMnMnfpfFfFfpMnMnMnMnfpfpfpvfvfQPfpvfvfvfsHfpfpnmQUQUfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
