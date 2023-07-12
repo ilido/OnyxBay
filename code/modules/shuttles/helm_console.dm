@@ -5,9 +5,6 @@
 	icon_screen = "shuttle"
 	circuit = null
 
-	var/shuttle_tag  // Used to coordinate data in shuttle controller.
-	var/hacked = 0   // Has been emagged, no access restrictions.
-
 	var/ui_template = "Helm"
 
 
@@ -20,89 +17,11 @@
 
 	ui_interact(user)
 
-/obj/machinery/computer/helm/proc/get_ui_data(datum/shuttle/autodock/shuttle)
-	var/shuttle_state
-	switch(shuttle.moving_status)
-		if(SHUTTLE_IDLE) shuttle_state = "idle"
-		if(SHUTTLE_WARMUP) shuttle_state = "warmup"
-		if(SHUTTLE_INTRANSIT) shuttle_state = "in_transit"
-
-	var/shuttle_status
-	switch (shuttle.process_state)
-		if(IDLE_STATE)
-			if (shuttle.in_use)
-				shuttle_status = "Busy."
-			else
-				shuttle_status = "Standing-by at [shuttle.get_location_name()]."
-
-		if(WAIT_LAUNCH, FORCE_LAUNCH)
-			shuttle_status = "Shuttle has recieved command and will depart shortly."
-		if(WAIT_ARRIVE)
-			shuttle_status = "Proceeding to [shuttle.get_destination_name()]."
-		if(WAIT_FINISH)
-			shuttle_status = "Arriving at destination now."
-
-	return list(
-		"shuttle_status" = shuttle_status,
-		"shuttle_state" = shuttle_state,
-		"has_docking" = shuttle.shuttle_docking_controller? 1 : 0,
-		"docking_status" = shuttle.shuttle_docking_controller? shuttle.shuttle_docking_controller.get_docking_status() : null,
-		"docking_override" = shuttle.shuttle_docking_controller? shuttle.shuttle_docking_controller.override_enabled : null,
-		"can_launch" = shuttle.can_launch(),
-		"can_cancel" = shuttle.can_cancel(),
-		"can_force" = shuttle.can_force(),
-		"docking_codes" = shuttle.docking_codes
-	)
-
-/obj/machinery/computer/helm/proc/handle_topic_href(datum/shuttle/autodock/shuttle, list/href_list, user)
-	if(!istype(shuttle))
-		return TOPIC_NOACTION
-
-	if(href_list["move"])
-		if(!shuttle.next_location.is_valid(shuttle))
-			to_chat(user, "<span class='warning'>Destination zone is invalid or obstructed.</span>")
-			return TOPIC_HANDLED
-		shuttle.launch(src)
-		return TOPIC_REFRESH
-
-	if(href_list["force"])
-		shuttle.force_launch(src)
-		return TOPIC_REFRESH
-
-	if(href_list["cancel"])
-		shuttle.cancel_launch(src)
-		return TOPIC_REFRESH
-
-	if(href_list["set_codes"])
-		var/newcode = input("Input new docking codes", "Docking codes", shuttle.docking_codes) as text|null
-		if (newcode && CanInteract(usr, GLOB.default_state))
-			shuttle.set_docking_codes(uppertext(newcode))
-		return TOPIC_REFRESH
-
-/obj/machinery/computer/helm/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = TRUE, datum/tgui/master_ui = null, datum/ui_state/state(GLOB.default_state))
-	var/datum/shuttle/autodock/shuttle = SSshuttle.shuttles[shuttle_tag]
-	if (!istype(shuttle))
-		to_chat(user,"<span class='warning'>Unable to establish link with the shuttle.</span>")
-		return
-
-	var/list/data = get_ui_data(shuttle)
-
+/obj/machinery/computer/helm/ui_interact(mob/user, ui_key = "main", datum/tgui/ui = null, force_open = TRUE, datum/tgui/master_ui = null)
 	ui = SStgui.try_update_ui(user, src, ui_key, ui, force_open)
 	if(!ui)
-		ui = new(user, src, ui_key, ui_template, "[shuttle_tag] Shuttle Control", 470, 450)
+		ui = new(user, src, ui_key, ui_template, "Helm Shuttle Control", 470, 450)
 		ui.open()
-
-/obj/machinery/computer/helm/OnTopic(user, href_list)
-	return handle_topic_href(SSshuttle.shuttles[shuttle_tag], href_list, user)
-
-/obj/machinery/computer/helm/emag_act(remaining_charges, mob/user)
-	if (!hacked)
-		playsound(src.loc, 'sound/effects/computer_emag.ogg', 25)
-		req_access = list()
-		req_one_access = list()
-		hacked = 1
-		to_chat(user, "You short out the console's ID checking system. It's now available to everyone!")
-		return 1
 
 /obj/machinery/computer/helm/bullet_act(obj/item/projectile/Proj)
 	visible_message("\The [Proj] ricochets off \the [src]!")
