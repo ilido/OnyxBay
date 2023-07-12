@@ -123,7 +123,7 @@
 "sn" = (/obj/effect/floor_decal/corner/yellow{dir = 9},/turf/simulated/floor/tiled/dark/rough,/area/engineering/engine_eva)
 "so" = (/obj/structure/table/rack,/obj/item/defibrillator/compact/loaded,/obj/item/defibrillator/loaded,/obj/machinery/light/small,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "sr" = (/obj/machinery/light/small/he{dir = 8},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
-"su" = (/obj/machinery/atmospherics/pipe/manifold/visible/cyan{dir = 8},/turf/simulated/floor,/area/engineering/engine_eva)
+"su" = (/obj/machinery/meter,/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor,/area/engineering/engine_eva)
 "sB" = (/obj/effect/floor_decal/industrial/warning,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "sH" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor,/area/engineering/engine_eva)
 "sS" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
@@ -250,7 +250,6 @@
 "Iu" = (/obj/structure/closet/secure_closet/medical3,/obj/item/device/hudmatrix/medical,/obj/item/device/hudmatrix/medical,/obj/item/device/radio/headset/headset_med,/obj/item/storage/belt/medical,/obj/item/storage/belt/medical,/obj/item/storage/belt/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/standard/medical,/obj/item/clothing/glasses/hud/standard/medical,/obj/item/device/flashlight/pen,/obj/item/clothing/accessory/stethoscope,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "IC" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "IO" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/light/small/he{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
-"IX" = (/obj/machinery/atmospherics/unary/freezer{dir = 8; icon_state = "freezer"},/turf/simulated/floor,/area/engineering/engine_eva)
 "IZ" = (/obj/machinery/atmospherics/binary/pump{dir = 4; name = "Mixing to Port"},/turf/simulated/floor,/area/engineering/engine_eva)
 "Jo" = (/obj/machinery/computer/cryopod{pixel_y = -36},/obj/effect/floor_decal/corner/blue{dir = 10},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "Jp" = (/obj/machinery/bodyscanner,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
@@ -279,7 +278,6 @@
 "ML" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "MP" = (/obj/structure/stairs/north,/turf/simulated/floor,/area/engineering/engine_eva)
 "MU" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 9},/obj/machinery/light/small{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
-"Nq" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/machinery/meter,/turf/simulated/floor,/area/engineering/engine_eva)
 "NP" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "NS" = (/obj/machinery/atmospherics/pipe/simple/visible/blue,/obj/machinery/meter,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "NT" = (/obj/structure/table/reinforced,/obj/item/storage/toolbox/mechanical,/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 6},/turf/simulated/floor,/area/engineering/engine_eva)
@@ -292,7 +290,7 @@
 "OM" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 9},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "OV" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor,/area/engineering/engine_eva)
 "Px" = (/obj/machinery/atmospherics/pipe/zpipe/up/red{dir = 8},/turf/simulated/floor,/area/engineering/engine_eva)
-"PC" = (/obj/structure/table/standard,/obj/structure/table/standard,/obj/item/storage/firstaid/surgery,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
+"PC" = (/obj/structure/table/standard,/obj/item/storage/firstaid/surgery,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "PD" = (/obj/structure/table/reinforced,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 10},/obj/item/storage/firstaid/fire,/obj/item/storage/firstaid/fire{pixel_x = 1},/turf/simulated/floor,/area/engineering/engine_eva)
 "PH" = (/obj/effect/floor_decal/industrial/box/blue,/obj/structure/largecrate/hoverpod,/obj/effect/floor_decal/rust,/obj/machinery/light,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "PJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 6},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
@@ -404,10 +402,10 @@ MnMnCIiViVMnMniViViVfpfpnmnmfpfpfpwrxcfpwrxcHvfpHvHvfpJAQgJAJAfpfpfpfpfpfpfpfpfp
 MnMnCIMnMnMniVfpfpfpfpBjHvHvAMfpHvHvHvfpHvHvHvfpHvHvxtJAQgrCfpfpwpwwtDfpPCMLBzfpUzyICnMUnmEddleeLwiTOVRATbysYiysYifpPYPYvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnCIMnMnMniVfpwrZLfpxcHvHvnPfpmDHvnPfpHvHvkhfpmDnPfpJAQgJAxZmijFjFjFkBdJdJwcfpaPzhpTyXDNgMicXOGkrxbPemhQyszkeYDCfpvfvfvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnCIMnMnMniVnmHvHvfpfpxtfpfpfpfpxtfpfpfpxtfpfpfpfpfpHGQgJAqmICjFjFGZfpfpfpfpfpMDiJNUDkDsaUGWUEvfkYbPDshQysxwCyEnfpvfvfvfvfsHvfvfvfvfvfvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIiViViViVnmHvHvxtHvHvIbavHvHvHvIbHvHvVWHvIbHvHvxtJAQgJAfpUTjFjFJpfpZNIuqbfpqWyIqosuIXLEJJqJIiBiSCvfTbyskqEfQxfpvfvfvfvfsHvfvfvfvfvfvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVfpzbnPfpHvHvHvHvHvHvHvHvHvHvfpxtfpfpfpfpJAQgJAzdjFjFjFjFSyjFjFjFfpqWyIDSsuIXvfvfDTLDgOLlihWCHzrnHzHIfpvfvfvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVfpfpfpfpSUeOhtKAVWfppjpwDqDifpdJdJdJuffpJAQgrCfpfplOtCOIfpsolnZyfpqWyIDSsuIXTSTSdhfpWPBiemvfvfbUDsmrfpPYPYvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIiViVMnMniViViVfpfpnmnmnmfpfpjwdJdJJFfpmndJfpsSfpHGQgJAJAfpfpfpfpfpfpfpfpfpFgyIDSLENqjOjOrxvfbPDsvfvfDsGSvflcVRvdPYPYPYsHPYPYPYPYPYvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIiViViViVnmHvHvxtHvHvIbavHvHvHvIbHvHvVWHvIbHvHvxtJAQgJAfpUTjFjFJpfpZNIuqbfpqWyIqobPvfLEJJqJIiBiSCvfTbyskqEfQxfpvfvfvfvfsHvfvfvfvfvfvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVfpzbnPfpHvHvHvHvHvHvHvHvHvHvfpxtfpfpfpfpJAQgJAzdjFjFjFjFSyjFjFjFfpqWyIDSbPDsvfDsDTLDgOLlihWCHzrnHzHIfpvfvfvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVfpfpfpfpSUeOhtKAVWfppjpwDqDifpdJdJdJuffpJAQgrCfpfplOtCOIfpsolnZyfpqWyIDSsuTSTSTSdhfpWPBiemvfvfbUDsmrfpPYPYvfvfsHvfvfvfPYvfvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIiViVMnMniViViVfpfpnmnmnmfpfpjwdJdJJFfpmndJfpsSfpHGQgJAJAfpfpfpfpfpfpfpfpfpFgyIDSLEjOjOjOrxvfbPDsvfvfDsGSvflcVRvdPYPYPYsHPYPYPYPYPYvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMniVCIMnMnMnMniViViViViViViVfpZizwJoFYfpoeoefpGEfpJAQgJAJAnmMnMnMnMnfpfpacnCqWyIhsLDOFOFfwQJvLlofwwEvLvLRAgQfpfpsHvfvfvfsHvfvfvfvfPYvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnCICIMnMniVMnMnMnMnMnMniVoHoHoHoHoHfpfpfpfpfpfpJAQgJAwRnmMnMnMnMnMnfpUQqWqWNSyhfpfpfpfpLrfpLrfpnmnmnmnmfpfpvfsHvfvfvfsHvfvfvfvfPYvfPYPYvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMniViViVMnMnMnMnMnMnMnMnMnMnMnMniViViViViViVfpfpAzfpfpfpMnMnMnMngGgGgGJyqgLnfpfpKLoEoEPZMnSsoEoEoEoEoEwYfpvfKyNPNPNPdyvdvfvfvfvfvfvfPYvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
