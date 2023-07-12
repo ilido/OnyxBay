@@ -13,9 +13,10 @@
 "cO" = (/obj/structure/sign/warning/fire{pixel_y = -32},/obj/effect/floor_decal/rust,/obj/effect/floor_decal/industrial/warning,/obj/machinery/light,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "cX" = (/obj/machinery/mass_driver{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "dh" = (/obj/structure/window_frame/grille/rglass,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
+"dk" = (/obj/machinery/light{dir = 8; icon_state = "tube1"},/turf/simulated/floor,/area/engineering/engine_eva)
 "dl" = (/obj/machinery/atmospherics/binary/pump{target_pressure = 15000},/turf/simulated/floor,/area/engineering/engine_eva)
 "dy" = (/obj/machinery/atmospherics/pipe/manifold/hidden/red,/turf/simulated/floor,/area/engineering/engine_eva)
-"dA" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
+"dA" = (/obj/structure/ladder/up,/turf/simulated/floor,/area/engineering/engine_eva)
 "dJ" = (/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "dL" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 6},/obj/structure/cable{icon_state = "2-8"},/obj/effect/floor_decal/rust,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "dS" = (/obj/machinery/atmospherics/pipe/simple/visible/blue{dir = 9},/obj/machinery/light/small{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
@@ -97,7 +98,7 @@
 "nV" = (/obj/effect/floor_decal/siding/wood{dir = 1},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "oe" = (/obj/structure/curtain/open/shower,/obj/machinery/shower{dir = 8},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "ol" = (/obj/machinery/portable_atmospherics/hydroponics,/obj/machinery/light{dir = 1},/turf/simulated/floor/natural/grass,/area/engineering/engine_eva)
-"ou" = (/obj/machinery/light,/turf/simulated/floor,/area/engineering/engine_eva)
+"ou" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "oz" = (/obj/machinery/atmospherics/binary/passive_gate/on{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "oA" = (/obj/effect/floor_decal/industrial/warning,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "oE" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 4},/turf/space,/area/space)
@@ -111,7 +112,7 @@
 "pH" = (/obj/structure/table/rack,/obj/item/clothing/suit/space/void/medical/prepared,/obj/item/clothing/suit/space/void/medical/prepared,/obj/effect/floor_decal/corner/paleblue/three_quarters{dir = 8},/turf/simulated/floor/tiled/dark/rough,/area/engineering/engine_eva)
 "pT" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "pY" = (/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor/trim/lino,/area/engineering/engine_eva)
-"qa" = (/obj/machinery/light{dir = 8; icon_state = "tube1"},/turf/simulated/floor,/area/engineering/engine_eva)
+"qa" = (/obj/machinery/light,/turf/simulated/floor,/area/engineering/engine_eva)
 "qb" = (/obj/structure/closet/secure_closet/paramedic,/obj/structure/cable/green{d2 = 2; icon_state = "0-2"},/obj/item/storage/box/syringegun,/obj/item/gun/launcher/syringe,/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "qg" = (/obj/machinery/door/airlock/engineering,/turf/simulated/floor,/area/engineering/engine_eva)
 "qm" = (/obj/structure/table/reinforced,/obj/machinery/door/window/westright{name = "Medbay Reception"; req_access = list(5)},/turf/simulated/floor/tiled/white/mono,/area/engineering/engine_eva)
@@ -226,7 +227,6 @@
 "Dq" = (/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "Ds" = (/obj/effect/floor_decal/rust,/turf/simulated/floor,/area/engineering/engine_eva)
 "DC" = (/obj/machinery/atmospherics/pipe/simple/heat_exchanging{dir = 9},/obj/machinery/sparker{id = "ignition"; pixel_x = 32},/obj/machinery/atmospherics/unary/vent_pump/engine{external_pressure_bound = 100; external_pressure_bound_default = 0; frequency = 1445; id_tag = "cooling_out"; pump_direction = 0; use_power = 1},/turf/simulated/floor/reinforced/airless,/area/engineering/engine_eva)
-"DD" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "DN" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/meter,/turf/simulated/floor,/area/engineering/engine_eva)
 "DS" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/structure/railing/steel{dir = 4},/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "DT" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 5},/turf/simulated/floor,/area/engineering/engine_eva)
@@ -264,12 +264,15 @@
 "Ic" = (/obj/structure/railing/wood{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "Ig" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/wall/r_wall,/area/engineering/engine_eva)
 "Ii" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 4},/obj/effect/floor_decal/rust,/turf/simulated/floor,/area/engineering/engine_eva)
+"In" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "It" = (/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/red,/turf/simulated/floor/trim/lino,/area/engineering/engine_eva)
 "Iu" = (/obj/structure/closet/secure_closet/medical3,/obj/item/device/hudmatrix/medical,/obj/item/device/hudmatrix/medical,/obj/item/device/radio/headset/headset_med,/obj/item/storage/belt/medical,/obj/item/storage/belt/medical,/obj/item/storage/belt/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/one_eyed/oneye/medical,/obj/item/clothing/glasses/hud/standard/medical,/obj/item/clothing/glasses/hud/standard/medical,/obj/item/device/flashlight/pen,/obj/item/clothing/accessory/stethoscope,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "IC" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "IO" = (/obj/effect/floor_decal/industrial/warning,/obj/machinery/light/small/he{dir = 1},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "IX" = (/obj/machinery/door/blast/regular,/turf/simulated/floor,/area/engineering/engine_eva)
 "IZ" = (/obj/machinery/atmospherics/binary/pump{dir = 4; name = "Mixing to Port"},/turf/simulated/floor,/area/engineering/engine_eva)
+"Jb" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/obj/machinery/light{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
+"Jk" = (/obj/machinery/light{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "Jo" = (/obj/machinery/computer/cryopod{pixel_y = -36},/obj/effect/floor_decal/corner/blue{dir = 10},/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "Jp" = (/obj/machinery/bodyscanner,/turf/simulated/floor/tiled/white/rough,/area/engineering/engine_eva)
 "Jy" = (/obj/structure/window_frame/grille,/obj/structure/window_frame/grille,/turf/simulated/wall/r_wall,/area/engineering/engine_eva)
@@ -291,7 +294,6 @@
 "Lw" = (/obj/machinery/atmospherics/pipe/manifold/visible/red,/obj/structure/window_frame/grille/rglass,/turf/simulated/floor,/area/engineering/engine_eva)
 "LD" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/machinery/light,/turf/simulated/floor,/area/engineering/engine_eva)
 "LE" = (/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 5},/turf/simulated/floor,/area/engineering/engine_eva)
-"LM" = (/obj/machinery/atmospherics/pipe/simple/hidden/red,/obj/machinery/light{dir = 4},/turf/simulated/floor/trim/wood,/area/engineering/engine_eva)
 "LP" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/obj/machinery/meter,/turf/simulated/floor,/area/engineering/engine_eva)
 "LS" = (/obj/effect/floor_decal/corner/lime/three_quarters,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "LV" = (/obj/machinery/door/airlock/engineering,/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
@@ -302,7 +304,7 @@
 "ML" = (/obj/structure/table/standard,/turf/simulated/floor/tiled/freezer,/area/engineering/engine_eva)
 "MP" = (/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor,/area/engineering/engine_eva)
 "MU" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 9},/obj/machinery/light/small{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
-"Nq" = (/obj/machinery/light{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
+"Nq" = (/obj/machinery/light/small{dir = 4},/obj/structure/ladder/up,/turf/simulated/floor,/area/engineering/engine_eva)
 "NP" = (/obj/machinery/atmospherics/pipe/simple/hidden/red{dir = 4},/turf/simulated/floor,/area/engineering/engine_eva)
 "NS" = (/obj/machinery/atmospherics/pipe/simple/visible/blue,/obj/machinery/meter,/obj/effect/floor_decal/rust,/turf/simulated/floor/tiled/rough,/area/engineering/engine_eva)
 "NT" = (/obj/structure/table/reinforced,/obj/item/storage/toolbox/mechanical,/obj/machinery/atmospherics/pipe/simple/visible/cyan{dir = 6},/turf/simulated/floor,/area/engineering/engine_eva)
@@ -418,45 +420,45 @@ MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiVMnMnMnfpfpfpfpfpfpfpMnMnCICIMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMniVMnMniViVMnMnfpvfvfvfvfvffpiViViVCIMnMnMnMnMnMnMnMnMnMnMnwfrTxGvfvfvffpvfvfvfvfvfvffpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMniViVMnMnMniViVfpfpfpvfvfvfvffpMnMnCICIMnMnMnMnMnMnMnMnMnMnMnwfrTdyFqNPNPNPNPNPNPNPNPNPNPvdvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCIMnMnMnMnMnfpfpccfpvfvfvfvffpMnMnCIMnMnMnMnMnMnMnMnMnMnMnMnfpfpvfvfvfvffpvfvfvfvfvfvfvfsHvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnMnfpfpvfUFfpfpqgfpfpfpfpMnMnMnMnMnMnfpfFfFfpMnMnMnMnMnfpfpfpvfvffpvfvfvfvfvfvfvfsHvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnMnfpfpvfUFfpfpqgfpfpfpfpMnMnMnMnMnMnfpfFfFfpMnMnMnMnMnfpfpfpdAvffpvfvfvfvfvfvfvfsHvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiVMnMnfpfpfpvfvfsHfpvfvfMsvfMsfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnfpfpfpfpvfvfvfvfvfvfvfsHvfvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiViViVfpfpvfvfvfvfsHfpvfvfvfvfvffpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpfpfpfpfrfpfpfpfpfpfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTnHNPhMNPCMfpvfvfvfvfAgfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnMnMnfpHvHvkWHvHvPOHvHvdAfpfpcXvfvfvfIXMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTnHNPhMNPCMfpvfvfvfvfAgfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnMnMnfpHvHvkWHvHvPOHvHvoufpfpcXvfvfvfIXMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpfpqgfpfpqgnmfpfpfpfpfpfpfpfpfFfFfpfpfpfpfpfpfpfpfpfpfpfpfpfpbyHvHvHvHvPOHvHvIclNfpvfMPMPMPfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvffpfpHvHvHvkWHvHvHvHvHvfpqWtitGtovtvtBlBlCRqWqWQUtiqWqWqWQUtiQUfpHvHvHvHvHvPOHvHvIcHvfpvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfAgfpHvRdHNSbSbSbSbSbSbSbYtDfDfDfUWfNfNfNkUkUkUfNfNkUkUkUkUkUfNkULVrFrFrFrFrFUZHvHvHvnVvEvfouvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfAgfpHvRdHNSbSbSbSbSbSbSbYtDfDfDfUWfNfNfNkUkUkUfNfNkUkUkUkUkUfNkULVrFrFrFrFrFUZHvHvHvnVvEvfqavfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUyPWQBprFwSkxHvBfnonoHvHvBffpqWqWcOoAsBuMQUqWqWUkQUqWqWeQQUQUqWQUVqfpbyHvHvHvBfPOHvHvBfHvfpfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTdytwAgfpfpHvkxHvfpugQUlRfpfpfpfpgGJyoFqgfpnmnmnmfpnmnmnmfpnmnmnmnmnmnmnmnmnmfpfpCiHvfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTdytwNqfpfpHvkxHvfpugQUlRfpfpfpfpgGJyoFqgfpnmnmnmfpnmnmnmfpnmnmnmnmnmnmnmnmnmfpfpCiHvfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpvfvfvffpbyHvkxHvkWfpfpfpfpvffpDhivBdgpKOfpKLoEoEoEoEoEoEoEoEoEoEoEoEoEoEoEwYMnfpPOHvHvvfvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpHvHvkxHvHvfpvfvfvfvffpAxUGnmEGGSfpSsoEoEoEoEoEoEoEoEoEoEwYKLoEoEoEPZfpfpPOHvHvfpqavfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpHvHvkxHvHvfpvfvfvfvffpAxUGnmEGGSfpSsoEoEoEoEoEoEoEoEoEoEwYKLoEoEoEPZfpfpPOHvHvfpdkvfvffpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMniVCICICICICICIMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpHvkxBfHvvfvfvfvfvffpDhDhgGEGGSfpMnKLoEoEoEoEoEoEoEoEoEPZFrfpfpfpfpfpfpAXHvHvfpfpfpfpfpfpfpfpfpnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMniViViVMnMnMnMnMnMnMnMnMnMnMnMniViViViViViVfpfpktfpfpfpvfvfvfvffpfpgGgGoFtZfpfpSsoEoEwYMnKLoEoEoEoEoEPZfpQUQUQUQUQUPeHvHvHvfpvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnCICIMnMniVMnMnMnMnMnMnMniViViViViVfpnmfpfpfpfpJApYhuzsnmvfvfvfvfvffpfpkPBRkKiHfpfpfpfpEEfpEEfpnmnmnmnmfpfpQUQUQUQUQUAXbyHvHvfpvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMniVCIMnMnMnMniViViViViViViVfpnmnmfpnmfppefpwrZLfpHGItTVbpnmvfvfvfvffpfpShBSdLjqmfvmbnPDNTBiEMLEEDyivLEIuJBBfpfpQUQUQUQUDpHvHvdAfpfpfpfpqavfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMniVCIMnMnMnMniViViViViViViVfpnmnmfpnmfppefpwrZLfpHGItTVbpnmvfvfvfvffpfpShBSdLjqmfvmbnPDNTBiEMLEEDyivLEIuJBBfpfpQUQUQUQUDpHvHvoufpfpfpfpdkvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnCIiViVMnMniViViVfpfpnmnmfpfpfpwrxcfpwrxcHvfpHvHvfpJAQgJAJAfpfpfpfpfpfpfpfpfpRpPRzDKOvfCBLlozKOvfgJfVyiRNZUjonxfpfpfpfpfpAXHvHvHvfpvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnCIMnMnMniVfpfpfpfpBjHvHvAMfpHvHvHvfpHvHvHvfpHvHvxtJAQgrCfpfpwpwwtDfpPCMLBzfpUzyICnMUnmEddleeLwiTOVRATbysYiysYifpvfvfvfvfAXHvHvHvfpXovfKKvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnCIMnMnMniVfpwrZLfpxcHvHvnPfpmDHvnPfpHvHvkhfpmDnPfpJAQgJAxZmijFjFjFkBdJdJwcfpaPzhpTyXDNgMicXOGkrxbPemhQyszkeYDCfpvfvfvfvfAXHvHvHvfpvfvfKKvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVnmHvHvfpfpxtfpfpfpfpxtfpfpfpxtfpfpfpfpfpHGQgJAqmICjFjFGZfpfpfpfpfpMDiJNUDkDsaUGWUEvfkYbPDshQysxwCyEnfpvfvfvfvfAXHvHvHvfpKKKKfpfpfpqavfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVnmHvHvfpfpxtfpfpfpfpxtfpfpfpxtfpfpfpfpfpHGQgJAqmICjFjFGZfpfpfpfpfpMDiJNUDkDsaUGWUEvfkYbPDshQysxwCyEnfpvfvfvfvfAXHvHvHvfpKKKKfpfpfpdkvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnCIiViViViVnmHvHvxtHvHvIbavHvHvHvIbHvHvVWHvIbHvHvxtJAQgJAfpUTjFjFJpfpZNIuqbfpqWyIqobPvfLEJJqJIiBiSCvfTbyskqEfQxfpvfvfvfvfAXHvHvHvfpvfvfvfvffpvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVfpzbnPfpHvHvHvHvHvHvHvHvHvHvfpxtfpfpfpfpJAQgJAzdjFjFjFjFSyjFjFjFfpqWyIDSbPDsvfDsDTLDgOLlihWCHzrnHzHIfpvfvfNqfpAXHvHvHvfpVzvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnCIMnMnMniVfpfpfpfpSUeOhtKAVWfppjpwDqDifpdJdJdJuffpJAQgrCfpfplOtCOIfpsolnZyfpqWyIDSsuTSTSTSdhfpWPBiemvfvfbUDsmrfpvfvfvffpPOHvHvdAfpvfvfvfvffpvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVfpzbnPfpHvHvHvHvHvHvHvHvHvHvfpxtfpfpfpfpJAQgJAzdjFjFjFjFSyjFjFjFfpqWyIDSbPDsvfDsDTLDgOLlihWCHzrnHzHIfpvfvfJkfpAXHvHvHvfpVzvfvfvfvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnCIMnMnMniVfpfpfpfpSUeOhtKAVWfppjpwDqDifpdJdJdJuffpJAQgrCfpfplOtCOIfpsolnZyfpqWyIDSsuTSTSTSdhfpWPBiemvfvfbUDsmrfpvfvfvffpPOHvHvoufpvfvfvfvffpvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnCIiViVMnMniViViVfpfpnmnmnmfpfpjwdJdJJFfpmndJfpsSfpHGQgJAJAfpfpfpfpfpfpfpfpfpFgyIDSLEjOjOjOrxvfbPDsvfvfDsGSvflcVRvdPYvffpPOHvHvHvfpvfvfvfvffpvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMniVCIMnMnMnMniViViViViViViVfpZizwJoFYfpoeoefpGEfpJAQgJAJAnmollElEolfpfpacnCqWyIhsLDOFOFfwQJvLlofwwEvLvLRAgQfpfpsHvfvffpPOHvHvHvfpfpfpfpfpfpqavfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMniVCIMnMnMnMniViViViViViViVfpZizwJoFYfpoeoefpGEfpJAQgJAJAnmollElEolfpfpacnCqWyIhsLDOFOFfwQJvLlofwwEvLvLRAgQfpfpsHvfvffpPOHvHvHvfpfpfpfpfpfpdkvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnCICIMnMniVMnMnMnMnMnMniVoHoHoHoHoHfpfpfpfpfpfpJAQgJAwRnmxsgbgbKJPqfpUQqWqWNSyhfpfpfpfpLrfpLrfpnmnmnmnmfpfpvfsHvfvfvfPOHvHvHvQUvfvfvfvfvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMniViViVMnMnMnMnMnMnMnMnMnMnMnMniViViViViViVfpfpAzfpfpfpTIQUQUfQfpfpgGJyqgLnfpfpKLoEoEPZMnSsoEoEoEoEoEwYfpvfKyNPNPIgGiVCfpfpfpfpqavfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMniViViVMnMnMnMnMnMnMnMnMnMnMnMniViViViViViVfpfpAzfpfpfpTIQUQUfQfpfpgGJyqgLnfpfpKLoEoEPZMnSsoEoEoEoEoEwYfpvfKyNPNPIgGiVCfpfpfpfpdkvfvfvfvfvfnmnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMniVCICICICICICIMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpxDPOIclNfpKhQUQUSpfpfHXlTXIZdSfpKLPZKLoEoEoEoEoEoEoEoEoEPZfpfpfpfpfpfpHvPOfpQUQUfpfpfpfpfpfpfpnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpfpfpfpfpbyPOIcHvnmjVQUQUvQfpaounnmvfvffpFrMnSsoEoEoEoEoEoEoEoEoEoEoEoEoEwYfpfpHvPOQUQUQUQUQUfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpyPhMNPPxfpHvPOHvnVfprLQUQUSZfpfHfHfpvfAgfpSsoEoEoEoEoEoEoEoEoEoEoEoEoEoEoEPZMnfpHvLMfpQUQUQUQUfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnfpfpyPhMNPPxfpHvPOHvnVfprLQUQUSZfpfHfHfpvfAgfpSsoEoEoEoEoEoEoEoEoEoEoEoEoEoEoEPZMnfpHvJbfpQUQUQUQUfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpBfPOHvHvYrLSFEGbQufpgGgGgGqgqgfpnmnmnmfpnmnmnmfpnmnmnmnmnmfpfpfpfpfpfpfpPOfpfpfpfpfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfvffpfplwfpfpfpfpfpfpfpfpCRQURIvtuRFxqWqWqWCRqWQUQUtiQUQUqWqWQUfptiQUQUQUQUQUDpQUQUDDfpvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvfdAfpfplwfpfpfpfpfpfpfpfpCRQURIvtuRFxqWqWqWCRqWQUQUtiQUQUqWqWQUfptiQUQUQUQUQUDpQUQUInfpvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvfvffpfpHvPOkWHvHvHvHvHvHvxtQUqWqWqWqWqWqWqWqWQUQUQUQUqWqWqWQUQUQUnKQUQUQUQUQUQUDpoMoMQUvEvfvfvfvfnmMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTxUvffpfpkWHvPOHvHvHvHvHvHvHvfpQUqWPHwbHsqUTYdVQUQUQUUkQUqWQUQUqWeQqWfpQUQUQUQUQUQUAlQUUnfpfpvfEjEjEjfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTAqWQBprFrFrFwSHvHvHvHvfpfpfpfpfpfpfpfpfFfFfpfpfpfpfpfpfpfpfpfpfpfpfpfpUkPJkUkUkUkUOMNWNWQUfpcXvfouvfIXMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTAqWQBprFrFrFwSHvHvHvHvfpfpfpfpfpfpfpfpfFfFfpfpfpfpfpfpfpfpfpfpfpfpfpfpUkPJkUkUkUkUOMNWNWQUfpcXvfqavfIXMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnwfrTtwvffpBffpOifpHvHvBfHvfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnMnMnfpfpfpfpZZfpfpnmmgfpnmfpfpfpfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnfpfpvfvffpfpfpQUfpfpfpfpfpfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnMnMnfpfpfpfpfpvfsHfppHnmQUQUMAfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiViViVfpfpfpfpheeHQUIOsBsBZdfpfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnfpfpfpccfpvfvfvfsHfpZgwvQUQUGLfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnMnfpfpYoBHrbFAFAFAXDfpfpMnCIMnMnMnMnfpfFfFfpMnMnMnMnfpfpfpvfvfQPfpvfvfvfsHfpfpnmQUQUfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
-MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCIMnMnMniViVfpfpsrrbFAFAFAJDfpMnMnCICIMnMnMnMnMnMnMnMnMnMnMnwfwHvuwLLPCYfpvfvfvfsHfpsnwvQUQUfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiViViVfpfpfpfpheeHQUIOsBsBZdfpfpMnMnMnMnMnMnfpvfvffpMnMnMnMnMnMnfpfpfpccdAfpvfvfsHfpZgwvQUQUGLfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnMnfpfpYoBHrbFAFAFAXDfpfpMnCIMnMnMnMnfpfFfFfpMnMnMnMnfpfpfpvfvfQPvffpvfvfsHfpfpnmQUQUfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
+MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCIMnMnMniViVfpfpsrrbFAFAFAJDfpMnMnCICIMnMnMnMnMnMnMnMnMnMnMnwfwHvuwLLPCYfpfpvfvfsHfpsnwvQUQUfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMniVMniViVMnMnfpfprbFAVaFAXDfpiViViVCIMnMnMnMnMnMnMnMnMnMnMnwfwHxUDsvfvffpvfvfvfsHfppznmOjOjfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIiVMnMnMnMnfpuevtKCvtuefpMnMnCICIMnMnMnMnMnMnMnMnMnMnMnwfwHxUvfvfvffpvfvfvfsHfpfpfpfpfpfpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
 MnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnCICIMnMnMnMnfpfpfpfpfpfpfpMnMnCIMnMnMnMnMnMnMnMnMnMnMnMnwfwHzEDsvfvfEdyPNPNPtwvfvffpMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMnMn
