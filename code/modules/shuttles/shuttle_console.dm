@@ -11,7 +11,6 @@
 	var/ui_template = "shuttle_control_console.tmpl"
 
 
-
 /obj/machinery/computer/shuttle_control/attack_hand(user as mob)
 	if(..(user))
 		return
@@ -91,10 +90,6 @@
 	ui = SSnano.try_update_ui(user, src, ui_key, ui, data, force_open)
 	if(!ui)
 		ui = new(user, src, ui_key, ui_template, "[shuttle_tag] Shuttle Control", 470, 450)
-
-		ui.add_template("SectorMapContent", "shuttle_map_content.tmpl")
-		ui.add_template("SectormapHeader", "shuttle_map_header.tmpl")
-		
 		ui.set_initial_data(data)
 		ui.open()
 		ui.set_auto_update(1)
