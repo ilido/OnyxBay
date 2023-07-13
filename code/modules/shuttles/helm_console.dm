@@ -5,7 +5,7 @@
 	icon_screen = "shuttle"
 	circuit = null
 
-	var/obj/item/overmap/ship/target
+	var/obj/item/overmap/ship/camera/target
 
 /obj/machinery/computer/helm/attack_hand(user as mob)
 	tgui_interact(user)
