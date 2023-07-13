@@ -8,7 +8,7 @@
 /obj/machinery/computer/helm/attack_hand(user as mob)
 	tgui_interact(user)
 
-/obj/machinery/mecha_part_fabricator/tgui_interact(mob/user, datum/tgui/ui)
+/obj/machinery/computer/helm/tgui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
 
 	if(!ui)
