@@ -9,7 +9,7 @@ export const Helm = (act, data) => {
       <Window.Content>
       <Button
         content="Open map"
-        onClick={() => act('map')} />
+        onClick={() => act("map")} />
       </Window.Content>
     </Window>
     );

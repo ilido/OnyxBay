@@ -24,7 +24,7 @@
 		return
 
 	switch(action)
-		if('map')
+		if("map")
 			target.camera_vision(usr)
 			. = TRUE
 
