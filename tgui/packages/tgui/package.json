@@ -10,7 +10,7 @@
     "inferno": "7.x.x",
     "inferno-vnode-flags": "7.x.x",
     "js-yaml": "^4.1.0",
-    "marked": "4.0.6",
+    "marked": "^4.3.0",
     "tgui-dev-server": "4.3.0",
     "tgui-polyfill": "4.3.0"
   }
