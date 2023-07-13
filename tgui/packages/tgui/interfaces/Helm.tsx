@@ -5,7 +5,7 @@ export const Helm = (props, context) => {
 
     <Window>
       <Window.Content>
-        <Box>Hello, helm console</Box>
+        <Box>Hello</Box>
       </Window.Content>
     </Window>
     );

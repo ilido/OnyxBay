@@ -13,3 +13,8 @@
 		ZTRAIT_CONTACT
 	)
 	travel_chance = 10
+
+/datum/space_level/overmap
+	path = 'overmap.dmm'
+	traits = list()
+	travel_chance = 0
