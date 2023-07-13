@@ -25,3 +25,6 @@
 	if(fuel_amount == FALSE)
 		return
 	step(Ref, Dir, Speed)
+
+/obj/item/overmap/ship/proc/camera_vision(user)
+	camera.apply_visual(user)

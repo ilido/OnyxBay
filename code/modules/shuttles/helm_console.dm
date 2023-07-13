@@ -5,7 +5,7 @@
 	icon_screen = "shuttle"
 	circuit = null
 
-	var/obj/item/overmap/ship/camera/target
+	var/obj/item/overmap/ship/target
 
 /obj/machinery/computer/helm/attack_hand(user as mob)
 	tgui_interact(user)
@@ -25,7 +25,7 @@
 
 	switch(action)
 		if("map")
-			target.apply_visual()
+			target.camera_vision(usr)
 			. = TRUE
 
 	if(.)
