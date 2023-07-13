@@ -31,6 +31,12 @@
 	if(.)
 		tgui_update()
 
+/obj/machinery/computer/helm/tgui_data(mob/user)
+	var/data = list(
+		"X_coord" = target.x,
+		"Y_coord" = target.y
+	)
+	return data
 
 /obj/machinery/computer/helm/bullet_act(obj/item/projectile/Proj)
 	visible_message("\The [Proj] ricochets off \the [src]!")
