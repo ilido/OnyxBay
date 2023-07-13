@@ -1228,6 +1228,7 @@
 #include "code\game\objects\items\weapons\traps.dm"
 #include "code\game\objects\items\weapons\trays.dm"
 #include "code\game\objects\items\weapons\weaponry.dm"
+#include "code\game\objects\overmap_objects\overmap_ships.dm"
 #include "code\game\objects\random\random.dm"
 #include "code\game\objects\structures\artstuff.dm"
 #include "code\game\objects\structures\barrel.dm"

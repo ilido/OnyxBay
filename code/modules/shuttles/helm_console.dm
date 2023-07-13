@@ -5,6 +5,8 @@
 	icon_screen = "shuttle"
 	circuit = null
 
+	var/obj/item/overmap/ship/target
+
 /obj/machinery/computer/helm/attack_hand(user as mob)
 	tgui_interact(user)
 
@@ -14,6 +16,20 @@
 	if(!ui)
 		ui = new(user, src, "Helm")
 		ui.open()
+
+/obj/machinery/computer/helm/tgui_act(action, params)
+	. = ..()
+
+	if(.)
+		return
+
+	switch(action)
+		if("map")
+			target.apply_visual()
+			. = TRUE
+
+	if(.)
+		tgui_update()
 
 
 /obj/machinery/computer/helm/bullet_act(obj/item/projectile/Proj)
