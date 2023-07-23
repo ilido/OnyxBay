@@ -26,6 +26,7 @@
 	map_levels = list(
 		new /datum/space_level/ship_1,
 		new /datum/space_level/ship_2,
+		new /datum/space_level/ship_3,
 		new /datum/space_level/null_space,
 		new /datum/space_level/overmap
 	)
