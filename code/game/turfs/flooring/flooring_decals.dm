@@ -32,9 +32,8 @@ var/list/floor_decals = list()
 			I.pixel_x = src.pixel_x
 			I.pixel_y = src.pixel_y
 			floor_decals[cache_key] = I
-		if(!T.decals) T.decals = list()
-		T.decals |= floor_decals[cache_key]
-		T.overlays |= floor_decals[cache_key]
+		LAZYADD(T.decals, floor_decals[cache_key])
+		T.queue_icon_update()
 	atom_flags |= ATOM_FLAG_INITIALIZED
 	return INITIALIZE_HINT_QDEL
 
@@ -2028,3 +2027,9 @@ var/list/floor_decals = list()
 
 /obj/effect/floor_decal/bot_red/left
 	icon_state = "bot_left_red"
+
+/obj/effect/floor_decal/diagonal_centre
+	icon_state = "diagonal_centre"
+
+/obj/effect/floor_decal/diagonal_edge
+	icon_state = "diagonal_edge"
