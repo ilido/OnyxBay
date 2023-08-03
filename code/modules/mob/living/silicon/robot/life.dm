@@ -158,41 +158,6 @@
 			if(MED_VISION)
 				process_med_hud(src, 1)
 
-	if(healths)
-		if(!is_ooc_dead())
-			if(istype(src, /mob/living/silicon/robot/drone))
-				if (health >= 35)
-					healths.icon_state = "health0"
-				else if (health >= 25)
-					healths.icon_state = "health1"
-				else if (health >= 15)
-					healths.icon_state = "health2"
-				else if (health >= 5)
-					healths.icon_state = "health3"
-				else if (health >= 0)
-					healths.icon_state = "health4"
-				else if (health >= -34)
-					healths.icon_state = "health5"
-				else
-					healths.icon_state = "health6"
-			else
-				if (health >= 200)
-					healths.icon_state = "health0"
-				else if (health >= 150)
-					healths.icon_state = "health1"
-				else if (health >= 100)
-					healths.icon_state = "health2"
-				else if (health >= 50)
-					healths.icon_state = "health3"
-				else if (health >= 0)
-					healths.icon_state = "health4"
-				else if (health >= config.health.health_threshold_dead)
-					healths.icon_state = "health5"
-				else
-					healths.icon_state = "health6"
-		else
-			healths.icon_state = "health7"
-
 	if(syndicate && client)
 		for(var/datum/mind/traitor_mind in GLOB.traitors.current_antagonists)
 			if(traitor_mind.current)
@@ -313,7 +278,7 @@
 	if(client)
 		client.screen -= contents
 		for(var/obj/I in contents)
-			if(I && !(istype(I, /obj/item/cell) || istype(I, /obj/item/device/radio)  || istype(I, /obj/machinery/camera) || istype(I, /obj/item/device/mmi)))
+			if(I && !(istype(I, /obj/item/cell) || istype(I, /obj/item/device/radio)  || istype(I, /obj/machinery/camera) || istype(I, /obj/item/organ/internal/cerebrum/mmi)))
 				client.screen += I
 	if(module_state_1)
 		module_state_1:screen_loc = ui_inv1
