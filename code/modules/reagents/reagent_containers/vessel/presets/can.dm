@@ -9,7 +9,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/cola
 	startswith = list(/datum/reagent/drink/space_cola = 40)
-	gib_icon = ""
+	gib_icon = "cola-gib"
 
 
 /obj/item/reagent_containers/vessel/can/colavanilla
@@ -30,7 +30,7 @@
 	trash = /obj/item/trash/cans/colacherry
 	startswith = list(/datum/reagent/drink/space_cola = 30,
 					  /datum/reagent/nutriment/cherryjelly = 10)
-	gib_icon = ""
+	gib_icon = "cola-gib"
 
 /obj/item/reagent_containers/vessel/can/dopecola
 	name = "\improper Dope Cola"
@@ -40,7 +40,7 @@
 	trash = /obj/item/trash/cans/dopecola
 	startswith = list(/datum/reagent/drink/space_cola = 30,
 					  /datum/reagent/thc = 10)
-	gib_icon = ""
+	gib_icon = "dopecola-gib"
 
 /obj/item/reagent_containers/vessel/can/space_mountain_wind
 	name = "\improper Space Mountain Wind"
@@ -49,7 +49,7 @@
 	center_of_mass = "x=16;y=10"
 	trash = /obj/item/trash/cans/space_mountain_wind
 	startswith = list(/datum/reagent/drink/spacemountainwind = 40)
-	gib_icon =	""
+	gib_icon =	"space_mountain_wind-gib"
 
 /obj/item/reagent_containers/vessel/can/thirteenloko
 	name = "\improper Thirteen Loko"
@@ -104,7 +104,7 @@
 	trash = /obj/item/trash/cans/iced_tea
 	startswith = list(/datum/reagent/drink/tea/icetea = 40)
 	gib_icon = ""
-	
+
 /obj/item/reagent_containers/vessel/can/grape_juice
 	name = "\improper Grapel Juice"
 	desc = "500 pages of rules of how to appropriately enter into a combat with this juice!"
@@ -113,7 +113,7 @@
 	trash = /obj/item/trash/cans/grape_juice
 	startswith = list(/datum/reagent/drink/juice/grape = 40)
 	gib_icon = ""
-	
+
 /obj/item/reagent_containers/vessel/can/tonic
 	name = "\improper T-Borg's Tonic Water"
 	desc = "Quinine tastes funny, but at least it'll keep that Space Malaria away."

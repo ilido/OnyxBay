@@ -423,13 +423,13 @@
 			visible_message(SPAN("warning", "\The [Proj] shatters \the [src]!"))
 			smash(loc)
 		else
-			if(Proj.damage > 40)
+			if(Proj.damage > 40 && reagents.total_volume > 0)
 				var/obj/item/Gibed_can/C = new /obj/item/Gibed_can(loc)
 				C.icon_state = gib_icon
 				C.pixel_x = pixel_x
 				C.pixel_y = pixel_y
 				qdel(src)
-				sleep(3.8)
+				sleep(3.5) //dmi animation delay
 				qdel(C)
 			else
 				visible_message(SPAN("warning", "\The [Proj] hits \the [src]!"))
