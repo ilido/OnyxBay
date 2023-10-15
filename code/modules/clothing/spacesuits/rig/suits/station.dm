@@ -92,6 +92,12 @@
 	offline_slowdown = 1
 	offline_vision_restriction = TINT_HEAVY
 
+	rad_resist = list(
+		RADIATION_ALPHA_PARTICLE = 600 MEGA ELECTRONVOLT,
+		RADIATION_BETA_PARTICLE = 400 MEGA ELECTRONVOLT,
+		RADIATION_HAWKING = 1.5 ELECTRONVOLT
+	)
+
 	chest_type = /obj/item/clothing/suit/space/rig/eva
 	helm_type = /obj/item/clothing/head/helmet/space/rig/eva
 	boot_type = /obj/item/clothing/shoes/magboots/rig/eva
@@ -146,6 +152,12 @@
 
 	req_access = list()
 	req_one_access = list()
+
+	rad_resist = list(
+		RADIATION_ALPHA_PARTICLE = 800 MEGA ELECTRONVOLT,
+		RADIATION_BETA_PARTICLE = 500 MEGA ELECTRONVOLT,
+		RADIATION_HAWKING = 1.5 ELECTRONVOLT
+	)
 
 /obj/item/rig/ce/equipped
 
